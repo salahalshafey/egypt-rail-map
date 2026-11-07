@@ -1,0 +1,14 @@
+﻿class_id,name_ar,name_en,trains_count
+3,اسباني,Spanish,2
+4,مختلط,Mixed,2
+5,خدمه خاصه VIP,VIP,25
+6,نوم,Sleeping,12
+7,روسي,Russian,71
+8,محسن,Improved,593
+9,مكيف روسي,Russian Air Conditioned,69
+10,روسي + مكيف روسي,Russian + Air Conditioned,4
+11,تالجو,Talgo,8
+12,اسباني  مطور,Developed Spanish,16
+13,نوم و جلوس,Sleeping and Seats,6
+14,فرنساوي مطور,Developed French,10
+15,ثانية روسي فاخرة,Second Russi Fakher,9

@@ -1,0 +1,504 @@
+﻿kind,train_number,detail
+repaired_day_offset,1902,القاهره departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,صعيد مصر arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,صعيد مصر departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,الجيزه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,الجيزه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,اسيوط arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,اسيوط departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,ابو تيج arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,ابو تيج departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,صدفا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,صدفا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,طما arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,طما departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,طهطا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,طهطا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,سوهاج arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,سوهاج departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,جرجا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,جرجا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,نجع حمادي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,نجع حمادي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,قنا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,قنا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,الاقصر arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,الاقصر departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,اسنا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,اسنا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,ادفو arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,ادفو departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,كوم امبو arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,كوم امبو departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,دراو arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,دراو departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,1902,اسوان arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,81,القاهره arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,المنيا arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,المنيا departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,مغاغه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,مغاغه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,الفشن arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,الفشن departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,بني سويف arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,بني سويف departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,الواسطي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,الواسطي departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,العياط arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,العياط departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,الجيزه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,الجيزه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,صعيد مصر arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,صعيد مصر departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,187,القاهره arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,188,الشيخ هارون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,188,كيما arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,188,كيما departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,188,الصداقه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,188,الصداقه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,188,السد العالي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,التل الكبير departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,ابو حماد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,ابو حماد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,الزقازيق arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,الزقازيق departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,منيه القمح arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,منيه القمح departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,بنها arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,بنها departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,960,القاهره arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,المنيا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,سمالوط arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,سمالوط departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,مطاي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,مطاي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,بني مزار arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,بني مزار departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,مغاغه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,مغاغه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,الفشن arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,الفشن departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,ببا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,ببا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,بني سويف arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,بني سويف departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,ناصر arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,ناصر departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,اشمنت arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,اشمنت departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,713_701,الواسطي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,732,ابو تشت departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,732,رفاعه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,732,رفاعه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,732,فرشوط arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,732,فرشوط departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,732,بهجوره arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,732,بهجوره departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,732,نجع حمادي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,برقين arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,برقين departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,هيكل باشا arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,هيكل باشا departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ابو الشقوق arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ابو الشقوق departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بدوي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بدوي departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر صقر arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر صقر departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,البوها arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,البوها departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,نزله خيال arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,نزله خيال departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ابو كبير arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ابو كبير departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ابو ياسين arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ابو ياسين departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,شرشيمه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,شرشيمه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ههيا arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,ههيا departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,العداويه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,العداويه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر المسلميه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر المسلميه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,هريه رزنه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,هريه رزنه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,الزقازيق arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,الزقازيق departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,العصلوجي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,العصلوجي departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بردين arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بردين departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,اولاد سيف arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,اولاد سيف departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بلبيس arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بلبيس departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,تل روزن arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,تل روزن departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بير عماره arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,بير عماره departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,انشاص arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,انشاص departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,سلمنت arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,سلمنت departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,مشتول arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,مشتول departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,منشاه الكرام arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,منشاه الكرام departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,شبين القناطر arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,شبين القناطر departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر شبين arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر شبين departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,طحانوب arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,طحانوب departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر طحا arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر طحا departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,الزهوين arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,الزهوين departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,نوي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,نوي departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر رماده arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,كفر رماده departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,قليوب arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,قليوب departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,شبرا الخيمه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,شبرا الخيمه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,الزاويه الحمراء arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,الزاويه الحمراء departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,382,القاهره arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,4,بركه السبع departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,4,قويسنا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,4,قويسنا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,4,بنها arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,4,بنها departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,4,طوخ arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,4,طوخ departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,4,شبرا الخيمه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,36,ايتاي البارود arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,36,ايتاي البارود departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,36,التوفيقيه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,36,التوفيقيه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,36,كفر الزيات arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,36,كفر الزيات departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,36,طنطا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,453,كفر بني هلال arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,453,كفر بني هلال departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,453,دمنهور arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,الرحمانيه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,468,الرحمانيه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,دسوق arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,دسوق departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,جماجمون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,جماجمون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,المدينه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,المدينه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,شباس arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,شباس departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,كفر الجزاير arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,كفر الجزاير departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,البكاتوش arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,البكاتوش departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,468,قلين arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,الحلواصي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,محله سبك arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,محله سبك departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,اشمون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,اشمون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,سمادون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,سمادون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,جامع بدر arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,جامع بدر departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,رمله الانجب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,رمله الانجب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شما arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شما departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كمشوش arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كمشوش departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر السنابسه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر السنابسه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,منوف arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,منوف departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,الحامول arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,الحامول departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شنوان arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شنوان departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شبين الكوم arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شبين الكوم departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شبين الكوم الجديده arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,شبين الكوم الجديده departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,طنبدي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,طنبدي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر البتانون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر البتانون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,البتانون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,البتانون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر طبلوها arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر طبلوها departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,تلا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,تلا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر سليم arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,كفر سليم departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,537,طنطا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,القناطر الخيريه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,530,القناطر الخيريه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,شلقان arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,شلقان departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,قليوب البلد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,قليوب البلد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,قليوب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,قليوب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,شبرا الخيمه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,شبرا الخيمه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,530,القاهره arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,منوف departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,كفر السنابسه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,كفر السنابسه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,كمشوش arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,كمشوش departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شما arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شما departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,رمله الانجب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,رمله الانجب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,جامع بدر arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,جامع بدر departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,سمادون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,سمادون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,اشمون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,اشمون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,محله سبك arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,محله سبك departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,الحلواصي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,الحلواصي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,الحلواصي البلد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,الحلواصي البلد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شطانوف arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شطانوف departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,كفر صراوه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,كفر صراوه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,دروه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,دروه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,القناطر الخيريه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,القناطر الخيريه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شلقان arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شلقان departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,قليوب البلد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,قليوب البلد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,قليوب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,قليوب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شبرا الخيمه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,شبرا الخيمه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,538,القاهره arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,546,قليوب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,546,شبرا الخيمه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,546,شبرا الخيمه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,546,القاهره arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,دنشواي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,851,دنشواي departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,851,دناصور arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,دناصور departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,زاويه البقلي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,زاويه البقلي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,بشتامي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,بشتامي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,عمروس arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,عمروس departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,كوم مازن arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,كوم مازن departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,طنوب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,طنوب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,عزبه الحطيم arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,عزبه الحطيم departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,مشله arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,مشله departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,كفر مشله arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,كفر مشله departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,قصر نصر الدين arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,قصر نصر الدين departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,الدلجمون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,الدلجمون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,851,كفر الزيات arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,دنشواي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,853,دنشواي departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,853,دناصور arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,دناصور departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,زاويه البقلي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,زاويه البقلي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,بشتامي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,بشتامي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,عمروس arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,عمروس departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,كوم مازن arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,كوم مازن departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,طنوب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,طنوب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,عزبه الحطيم arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,عزبه الحطيم departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,مشله arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,مشله departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,كفر مشله arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,كفر مشله departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,قصر نصر الدين arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,قصر نصر الدين departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,الدلجمون arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,الدلجمون departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,853,كفر الزيات arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,برطس arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,695,برطس departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الجلاتمه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الجلاتمه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,المناشي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,المناشي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,ذات الكوم arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,ذات الكوم departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,نكلا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,نكلا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,برقاش arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,برقاش departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,القطا arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,القطا departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,القطا البلد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,القطا البلد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الجزيره الوسطانيه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الجزيره الوسطانيه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,ابو غالب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,ابو غالب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,وردان arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,وردان departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,بني سلامه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,بني سلامه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الخطاطبه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الخطاطبه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الاخماس arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الاخماس departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الطرانه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الطرانه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,كفر داود arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,كفر داود departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,البريجات arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,البريجات departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,مديريه التحرير arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,مديريه التحرير departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,ابو الخاوي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,ابو الخاوي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الطيريه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الطيريه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الطيريه البلد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الطيريه البلد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الاتحاد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,الاتحاد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,منشاه ابو ريه arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,منشاه ابو ريه departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,واقد arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,واقد departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,كفر بولين arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,كفر بولين departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,كوم حماده arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,كوم حماده departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,النقيدي arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,النقيدي departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,صفط العنب arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,صفط العنب departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,قليشان arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,قليشان departure: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,695,ايتاي البارود arrival: source time was 1440 min too late (corrupted day offset); corrected
+repaired_day_offset,330,هيكل باشا arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,هيكل باشا departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ابو الشقوق arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ابو الشقوق departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,بدوي arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,بدوي departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,كفر صقر arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,كفر صقر departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,البوها arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,البوها departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,نزله خيال arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,نزله خيال departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ابو كبير arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ابو كبير departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ابو ياسين arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ابو ياسين departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,شرشيمه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,شرشيمه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ههيا arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,ههيا departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,العداويه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,العداويه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,كفر المسلميه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,كفر المسلميه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,هريه رزنه arrival: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,هريه رزنه departure: source time was 1380 min too late (corrupted day offset); corrected
+repaired_day_offset,330,الزقازيق arrival: source time was 1380 min too late (corrupted day offset); corrected
+implausible_speed,62,كفر الحطبه → الحاج خليل: 5.2 km in 1 min (314 km/h)
+implausible_speed,141,الروس → الورش: 8.0 km in 1 min (479 km/h)
+implausible_speed,272,ابو جريش → الشهيد محمد البغدادي: 3.5 km in 1 min (209 km/h)
+non_increasing_time,498,محله موسي → الحميديه: 18:02 → 18:02
+non_increasing_time,505,عزبه جوده → قلين البلد: 01:33 → 01:33
+implausible_speed,532,دروه → القناطر الخيريه: 5.9 km in 1 min (357 km/h)
+implausible_speed,646,جراوله → سملا: 7.0 km in 1 min (421 km/h)
+non_increasing_time,688,منشاه ابو ريه → الاتحاد: 17:48 → 17:48
+implausible_speed,693,كفر داود → مديريه التحرير: 9.4 km in 2 min (282 km/h)
+non_increasing_time,695,اوسيم → برطس: 22:18 → 22:18
+non_increasing_time,704,جامعه الازهر → اسيوط: 08:00 → 08:00
+non_increasing_time,757,الفوزه → ادفو: 16:35 → 16:35
+implausible_speed,766,المعديه → الابعديه: 3.2 km in 1 min (190 km/h)
+implausible_speed,973,بني حدير → الواسطي: 9.3 km in 3 min (186 km/h)
+implausible_speed,975,جرجا → المنشاه: 18.8 km in 6 min (188 km/h)
+implausible_speed,1029,السد العالي → الصداقه: 8.8 km in 2 min (264 km/h)
+implausible_speed,4403,فاقوس → الشهيد عبد المنعم رياض: 12.0 km in 3 min (240 km/h)
+implausible_speed,4403,السعادنه → السماعنه: 12.8 km in 4 min (192 km/h)
+implausible_speed,4404,السماعنه → السعادنه: 12.8 km in 3 min (257 km/h)
+implausible_speed,4404,الشهيد عبد المنعم رياض → فاقوس: 12.0 km in 4 min (180 km/h)
+implausible_speed,4405,فاقوس → الشهيد عبد المنعم رياض: 12.0 km in 3 min (240 km/h)
+implausible_speed,4405,السعادنه → السماعنه: 12.8 km in 4 min (192 km/h)
+implausible_speed,4406,السماعنه → السعادنه: 12.8 km in 3 min (257 km/h)
+implausible_speed,4407,فاقوس → الشهيد عبد المنعم رياض: 12.0 km in 3 min (240 km/h)
+implausible_speed,4407,السعادنه → السماعنه: 12.8 km in 4 min (192 km/h)
+implausible_speed,4408,السماعنه → السعادنه: 12.8 km in 3 min (257 km/h)
+implausible_speed,4408,الشهيد عبد المنعم رياض → فاقوس: 12.0 km in 4 min (180 km/h)
+implausible_speed,4409,فاقوس → الشهيد عبد المنعم رياض: 12.0 km in 3 min (240 km/h)
+implausible_speed,4409,السعادنه → السماعنه: 12.8 km in 4 min (192 km/h)
+implausible_speed,4410,السماعنه → السعادنه: 12.8 km in 3 min (257 km/h)
+implausible_speed,4410,الشهيد عبد المنعم رياض → فاقوس: 12.0 km in 4 min (180 km/h)
+implausible_speed,4411,فاقوس → الشهيد عبد المنعم رياض: 12.0 km in 3 min (240 km/h)
+implausible_speed,4411,السعادنه → السماعنه: 12.8 km in 4 min (192 km/h)
+implausible_speed,4412,السماعنه → السعادنه: 12.8 km in 3 min (257 km/h)
+implausible_speed,4413,فاقوس → الشهيد عبد المنعم رياض: 12.0 km in 3 min (240 km/h)
+implausible_speed,4413,السعادنه → السماعنه: 12.8 km in 4 min (192 km/h)
+implausible_speed,4414,السماعنه → السعادنه: 12.8 km in 3 min (257 km/h)
+implausible_speed,702_710,منقباد → جامعه الازهر: 7.7 km in 2 min (231 km/h)
+implausible_speed,713_701,اشمنت → الواسطي: 15.5 km in 5 min (186 km/h)
+uncertain_location,,"السد العالي (ElSad ElAly): unlocated, est. error ±None km"
+uncertain_location,,"الصداقه (ElSadaqa): extrapolated, est. error ±10.6 km"
+uncertain_location,,"المعله (Elmaala): interpolated, est. error ±11.9 km"
+uncertain_location,,"الشغب (ElShaghab): interpolated, est. error ±16.7 km"
+uncertain_location,,"العديسات (ElEdaysat): interpolated, est. error ±16.2 km"
+uncertain_location,,"ارمنت (Armant): interpolated, est. error ±11.7 km"
+uncertain_location,,"سمهود (Samhood): interpolated, est. error ±13.0 km"
+uncertain_location,,"شندويل البلد (Shandaweel Elbald): interpolated, est. error ±12.6 km"
+uncertain_location,,"المطيعه (ElMoteeaa): interpolated, est. error ±10.2 km"
+uncertain_location,,"بني حسين (Bani Hussin): interpolated, est. error ±12.9 km"
+uncertain_location,,"المحرص (ElMahras): interpolated, est. error ±11.5 km"
+uncertain_location,,"طنسا (Tansa): interpolated, est. error ±11.1 km"
+uncertain_location,,"الزيتون قبلي (ElZayton Qibli): interpolated, est. error ±12.6 km"
+uncertain_location,,"اشمنت (Ashmant): interpolated, est. error ±15.5 km"
+uncertain_location,,"الميمون (ElMaymoon): interpolated, est. error ±11.3 km"
+uncertain_location,,"القطوري (ElQatory): interpolated, est. error ±14.0 km"
+uncertain_location,,"كفر عمار (Kafr Ammar): interpolated, est. error ±19.1 km"
+uncertain_location,,"ميت القايد (Meet ElQayed): interpolated, est. error ±23.0 km"
+uncertain_location,,"المتانيه (ElMatania): interpolated, est. error ±19.5 km"
+uncertain_location,,"العياط (ElAyyat): interpolated, est. error ±14.0 km"
+uncertain_location,,"ميت بره (Meet Barra): interpolated, est. error ±10.7 km"
+uncertain_location,,"الشماسمه (AlShamasma): unlocated, est. error ±None km"
+uncertain_location,,"السعاده (ElSaada): extrapolated, est. error ±10.2 km"
+uncertain_location,,"الدوايده (ElDawayda): extrapolated, est. error ±14.6 km"
+uncertain_location,,"ابو غنيمه (Abo Ghneima): extrapolated, est. error ±17.7 km"
+uncertain_location,,"القصابي بحري (ElQassabi Bahary): unlocated, est. error ±None km"
+uncertain_location,,"تل العيسي (Tell ElEssi): interpolated, est. error ±12.7 km"
+uncertain_location,,"سيدي شبيب (Sidi Shabib): interpolated, est. error ±14.3 km"
+uncertain_location,,"جلال (Jalal): interpolated, est. error ±25.2 km"
+uncertain_location,,"الفرديه (ElFardya): interpolated, est. error ±34.6 km"
+uncertain_location,,"فوكه (Foka): interpolated, est. error ±20.4 km"
+uncertain_location,,"جبل عوبيد (Gabl Obed): interpolated, est. error ±21.6 km"
+uncertain_location,,"القنطره شرق (Qantra Sharq): unlocated, est. error ±None km"
+uncertain_location,,"الجزار (ElGazar): unlocated, est. error ±None km"
+uncertain_location,,"السادات (ElSadat): unlocated, est. error ±None km"

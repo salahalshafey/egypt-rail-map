@@ -1,0 +1,658 @@
+﻿station_id,name_ar,name_en,latitude,longitude,location_confidence,location_method,est_error_km,osm_node_id,osm_name,governorate_ar,governorate_en,train_calls_per_day,trains_starting_or_ending
+100,السد العالي,ElSad ElAly,,,none,unlocated,,,,,,12,12
+200,الصداقه,ElSadaqa,24.030941,32.920205,low,extrapolated,10.6,,,أسوان,Aswan,11,0
+300,كيما,Keema,24.053295,32.914465,low,extrapolated,7.8,,,أسوان,Aswan,11,0
+400,الشيخ هارون,ElShikh Haroon,24.07804,32.908112,low,extrapolated,4.7,,,أسوان,Aswan,11,0
+500,اسوان,Aswan,24.099795,32.902525,high,osm_ar_exact,0.3,321239620,محطة سكة حديد أسوان,أسوان,Aswan,74,70
+600,ابو الريش قبلي,Abo ElReesh Qibli,24.117726,32.897921,low,interpolated,1.5,,,أسوان,Aswan,6,0
+700,الشديده,Alshadida,24.157293,32.887761,low,interpolated,4.0,,,أسوان,Aswan,6,0
+800,الخطاره,ElKhatara,24.20475,32.875576,high,osm_ar_exact,0.3,768077221,محطة الخطارة,أسوان,Aswan,6,0
+900,الاعقاب قبلي,ElAakab Qibli,24.236289,32.875928,medium,osm_unnamed_snap,1.0,4493010837,,أسوان,Aswan,6,0
+1000,الاعقاب,ElAakab,24.279826,32.895143,low,interpolated,6.8,,,أسوان,Aswan,6,0
+1100,الجعافره,ElGaafara,24.324712,32.914954,high,osm_ar_exact,0.3,2724801305,محطة الجعافرة,أسوان,Aswan,6,0
+1200,الرتاج,ElRetag,24.345833,32.920997,low,interpolated,2.5,,,أسوان,Aswan,6,0
+1300,بلانه,Blana,24.36704,32.927065,medium,osm_unnamed_snap,1.0,3759916532,,أسوان,Aswan,13,0
+1400,السلام النوبيه,ElSalam Elnobia,24.389191,32.928109,medium,osm_unnamed_snap,1.0,5316869732,,أسوان,Aswan,6,0
+1500,دراو,Daraw,24.405345,32.927387,high,osm_ar_exact,0.3,2724801316,دراو,أسوان,Aswan,32,0
+1600,الشطب البلد,Shatb ElBalad,24.445473,32.945514,medium,osm_unnamed_snap,1.0,2724801300,,أسوان,Aswan,6,0
+1700,كوم امبو,Kom Umbu,24.476656,32.947017,high,osm_ar_exact,0.3,4621666790,كوم أمبو,أسوان,Aswan,62,0
+1800,الرغامه,ElRaghamah,24.528766,32.947043,low,interpolated,5.8,,,أسوان,Aswan,6,0
+1900,جبل السلسله,Gabl ElSilsila,24.586626,32.947072,low,interpolated,9.2,,,أسوان,Aswan,6,0
+2000,كلابشه,Klabsha,24.62454,32.947091,low,interpolated,5.0,,,أسوان,Aswan,42,0
+2100,كاجوج,Kagoog,24.669642,32.947114,medium,osm_en_fuzzy,0.3,1320721139,نجع الكاجوج,أسوان,Aswan,8,0
+2200,السيد سعيد,ElSayed Saeed,24.702136,32.937414,low,interpolated,3.8,,,أسوان,Aswan,6,0
+2300,سلوا,Selwa,24.73177,32.928568,low,interpolated,7.2,,,أسوان,Aswan,24,0
+2400,جعفر الصادق,Gaafar ElSadeq,24.788526,32.911625,low,interpolated,7.8,,,أسوان,Aswan,6,0
+2500,الرمادي,ElRamadi,24.813567,32.90415,low,interpolated,4.9,,,أسوان,Aswan,10,0
+2600,السراج,ElSeraj,24.856026,32.891475,high,osm_ar_exact,0.3,4492770061,محطة السراج,أسوان,Aswan,6,0
+2700,الطوناب,ElTonab,24.867221,32.891827,medium,osm_unnamed_snap,1.0,4492770062,,أسوان,Aswan,6,0
+2800,الرديسيه,ElRodysia,24.904038,32.879938,medium,osm_unnamed_snap,1.0,4492770063,,أسوان,Aswan,8,0
+2900,الفوزه,ElFooza,24.936002,32.883412,low,interpolated,3.5,,,أسوان,Aswan,6,0
+3000,ادفو,Edfu,24.990207,32.889304,medium,osm_en_fuzzy,0.3,4621674689,Edfu,أسوان,Aswan,72,12
+3100,العطواني,ElAtwani,25.016145,32.884213,medium,osm_unnamed_snap,1.0,1049926096,,أسوان,Aswan,6,0
+3200,الدوماريه,ElDomaria,25.048614,32.879311,medium,osm_unnamed_snap,1.0,1049926367,,أسوان,Aswan,6,0
+3300,الكلح,ElKelh,25.089407,32.837791,low,interpolated,4.0,,,أسوان,Aswan,6,0
+3400,الفوسفات الجديده,ElFosfat ElGadida,25.115677,32.811051,medium,osm_unnamed_snap,1.0,1049926155,,أسوان,Aswan,6,0
+3500,المحاميد,ElMahameed,25.134081,32.778199,high,osm_ar_exact,0.3,1049926156,المحاميد,أسوان,Aswan,15,0
+3600,الخوي الجديده,ElKhowee ElGadida,25.166794,32.739315,low,interpolated,5.3,,,أسوان,Aswan,6,0
+3700,السباعيه,ElSebaia,25.198957,32.701085,medium,osm_en_fuzzy,0.3,5218985313,سبية,أسوان,Aswan,21,0
+3800,الشراونه,ElSharawna,25.221923,32.674154,low,interpolated,3.8,,,أسوان,Aswan,14,0
+3900,جزيره راجح,Gazeret Rageh,25.245187,32.646874,low,interpolated,7.8,,,قنا,Qena,6,0
+4000,الكلابيه,ElKelabia,25.257714,32.632184,low,interpolated,8.8,,,قنا,Qena,6,0
+4100,اسنا,Esna,25.310029,32.570838,high,osm_ar_exact,0.3,1049859125,إسنا,قنا,Qena,51,0
+4200,الدير,ElDeer,25.333566,32.569506,low,interpolated,2.4,,,قنا,Qena,6,0
+4300,المطاعنه,ElMataana,25.38331,32.566692,high,osm_ar_exact,0.3,768738154,محطة المطاعنة,قنا,Qena,6,0
+4400,نجع ابو سعيد,Naga Abo Saeed,25.437717,32.574451,low,interpolated,7.8,,,قنا,Qena,6,0
+4500,المعله,Elmaala,25.466381,32.578538,low,interpolated,11.9,,,الأقصر,Luxor,6,0
+4600,الشغب,ElShaghab,25.499568,32.583271,low,interpolated,16.7,,,الأقصر,Luxor,6,0
+4700,العديسات,ElEdaysat,25.523988,32.586753,low,interpolated,16.2,,,الأقصر,Luxor,6,0
+4800,ارمنت,Armant,25.55481,32.591148,low,interpolated,11.7,,,الأقصر,Luxor,29,0
+4900,نجع الجسور,Nage ElGesoor,25.571786,32.593569,low,interpolated,9.3,,,الأقصر,Luxor,6,0
+5000,الطود,ElTood,25.592797,32.596565,low,interpolated,6.3,,,الأقصر,Luxor,6,0
+5100,الوحده,ElWehda,25.609564,32.598956,low,interpolated,3.8,,,الأقصر,Luxor,6,0
+5200,البغدادي,ElBaghdadi,25.63635,32.602776,high,osm_ar_exact,0.3,1095112715,البغدادي,الأقصر,Luxor,6,0
+5300,الرضوانيه,ElRedwania,25.653856,32.615047,low,interpolated,2.3,,,الأقصر,Luxor,6,0
+5400,الاقصر,Luxor,25.696542,32.644966,high,osm_ar_exact,0.3,1018818485,الأقصر,الأقصر,Luxor,84,24
+5500,محطة غير مسجلة (5500),Unknown station (5500),25.728452,32.679259,low,interpolated,5.1,,,الأقصر,Luxor,5,0
+5600,الزينيه,ElZaynia,25.760362,32.713551,low,interpolated,9.9,,,الأقصر,Luxor,5,0
+5700,خزام,Khozam,25.790705,32.74616,low,interpolated,5.1,,,الأقصر,Luxor,6,0
+5800,العيايشه,ElAayaysha,25.822552,32.780385,high,osm_ar_exact,0.3,1629363954,العيايشة,الأقصر,Luxor,6,0
+5900,الشنهوريه,ElShenhoria,25.847855,32.774438,low,interpolated,2.9,,,الأقصر,Luxor,6,0
+6000,الشيخ عامر,ElShikh Aamer,25.876364,32.767737,low,interpolated,4.5,,,الأقصر,Luxor,6,0
+6100,قوص,Qus,25.915358,32.758572,high,osm_ar_exact,0.3,1540484292,قوص,الأقصر,Luxor,40,0
+6200,الكراتيه,ElKeryatia,25.955522,32.780051,low,interpolated,4.9,,,الأقصر,Luxor,6,0
+6300,قفط,Keft,25.994487,32.800889,high,osm_ar_exact,0.3,2723654248,قفـط,قنا,Qena,26,0
+6400,البراهمه,ElBrahma,26.015805,32.799412,low,interpolated,2.3,,,قنا,Qena,6,0
+6500,ابنود,Abnod,26.053977,32.796769,high,osm_ar_exact,0.3,2723654290,محطة أبنود,قنا,Qena,6,0
+6600,الاشراف,ElAshraf,26.083333,32.783333,high,osm_ar_exact,0.3,768084639,محطة الأشراف,قنا,Qena,6,0
+6700,الاشراف القبليه,ElAshraf ElQiblia,26.110084,32.76436,low,interpolated,3.2,,,قنا,Qena,6,0
+6800,قنا,Qena,26.162585,32.727124,high,osm_ar_exact,0.3,520513717,قنا,قنا,Qena,78,0
+6900,الجزيريه,ElGazeria,26.161852,32.674828,low,interpolated,5.8,,,الوادي الجديد,New Valley,6,0
+7000,المخادمه,ElMakhadma,26.161382,32.641262,low,interpolated,5.9,,,الوادي الجديد,New Valley,6,0
+7100,القناويه,ElQenawia,26.161102,32.621267,low,interpolated,3.7,,,قنا,Qena,6,0
+7200,اولاد عمرو,Awlad Amr,26.160634,32.587881,high,osm_ar_fuzzy,0.3,2723584164,محطة أولاد عمر,قنا,Qena,6,0
+7300,السمطا,AlSamata,26.142256,32.525707,low,interpolated,7.0,,,قنا,Qena,6,0
+7400,المراشده,ElMarshada,26.136393,32.505872,low,interpolated,5.0,,,قنا,Qena,6,0
+7500,دشنا,Deshna,26.123327,32.461666,high,osm_ar_exact,0.3,2723571740,دشنا,قنا,Qena,34,0
+7600,فاو,Faw,26.101107,32.412007,high,osm_ar_exact,0.3,520513134,محطة فاو,قنا,Qena,6,0
+7700,الياسينيه,ElYaseenia,26.081643,32.354468,low,interpolated,6.2,,,قنا,Qena,6,0
+7800,الرحمانيه قبلي,ElRahmania Qibli,26.066796,32.310576,low,interpolated,7.5,,,قنا,Qena,6,0
+7900,السلميه قبلي,ElSelmia Qibli,26.057002,32.281622,low,interpolated,4.4,,,قنا,Qena,6,0
+8000,نجع حمادي,Nag Hammadi,26.043278,32.24105,high,osm_ar_exact,0.3,520512280,نجع حمادي,قنا,Qena,78,14
+8100,بهجوره,Bahgoraa,26.051601,32.198492,low,interpolated,3.3,,,قنا,Qena,4,0
+8200,فرشوط,Farshot,26.05789,32.166333,medium,osm_en_fuzzy,0.3,6567914726,Farshot Station,قنا,Qena,33,0
+8300,رفاعه,Refaa,26.09375,32.132056,low,interpolated,5.4,,,قنا,Qena,4,0
+8400,ابو تشت,Abo Tesht,26.120777,32.106222,low,interpolated,9.5,,,قنا,Qena,35,0
+8500,سمهود,Samhood,26.149188,32.079066,low,interpolated,13.0,,,قنا,Qena,4,0
+8600,ابو شوشه,Abo Shosha,26.180104,32.049514,low,interpolated,8.3,,,قنا,Qena,6,0
+8700,بني حميل,Bani Hemeel,26.206802,32.023996,low,interpolated,4.2,,,قنا,Qena,4,0
+8800,البلينا,ElBalyana,26.234817,31.997217,medium,osm_en_fuzzy,0.3,768085014,محطة البليانا الجديدة,قنا,Qena,34,0
+8900,الساحل قبلي,ElSahel Qibli,26.249949,31.981114,low,interpolated,2.3,,,سوهاج,Sohag,4,0
+9000,برديس,Bardees,26.283511,31.945398,low,interpolated,7.5,,,سوهاج,Sohag,7,0
+9100,مزاتا غرب,Mozata Gharb,26.307696,31.919661,low,interpolated,4.4,,,سوهاج,Sohag,4,0
+9200,جرجا,Girga,26.336407,31.889107,high,osm_ar_exact,0.3,520511965,جرجا,سوهاج,Sohag,54,0
+9300,البندار,ElBendar,26.369425,31.847654,low,interpolated,3.6,,,سوهاج,Sohag,4,0
+9400,العسيرات,ElOsayrat,26.391297,31.820194,high,osm_ar_exact,0.3,768582840,محطة العسيرات,سوهاج,Sohag,19,0
+9500,الاحايوه,AlAhawia,26.433676,31.808404,low,interpolated,4.8,,,سوهاج,Sohag,4,0
+9600,المنشاه,ElMonshat,26.475705,31.796713,high,osm_ar_exact,0.3,520512542,المنشاة,سوهاج,Sohag,26,0
+9700,العيساويه,ElEesawia,26.502894,31.761664,low,interpolated,4.8,,,سوهاج,Sohag,4,0
+9800,بلصفوره,Balsfora,26.52187,31.737203,low,interpolated,5.2,,,سوهاج,Sohag,4,0
+9900,سوهاج,Sohag,26.551439,31.699088,high,osm_ar_exact,0.3,3605745438,سوهاج,سوهاج,Sohag,92,20
+10000,الحامديه,ElHamedia,26.586224,31.66739,low,interpolated,5.1,,,سوهاج,Sohag,4,0
+10100,جزيره شندويل,Gazeret Shandaweel,26.616753,31.639569,low,interpolated,9.7,,,سوهاج,Sohag,4,0
+10200,شندويل البلد,Shandaweel Elbald,26.648364,31.610763,low,interpolated,12.6,,,سوهاج,Sohag,4,0
+10300,المراغه,ElMaragha,26.680041,31.581896,low,interpolated,7.9,,,سوهاج,Sohag,38,0
+10400,الشهيد السايح,Elshaheed Elsayeh,26.706991,31.557338,low,interpolated,3.9,,,سوهاج,Sohag,4,0
+10500,الصوامعه,ElSawamaa,26.733333,31.533333,high,osm_ar_exact,0.3,768757269,محطة الصوامعة,سوهاج,Sohag,4,0
+10600,طهطا,Tahta,26.7693,31.50214,medium,town,2.0,,Tahta,سوهاج,Sohag,55,0
+10700,بنجا,Banga,26.805126,31.483612,low,interpolated,4.5,,,سوهاج,Sohag,4,0
+10800,شطوره,Shatoora,26.824986,31.473341,low,interpolated,7.0,,,سوهاج,Sohag,4,0
+10900,مشطا,Mashta,26.857952,31.456291,low,interpolated,5.9,,,سوهاج,Sohag,4,0
+11000,طما,Tema,26.9049,31.432011,high,osm_ar_exact,0.3,1049682510,طما,سوهاج,Sohag,54,0
+11100,اولاد الياس,Awlad Elyass,26.934966,31.407597,low,interpolated,4.2,,,سوهاج,Sohag,5,0
+11200,صدفا,Sedfa,26.965966,31.382425,low,interpolated,8.5,,,أسيوط,Asyut,35,0
+11300,النخيله,ElNekhela,27.014043,31.343385,low,interpolated,4.2,,,أسيوط,Asyut,4,0
+11400,ابو تيج,Abo Teeg,27.04411,31.31897,medium,town,2.0,,Abu Tij,أسيوط,Asyut,38,0
+11500,باقور,Baqoor,27.079096,31.285393,low,interpolated,5.7,,,أسيوط,Asyut,4,0
+11600,المطيعه,ElMoteeaa,27.106422,31.259166,low,interpolated,10.2,,,أسيوط,Asyut,4,0
+11700,شطب,Shatb,27.143185,31.223883,low,interpolated,6.1,,,أسيوط,Asyut,4,0
+11800,اسيوط,Asyut,27.180376,31.188188,high,osm_ar_exact,0.3,520514464,أسيوط,أسيوط,Asyut,108,20
+11900,جامعه الازهر,Azhar University,27.190555,31.171111,low,interpolated,2.2,,,أسيوط,Asyut,5,0
+12000,الفوسفات,Fosfat,27.206081,31.145062,low,interpolated,5.5,,,أسيوط,Asyut,1,0
+12100,منقباد,Manqabad,27.226673,31.110514,low,interpolated,9.9,,,أسيوط,Asyut,14,0
+12200,بني حسين,Bani Hussin,27.250079,31.071244,low,interpolated,12.9,,,أسيوط,Asyut,2,0
+12300,نجع سبع,Nage Sabe,27.264197,31.047557,low,interpolated,9.9,,,أسيوط,Asyut,2,0
+12400,الحواتكه,Elhawatka,27.280708,31.019855,low,interpolated,6.3,,,أسيوط,Asyut,2,0
+12500,منفلوط,Manfalot,27.3104,30.97004,medium,town,2.0,,Manfalut,أسيوط,Asyut,33,0
+12600,بني شقير,Bani Sheqeer,27.349684,30.930995,low,interpolated,5.6,,,أسيوط,Asyut,2,0
+12700,بني قره,Bani Qorra,27.387223,30.893685,high,osm_ar_exact,0.3,768091620,بني قرة,أسيوط,Asyut,4,0
+12800,القوصيه,ElQosia,27.4402,30.81841,medium,town,2.0,,Al Qusiyah,أسيوط,Asyut,32,0
+12900,فزاره,Fazara,27.470184,30.815622,low,interpolated,3.6,,,أسيوط,Asyut,2,0
+13000,صنبو,Sanbow,27.499412,30.812904,low,interpolated,6.7,,,أسيوط,Asyut,2,0
+13100,ديروط,Dayrut,27.55602,30.80764,medium,town,2.0,,Dayrut,أسيوط,Asyut,43,0
+13200,الجرف,ElGarf,27.583828,30.820282,low,interpolated,3.2,,,أسيوط,Asyut,2,0
+13300,دير مواس,Deer Mwass,27.64176,30.84662,medium,town,2.0,,Dayr Mawas,المنيا,Minya,27,0
+13400,تل العمارنه,Tal Elamarna,27.680508,30.844472,low,interpolated,4.7,,,المنيا,Minya,2,0
+13500,معصره ملوي,Masaret Mallawy,27.700418,30.843368,low,interpolated,3.8,,,المنيا,Minya,2,0
+13600,ملوي,Mallawy,27.7314,30.84165,medium,town,2.0,,Mallawi,المنيا,Minya,53,0
+13700,الروضه,ElRaouda,27.787999,30.840732,low,interpolated,6.8,,,المنيا,Minya,12,0
+13800,المحرص,ElMahras,27.835289,30.839965,low,interpolated,11.5,,,المنيا,Minya,2,0
+13900,اتليدم,Atleedem,27.877676,30.839278,low,interpolated,6.4,,,المنيا,Minya,2,0
+14000,ابو قرقاص,Abo Qorqas,27.9312,30.83841,medium,town,2.0,,Abu Qurqas,المنيا,Minya,24,0
+14100,ابيوها,Abyoha,27.966356,30.820381,low,interpolated,4.4,,,المنيا,Minya,2,0
+14200,منسافيس,Mensafes,28.000866,30.802683,low,interpolated,8.6,,,المنيا,Minya,2,0
+14300,بني احمد,Bani Ahmed,28.046771,30.779141,low,interpolated,6.2,,,المنيا,Minya,2,0
+14400,مصنع الغزل,Masna ElGhazel,28.071178,30.766625,low,interpolated,3.2,,,المنيا,Minya,2,0
+14500,المنيا,Minya,28.096798,30.753486,high,osm_ar_exact,0.3,1022358058,المنيا,المنيا,Minya,90,6
+14600,دماريس,Demares,28.126829,30.747431,low,interpolated,3.4,,,المنيا,Minya,8,0
+15100,سمالوط,Samalut,28.31214,30.71007,medium,town,2.0,,Samalut,المنيا,Minya,26,0
+15200,قلوصنا,Qalwasna,28.351931,30.735829,low,interpolated,5.0,,,المنيا,Minya,1,0
+15300,مطاي,Matay,28.41899,30.77924,medium,town,2.0,,Matay,المنيا,Minya,24,0
+15500,بني مزار,Bani Mazar,28.495126,30.806382,high,osm_ar_exact,0.3,1060253795,بنى مزار,المنيا,Minya,37,0
+15700,اباالوقف,AbalWakf,28.583218,30.814825,high,osm_ar_fuzzy,0.3,2718667239,محطة أبا الوقف,المنيا,Minya,2,0
+15800,مغاغه,Maghagha,28.649551,30.838576,high,osm_ar_exact,0.3,520514974,مغاغة,المنيا,Minya,51,2
+15900,ملاطيه,Malatia,28.702811,30.854599,low,interpolated,5.4,,,المنيا,Minya,2,0
+16000,الفنت,ElFant,28.748032,30.868204,high,osm_ar_exact,0.3,2718667236,الفنت,بني سويف,Beni Suef,2,0
+16100,الفشن,ElFashn,28.823203,30.903784,high,osm_ar_exact,0.3,520515100,الفشن,بني سويف,Beni Suef,31,0
+16200,سدس,Sods,28.9,30.95,high,osm_ar_exact,0.3,768587159,سدس,بني سويف,Beni Suef,2,0
+16300,ببا,Beba,28.92909,30.973894,low,interpolated,4.2,,,بني سويف,Beni Suef,26,0
+16400,طحا البيشه,Tahal Besha,28.966076,31.004272,low,interpolated,9.5,,,بني سويف,Beni Suef,3,0
+16500,طنسا,Tansa,28.999668,31.031864,low,interpolated,11.1,,,بني سويف,Beni Suef,3,0
+16600,تزمنت,Tazmont,29.038455,31.063722,low,interpolated,5.5,,,بني سويف,Beni Suef,1,0
+16700,بني سويف,Bani Suef,29.076272,31.094783,high,osm_ar_exact,0.3,520515246,بني سويف,بني سويف,Beni Suef,75,0
+16800,شريف باشا,Sheref Basha,29.109728,31.108844,low,interpolated,4.0,,,بني سويف,Beni Suef,1,0
+16900,ناصر,Naser,29.148815,31.125272,low,interpolated,8.8,,,بني سويف,Beni Suef,16,0
+17000,الزيتون قبلي,ElZayton Qibli,29.181029,31.13881,low,interpolated,12.6,,,بني سويف,Beni Suef,2,0
+17100,اشمنت,Ashmant,29.208357,31.150296,low,interpolated,15.5,,,بني سويف,Beni Suef,7,0
+17200,الميمون,ElMaymoon,29.243221,31.164948,low,interpolated,11.3,,,بني سويف,Beni Suef,4,0
+17300,بني حدير,Bani Heder,29.260032,31.172013,low,interpolated,9.3,,,بني سويف,Beni Suef,2,0
+17400,قمن العروس,Komn ELAroos,29.299534,31.188615,low,interpolated,4.5,,,بني سويف,Beni Suef,1,0
+17500,الواسطي,ElWasta,29.336965,31.204346,high,osm_ar_exact,0.3,520515418,الوسطى,بني سويف,Beni Suef,70,18
+17600,اطواب,Atwab,29.394926,31.212579,low,interpolated,5.8,,,بني سويف,Beni Suef,4,0
+17700,الرقه,ElRaqa,29.425551,31.216929,low,interpolated,8.8,,,الجيزة,Giza,10,0
+17800,القطوري,ElQatory,29.47846,31.224444,low,interpolated,14.0,,,الجيزة,Giza,7,0
+17900,كفر عمار,Kafr Ammar,29.529194,31.23165,low,interpolated,19.1,,,الجيزة,Giza,11,0
+18000,ميت القايد,Meet ElQayed,29.568708,31.237263,low,interpolated,23.0,,,الجيزة,Giza,4,0
+18100,المتانيه,ElMatania,29.612699,31.243512,low,interpolated,19.5,,,الجيزة,Giza,8,0
+18200,العياط,ElAyyat,29.667292,31.251266,low,interpolated,14.0,,,الجيزة,Giza,33,0
+18300,البليده,ElBaleeda,29.737248,31.261202,low,interpolated,7.1,,,الجيزة,Giza,2,0
+18400,المزغونه,ElMazghona,29.808918,31.271382,high,osm_ar_exact,0.3,316709022,المزغونة,الجيزة,Giza,11,0
+18500,المرازيق,ElMarazeek,29.835894,31.275035,low,interpolated,4.9,,,الجيزة,Giza,8,0
+18600,البدرشين,ElBadrasheen,29.853671,31.277442,high,osm_ar_fuzzy,0.3,5784657560,البدراشين,الجيزة,Giza,17,0
+18700,الحوامديه,Elhawamdia,29.894315,31.270374,high,osm_ar_exact,0.3,316708494,الحوامدية,الجيزة,Giza,17,0
+18800,الجيزه,Giza,30.01057,31.207125,high,manual_colocated,0.3,,,الجيزة,Giza,114,8
+18900,صعيد مصر,Upper Egypt(Bashtil),30.070986,31.185093,medium,manual_approx,1.5,,,الجيزة,Giza,106,10
+19100,القاهره,Cairo,30.062978,31.246053,high,manual_osm,0.3,271864421,محطة رمسيس,القاهرة,Cairo,276,251
+19200,الزاويه الحمراء,ElZawia ELHamra,30.08807,31.245444,low,interpolated,3.2,,,القاهرة,Cairo,33,0
+19300,شبرا الخيمه,Shobra ElKhema,30.122484,31.244609,high,osm_ar_exact,0.3,272197931,شبرا الخيمة,القليوبية,Qalyubia,124,4
+19350,ميت حلفا,Mit Halfa,30.156591,31.233194,low,interpolated,2.7,,,القليوبية,Qalyubia,1,0
+19400,قليوب,Qalub,30.179785,31.225432,high,osm_ar_exact,0.3,324557234,قليوب,القليوبية,Qalyubia,90,0
+19500,قها,Qaha,30.28499,31.208682,high,osm_ar_exact,0.3,325795208,قها,القليوبية,Qalyubia,19,0
+19600,طوخ,Tokh,30.355592,31.197157,high,osm_ar_exact,0.3,325794384,طوخ,القليوبية,Qalyubia,26,0
+19700,سندنهور,Sandnahoor,30.411341,31.188164,high,osm_ar_exact,0.3,1029624628,سندنهور,القليوبية,Qalyubia,2,0
+19800,بنها,Banha,30.456075,31.180968,high,osm_ar_exact,0.3,1029624589,بنها,القليوبية,Qalyubia,157,58
+19950,عرب الرمل,Arab ELRaml,30.511126,31.156267,low,interpolated,4.5,,,المنوفية,Monufia,2,0
+20000,قويسنا,Qouesna,30.547479,31.139955,high,osm_ar_exact,0.3,1088289923,محطة قويسنا,المنوفية,Monufia,49,0
+20100,بركه السبع,Berket ElSabe,30.636446,31.080248,high,osm_ar_exact,0.3,1092461886,بركة السبع,الغربية,Gharbia,52,0
+20150,ابو مشهور,Abo Mashoor,30.698564,31.043362,low,interpolated,7.8,,,الغربية,Gharbia,1,0
+20200,طنطا,Tanta,30.781334,30.994211,high,osm_ar_exact,0.3,4723141800,محطة قطار طنطا,الغربية,Gharbia,222,124
+20300,كفر الزيات,Kafr ElZayat,30.819008,30.81535,high,osm_ar_exact,0.3,1039313595,كفر الزيات,الغربية,Gharbia,64,20
+20400,التوفيقيه,ElTawfiqia,30.816032,30.748045,high,osm_ar_exact,0.3,1111399394,محطة التوفيقية,البحيرة,Beheira,17,0
+20500,ايتاي البارود,Etay ElBarood,30.884195,30.661809,high,osm_ar_exact,0.3,1040778959,إتاي البارود,البحيرة,Beheira,86,38
+20600,دمنهور,Damanhoor,31.034291,30.468469,high,osm_ar_exact,0.3,1022251311,دمنهور,البحيرة,Beheira,102,21
+20700,ابو حمص,Abo Hommos,31.084909,30.309732,high,osm_ar_exact,0.3,1111472625,1,البحيرة,Beheira,35,0
+20800,كفر الدوار,Kafr ElDawar,31.13235,30.130356,high,osm_ar_exact,0.3,317997201,كفر الدوار,البحيرة,Beheira,35,0
+20900,سيدي جابر,Sidi Gaber,31.218991,29.942465,high,osm_ar_exact,0.3,3605745439,محطة قطار سيدى جابر,الإسكندرية,Alexandria,102,0
+21000,الحضره,ElHadra,31.204076,29.929932,high,osm_ar_exact,0.3,269662884,الحضرة,الإسكندرية,Alexandria,2,0
+21100,الاسكندريه,Alexandria,31.193363,29.906759,high,osm_ar_exact,0.3,1125997846,محطة مصر,الإسكندرية,Alexandria,102,102
+21200,الفيوم,Fayuom,29.309064,30.847736,high,osm_ar_exact,0.3,1022171353,الفيوم,الفيوم,Faiyum,24,24
+21300,عامريه الفيوم,Aameriet ElFayoum,29.328167,30.888737,medium,osm_unnamed_snap,1.0,10682887893,,الفيوم,Faiyum,20,0
+21400,العدوه,ElEdwa,29.325638,30.932166,low,interpolated,3.0,,,الفيوم,Faiyum,20,0
+21500,سيلا,Sila,29.32082,31.014916,medium,osm_unnamed_snap,1.0,395453832,,الفيوم,Faiyum,20,0
+21600,الناصريه,ElNaseria,29.325034,31.025649,low,interpolated,1.5,,,الفيوم,Faiyum,20,0
+21700,الروس,ElRoos,29.326513,31.029419,medium,osm_unnamed_snap,1.0,10685375901,,الفيوم,Faiyum,20,0
+21800,الورش,ElWerash,29.331386,31.110963,low,interpolated,8.0,,,بني سويف,Beni Suef,20,0
+21900,كوم ابو راضي,Kom Abo Radi,29.333337,31.143622,low,interpolated,6.0,,,بني سويف,Beni Suef,20,0
+22000,قليوب البلد,Qalub ElBald,30.181492,31.204462,medium,osm_unnamed_snap,1.0,10578507410,,القليوبية,Qalyubia,40,0
+22100,كفر رماده,Kafr Ramada,30.22138,31.254758,low,interpolated,6.8,,,القليوبية,Qalyubia,27,0
+22200,نوي,Nawee,30.242117,31.269378,low,interpolated,4.5,,,القليوبية,Qalyubia,29,0
+22300,الزهوين,ElZahween,30.26036,31.282241,low,interpolated,1.5,,,القليوبية,Qalyubia,26,0
+22400,كفر طحا,Kafr Taha,30.26936,31.288586,medium,osm_unnamed_snap,1.0,10578741206,,القليوبية,Qalyubia,26,0
+22500,طحانوب,Tahanoob,30.280721,31.29342,medium,osm_unnamed_snap,1.0,10578741227,,القليوبية,Qalyubia,28,0
+22600,كفر شبين,Kafr Shibin,30.297221,31.300385,medium,osm_unnamed_snap,1.0,10578759582,,القليوبية,Qalyubia,26,0
+22700,شبين القناطر,Shibin ElQanater,30.31299,31.315438,high,osm_ar_exact,0.3,1041037218,محطة شبين القناطر,القليوبية,Qalyubia,62,34
+22800,منشاه الكرام,Manshat ElKeram,30.331682,31.354257,medium,osm_unnamed_snap,1.0,10581752560,,القليوبية,Qalyubia,19,0
+22900,مشتول,Mashtool,30.348135,31.3887,medium,osm_unnamed_snap,1.0,10581752575,,الشرقية,Sharqia,28,0
+23000,سلمنت,Salamant,30.363469,31.420662,medium,osm_unnamed_snap,1.0,10581752579,,الشرقية,Sharqia,20,0
+23100,انشاص,Anshass,30.376169,31.447177,low,interpolated,2.9,,,الشرقية,Sharqia,28,0
+23200,بير عماره,Beer Emara,30.39511,31.486723,medium,osm_unnamed_snap,1.0,10581794181,,الشرقية,Sharqia,20,0
+23300,تل روزن,Tal Rozon,30.406752,31.511098,low,interpolated,2.6,,,الشرقية,Sharqia,20,0
+23400,بلبيس,Bilbais,30.428412,31.556445,high,osm_ar_exact,0.3,1039233382,بلبيس,الشرقية,Sharqia,28,0
+23500,اولاد سيف,Awlad Saif,30.466783,31.550121,medium,osm_unnamed_snap,1.0,10581808559,,الشرقية,Sharqia,22,0
+23600,بردين,Berdeen,30.50485,31.539205,medium,osm_unnamed_snap,1.0,10581934255,,الشرقية,Sharqia,27,0
+23700,العصلوجي,ElAsloogy,30.555704,31.520697,medium,osm_unnamed_snap,1.0,10581934270,,الشرقية,Sharqia,20,0
+23800,الزقازيق,Zagazig,30.582203,31.502011,high,osm_ar_exact,0.3,1022196175,الزقازيق,الشرقية,Sharqia,113,59
+23900,هريه رزنه,Heriat Razana,30.607287,31.530926,low,interpolated,3.9,,,الشرقية,Sharqia,22,0
+24000,كفر المسلميه,Kafr ElMeslamia,30.617114,31.542253,low,interpolated,3.2,,,الشرقية,Sharqia,24,0
+24100,العداويه,ElEdawia,30.637996,31.566324,medium,osm_unnamed_snap,1.0,10581940255,,الشرقية,Sharqia,24,0
+24200,ههيا,Hehya,30.670652,31.590209,high,osm_ar_exact,0.3,10581940271,ههيا,الشرقية,Sharqia,34,0
+24300,شرشيمه,Sharshemia,30.692615,31.620729,low,interpolated,3.8,,,الشرقية,Sharqia,25,0
+24400,ابو ياسين,Abo Yaseen,30.702844,31.634942,low,interpolated,4.2,,,الشرقية,Sharqia,22,0
+24500,ابو كبير,Abo Kebeer,30.727031,31.668552,high,osm_ar_exact,0.3,1027144453,أبو كبير,الشرقية,Sharqia,51,15
+24600,نزله خيال,Nazelt Khayal,30.762583,31.653446,medium,osm_unnamed_snap,1.0,10586781671,,الشرقية,Sharqia,18,0
+24700,البوها,Alboha,30.783241,31.63567,medium,osm_unnamed_snap,1.0,10586781684,,الشرقية,Sharqia,18,0
+24800,كفر صقر,Kafr Sakr,30.79336,31.62575,medium,town,2.0,,Kafr Saqr,الشرقية,Sharqia,25,0
+24900,بدوي,Badawee,30.813466,31.607997,low,interpolated,2.6,,,الدقهلية,Dakahlia,18,0
+25000,ابو الشقوق,Abo ElShokook,30.832338,31.591333,high,osm_ar_exact,0.3,1039542007,أبو الشقوق,الدقهلية,Dakahlia,24,0
+25100,هيكل باشا,Haykel Bash,30.842308,31.564736,low,interpolated,2.9,,,الدقهلية,Dakahlia,18,0
+25200,برقين,Berkeen,30.855291,31.530105,medium,osm_unnamed_snap,1.0,10586876547,,الدقهلية,Dakahlia,25,0
+25300,طرانيس العرب,Tranees ElArab,30.864945,31.504317,medium,osm_unnamed_snap,1.0,10588534352,,الدقهلية,Dakahlia,18,0
+25400,السنبلاوين,ElSanbelaween,30.884258,31.461674,high,osm_ar_exact,0.3,1039541796,محطة قطار مدينة السنبلاوين,الدقهلية,Dakahlia,25,0
+25500,شبرا قباله,Shobra Kebala,30.916239,31.44365,medium,osm_unnamed_snap,1.0,10588534357,,الدقهلية,Dakahlia,18,0
+25600,الزريقي,ElRezaiky,30.937134,31.433105,medium,osm_unnamed_snap,1.0,10588534360,,الدقهلية,Dakahlia,18,0
+25700,البقليه,ElBaklia,30.958657,31.422247,medium,osm_unnamed_snap,1.0,10588534380,,الدقهلية,Dakahlia,22,0
+25800,شاوه,Shawa,30.999272,31.401663,high,osm_ar_exact,0.3,769128533,محطة شاوة,الدقهلية,Dakahlia,19,0
+25900,سندوب,Sandoob,31.015822,31.39332,high,osm_ar_exact,0.3,2684271787,محطة سندوب,الدقهلية,Dakahlia,41,0
+26000,المنصوره,Mansoura,31.045433,31.388626,high,osm_ar_exact,0.3,1019565539,المنصورة,الدقهلية,Dakahlia,109,90
+26100,الرجديه,ElEagdia,30.830652,31.047175,high,osm_ar_exact,0.3,6487641608,الرجدية,الغربية,Gharbia,54,0
+26200,شبشير الحصه,Shabsheer ElHessa,30.859334,31.071961,high,osm_ar_exact,0.3,6487641609,شبشير الحصة,الغربية,Gharbia,55,0
+26300,محله روح,Mahallet Rooh,30.873312,31.084058,high,osm_ar_exact,0.3,1033287435,محلة روح,الغربية,Gharbia,95,15
+26400,صفط تراب,Saft Torab,30.904338,31.110821,high,osm_ar_exact,0.3,6487641610,صفط تراب,الغربية,Gharbia,29,0
+26500,منيه شنتاعياش,Menyet Shanta Ayash,30.93042,31.133417,high,osm_ar_fuzzy,0.3,6487641611,منية شنتنا عياش,الغربية,Gharbia,29,0
+26600,منشيه البكري,Manshyet ElBakry,30.952096,31.152181,high,osm_ar_fuzzy,0.3,6487641612,منشأة البكري,الغربية,Gharbia,29,0
+26700,المحله الكبري,ElMahalla ElKobra,30.969076,31.169135,high,osm_ar_exact,0.3,1015922905,المحلة الكبرى,الغربية,Gharbia,57,6
+26800,غزل المحله,Ghazl ElMahalla,30.969134,31.18392,high,osm_ar_exact,0.3,6487641613,غزل المحلة,الغربية,Gharbia,30,0
+26900,محله ابو علي القنطره,Mahallet Abo Ali,30.968296,31.19299,low,interpolated,0.8,,,الغربية,Gharbia,29,0
+27000,الراهبين,ElRahebeen,30.966227,31.215392,high,osm_ar_exact,0.3,6487765586,الراهبين,الغربية,Gharbia,29,0
+27100,سمنود,Sammanood,30.964743,31.246642,high,osm_ar_exact,0.3,6487765587,سمنود,الغربية,Gharbia,51,0
+27200,ميت خلف,Meet Khalf,30.99047,31.271945,high,osm_ar_exact,0.3,6487765588,ميت خلف,الغربية,Gharbia,29,0
+27300,ميت عساس,Meet Asass,31.006493,31.289627,high,osm_ar_exact,0.3,6487765589,ميت عساس,الدقهلية,Dakahlia,32,0
+27400,كفر العرب,Kafr ElArab,31.02265,31.307494,high,osm_ar_exact,0.3,6487765590,كفر العرب,الدقهلية,Dakahlia,29,0
+27500,ميت الكرما,Meet ElKarma,31.043478,31.330511,high,osm_ar_exact,0.3,6487765591,ميت الكرما,الدقهلية,Dakahlia,29,0
+27600,طلخا,Talkha,31.054164,31.378275,high,osm_ar_exact,0.3,1019599326,طلخا,الدقهلية,Dakahlia,51,0
+27700,سماد طلخا,Semad Talkha,31.071449,31.392274,high,osm_ar_exact,0.3,6487765592,سماد طلخا,الدقهلية,Dakahlia,26,0
+27800,ميت عنتر,Meet Antar,31.083828,31.39885,high,osm_ar_exact,0.3,6487765593,ميت عنتر,الدقهلية,Dakahlia,26,0
+27900,شرنقاش,Sharnqash,31.095093,31.404796,high,osm_ar_exact,0.3,6487765594,شرنقاش,الدقهلية,Dakahlia,26,0
+28000,الطويله,ElTaweela,31.121483,31.418748,high,osm_ar_exact,0.3,6487765595,الطويلة,الدقهلية,Dakahlia,26,0
+28100,ديسط,Deyaset,31.151026,31.434182,high,osm_ar_exact,0.3,6487765596,ديسط,الدقهلية,Dakahlia,26,0
+28200,بطره,Batra,31.166273,31.442009,high,osm_ar_exact,0.3,6487765597,بطرة,الدقهلية,Dakahlia,26,0
+28300,الحاج خليل,ElHag Khaleel,31.178928,31.465318,high,osm_ar_exact,0.3,6487765598,الحاج خليل,الدقهلية,Dakahlia,18,0
+28400,كفر الدبوسي,Kafr ElDabbosy,31.188864,31.500472,high,osm_ar_exact,0.3,6487765600,كفر الدبوسي,الدقهلية,Dakahlia,18,0
+28500,كفر الحطبه,Kfar AlHtaba,31.18251,31.484455,high,osm_ar_exact,0.3,6487765599,كفر الحطبة,الدقهلية,Dakahlia,18,0
+28600,شربين,Shirbin,31.191554,31.526592,high,osm_ar_exact,0.3,1035397813,شربين,الدقهلية,Dakahlia,56,28
+28700,السعادوه,Elsaawda,31.207841,31.551687,high,osm_ar_exact,0.3,6487833439,السعادوة,الدقهلية,Dakahlia,18,0
+28800,الصبريه,ElSabriyah,31.223914,31.577952,high,osm_ar_exact,0.3,6487833440,الصبرية,الدقهلية,Dakahlia,18,0
+28900,راس الخليج,Ras ElKhaleeg,31.24592,31.616052,high,osm_ar_exact,0.3,6487833441,رأس الخليج,دمياط,Damietta,24,0
+29000,جمصه,Gamsa,31.277684,31.622108,high,osm_ar_exact,0.3,6487833442,محطة قطار جمصة,دمياط,Damietta,11,0
+29100,السوالم,Elsawalem,31.302682,31.64252,high,osm_ar_exact,0.3,6487833443,السوالم,دمياط,Damietta,18,0
+29200,كفر سعد البلد,Kafr Saad ElBalad,31.31959,31.656368,high,osm_ar_exact,0.3,1041084561,كفر سعد البلد,دمياط,Damietta,18,0
+29300,كفر سعد,Kfar Saad,31.355144,31.688937,high,osm_ar_exact,0.3,1041084565,كفر سعد,دمياط,Damietta,28,0
+29400,التوفيقيه البلد,ElTawfiqia ElBalad,31.387961,31.703935,high,osm_ar_exact,0.3,6487833444,التوفيقية البلد,دمياط,Damietta,18,0
+29500,كفر البطيخ,Kafr ElBatteekh,31.405452,31.738516,high,osm_ar_exact,0.3,6487833445,كفر البطيخ,دمياط,Damietta,18,0
+29600,بساتين كفر البطيخ,Basateen Kafr ElBatteekh,31.418978,31.762336,high,osm_ar_fuzzy,0.3,6487833446,بستاين كفر البطيخ,دمياط,Damietta,18,0
+29700,دمياط,Damietta,31.419695,31.807194,high,osm_ar_exact,0.3,1020478764,دمياط,دمياط,Damietta,28,28
+29800,الاسماعيليه,Ismailia,30.593331,32.270059,high,osm_ar_exact,0.3,1018510154,الإسماعيلية,الاسماعيلية,Ismailia,58,38
+29900,الشيخ زايد,ElSheikh Zayed,30.613549,32.284228,low,interpolated,2.8,,,الاسماعيلية,Ismailia,13,0
+30000,الفردان,ElFardan,30.686647,32.335459,high,osm_ar_exact,0.3,768792815,الفردان,الاسماعيلية,Ismailia,4,0
+30100,البلاح,ELBallah,30.770877,32.316682,high,osm_ar_exact,0.3,1521683874,محطة البلاح,الاسماعيلية,Ismailia,4,0
+30200,القنطره غرب,Qantara Gharb ,30.857752,32.31374,low,interpolated,9.7,,,الاسماعيلية,Ismailia,22,0
+30300,الكاب,ElKab,30.946696,32.310728,medium,osm_unnamed_snap,1.0,10636168484,,بورسعيد,Port Said,4,0
+30400,التينه,ElTeena,31.042508,32.307471,high,osm_ar_exact,0.3,768596447,محطة التينة,بورسعيد,Port Said,4,0
+30500,راس العش,Ras ElEsh,31.137152,32.304239,medium,osm_unnamed_snap,1.0,10632896823,,بورسعيد,Port Said,5,0
+30600,الرسوه,ElReswa,31.216424,32.302073,medium,osm_unnamed_snap,1.0,10632896794,,بورسعيد,Port Said,4,0
+30700,بور سعيد,Port Said,31.259825,32.30058,medium,osm_en_fuzzy,0.3,10632775799,Port Said,بورسعيد,Port Said,22,22
+30800,معسكر الجلاء,Moaskar ElGalal,30.583171,32.254857,low,interpolated,1.8,,,الاسماعيلية,Ismailia,26,0
+30900,نفيشه,Nafeesha,30.570099,32.2353,medium,osm_unnamed_snap,1.0,10074123080,,الاسماعيلية,Ismailia,26,0
+31000,الضبعيه,Dabeiya,30.510316,32.297019,medium,osm_unnamed_snap,1.0,10654333858,,الاسماعيلية,Ismailia,14,0
+31100,عين غصين,Ain Ghaseen,30.492157,32.29986,low,interpolated,2.7,,,الاسماعيلية,Ismailia,14,0
+31200,سرابيوم,Sarabium,30.464075,32.304253,low,interpolated,6.8,,,الاسماعيلية,Ismailia,16,0
+31300,10رمضان,10 Ramadan,30.437884,32.30835,low,interpolated,3.8,,,الاسماعيلية,Ismailia,14,0
+31400,ابو سلطان,Abo Sultan,30.412367,32.312342,high,osm_ar_exact,0.3,1521675663,محطة أبو سلطان,الاسماعيلية,Ismailia,16,0
+31500,السعيديه,ElSaeedia,30.381908,32.289728,medium,osm_en_fuzzy,0.3,1521666363,موقف السعيدية,الاسماعيلية,Ismailia,14,0
+31600,فايد,Fayed,30.338526,32.313729,low,interpolated,5.6,,,الاسماعيلية,Ismailia,16,0
+31700,فايد الجديده,Fayed ElGadida,30.329927,32.318486,low,interpolated,6.7,,,الاسماعيلية,Ismailia,14,0
+31800,قمه فايد,Kemmet Fayed,30.307073,32.331129,low,interpolated,3.9,,,الاسماعيلية,Ismailia,14,0
+31900,فناره,Fanara,30.276706,32.34793,high,osm_ar_exact,0.3,1521665589,محطة فنارة,الاسماعيلية,Ismailia,14,0
+32000,كسفريت,Kasfreet,30.249838,32.402799,medium,osm_unnamed_snap,1.0,10665042092,,الاسماعيلية,Ismailia,14,0
+32100,جنيفه,Genefa,30.206729,32.427774,high,osm_ar_exact,0.3,1521661692,محطة جنيفة,الاسماعيلية,Ismailia,16,0
+32200,ابو حلب,Abo Halab,30.197812,32.504181,medium,osm_unnamed_snap,1.0,10665042197,,السويس,Suez,14,0
+32300,كيلو64,Kilo 64,30.158253,32.541719,medium,osm_unnamed_snap,1.0,10665042219,,السويس,Suez,14,0
+32400,شلوفه,Shloofa,30.116713,32.563202,high,osm_ar_exact,0.3,1520761930,محطة الشلوفة,السويس,Suez,14,0
+32500,الجناين,ElGanayen,30.061874,32.552103,medium,osm_unnamed_snap,1.0,10669009257,,السويس,Suez,14,0
+32600,عامر,Amer,30.026623,32.556224,medium,osm_unnamed_snap,1.0,10669009285,,السويس,Suez,14,0
+32700,السويس,Suez,29.989176,32.527669,high,osm_ar_exact,0.3,2555058697,السويس,السويس,Suez,20,20
+32800,منيه السباع,Menyet ElSabe,30.454103,31.223819,medium,osm_unnamed_snap,1.0,10604346596,,القليوبية,Qalyubia,14,0
+32900,شبلنجه,Shablanga,30.475056,31.263515,medium,osm_unnamed_snap,1.0,10604346582,,القليوبية,Qalyubia,22,0
+33000,العزيزيه,ElAzeezia,30.481479,31.291169,medium,osm_unnamed_snap,1.0,10604346567,,القليوبية,Qalyubia,18,0
+33100,كوم حلين,Kim Heleen,30.489437,31.319513,medium,osm_unnamed_snap,1.0,10604346562,,الشرقية,Sharqia,16,0
+33200,ميت يزيد,Meet Yazeed,30.50131,31.329935,medium,osm_unnamed_snap,1.0,10604346548,,الشرقية,Sharqia,15,0
+33300,منيه القمح,Menyet ElKamh,30.514682,31.34161,high,osm_ar_fuzzy,0.3,1086218676,منيا القمح,الشرقية,Sharqia,39,0
+33400,الجديده,ElGadida,30.534206,31.382025,medium,osm_unnamed_snap,1.0,10604362701,,الشرقية,Sharqia,17,0
+33500,القراقره,ElKarakra,30.548017,31.41539,medium,osm_unnamed_snap,1.0,10604376120,,الشرقية,Sharqia,15,0
+33600,الزنكلون,ElZenkloon,30.559475,31.443085,medium,osm_unnamed_snap,1.0,10604376134,,الشرقية,Sharqia,17,0
+33700,الشبانات,ElShabanat,30.561149,31.604749,medium,osm_unnamed_snap,1.0,10673525402,,الشرقية,Sharqia,12,0
+33800,صفط الحنه,Saft ElHenna,30.557918,31.613149,low,interpolated,0.9,,,الشرقية,Sharqia,12,0
+33900,الصوه,ElSawa,30.550539,31.632337,medium,osm_unnamed_snap,1.0,10673525341,,الشرقية,Sharqia,13,0
+34000,ابو حماد,Abo Hammad,30.536364,31.677922,medium,osm_unnamed_snap,1.0,10673525315,,الشرقية,Sharqia,40,0
+34100,محجر ابو حماد,Mahgar Abo Hammad,30.550295,31.733428,low,interpolated,5.0,,,الشرقية,Sharqia,15,0
+34200,التل الكبير,ElTall ElKabeer,30.562878,31.783562,high,osm_ar_exact,0.3,1028067604,محطة تل الكبير,الشرقية,Sharqia,36,0
+34300,البعالوه,ElBawalla,30.548082,31.858166,high,osm_ar_exact,0.3,768592894,البعالوة,الشرقية,Sharqia,12,0
+34400,القصاصين,ElKassaseen,30.562423,31.935476,medium,osm_unnamed_snap,1.0,10673054066,,الشرقية,Sharqia,35,0
+34500,المحسمه,ElMassma,30.561996,32.013541,high,osm_ar_exact,0.3,768595639,محطة المحسمة,الشرقية,Sharqia,12,0
+34600,الشهيد محمد البغدادي,ElsShaheed M Boghdadt,30.562087,32.043268,low,interpolated,2.9,,,الشرقية,Sharqia,12,0
+34700,ابو جريش,Abo Grish,30.562195,32.078556,low,interpolated,3.8,,,الشرقية,Sharqia,12,0
+34800,ابو صوير,Abs Sowear,30.56231,32.116472,high,osm_ar_exact,0.3,1087859073,محطة أبو صوير,الشرقية,Sharqia,36,0
+34900,الواصفيه,ElWasfa,30.580023,32.173413,medium,osm_en_fuzzy,0.3,768595681,الوسفية,الاسماعيلية,Ismailia,12,0
+35000,ميت حبيش القبليه,Meet Hebesh ElQiblia,30.75066,31.031563,medium,osm_unnamed_snap,1.0,10603851511,,الغربية,Gharbia,22,0
+35100,شبرا قاص,Shobra Qass,30.742504,31.071076,medium,osm_unnamed_snap,1.0,1093711418,,الغربية,Gharbia,22,0
+35200,السنطه,ElSonta,30.730549,31.122468,high,osm_ar_exact,0.3,1093710418,محطة السنطة,الغربية,Gharbia,49,25
+35300,اللواء عبد الستار,ElLewaa Abdel Sattar,30.725402,31.141409,medium,osm_unnamed_snap,1.0,3745059217,,الغربية,Gharbia,18,0
+35400,المنشاه الكبري,ElMonshaa ElKobra,30.724935,31.155628,medium,osm_unnamed_snap,1.0,395415551,,الغربية,Gharbia,18,0
+35500,السملاويه,ElSamlawiya,30.724142,31.179658,medium,osm_unnamed_snap,1.0,10603571629,,الغربية,Gharbia,18,0
+35600,نهطاي,Nahtay,30.72366,31.193877,medium,osm_unnamed_snap,1.0,3745059198,,الغربية,Gharbia,18,0
+35700,زفتي,Zefta,30.723051,31.244786,high,osm_ar_exact,0.3,1093564915,زفتى,الغربية,Gharbia,46,0
+35800,ميت غمر,Meet Ghamr,30.719127,31.260498,high,osm_ar_exact,0.3,1029706810,ميت غمر,الدقهلية,Dakahlia,46,22
+35900,كوم النور,Kom ElNoor,30.706499,31.287224,low,interpolated,2.9,,,الدقهلية,Dakahlia,3,0
+36000,دنديط,Dandeet,30.693351,31.315052,medium,osm_unnamed_snap,1.0,10603575099,,الدقهلية,Dakahlia,18,0
+36100,كفر الوزير,Kafr ElWazir,30.682449,31.335141,medium,osm_unnamed_snap,1.0,8176589344,,الدقهلية,Dakahlia,18,0
+36200,تفهنا الاشراف,Tafahna ElAshraf,30.674001,31.350719,medium,osm_unnamed_snap,1.0,10603658739,,الدقهلية,Dakahlia,24,0
+36300,ميت القرشي,Meet ElQorashy,30.667872,31.360497,medium,osm_unnamed_snap,1.0,10603658770,,الدقهلية,Dakahlia,18,0
+36400,ميت ابو عربي,Meet Abo Araby,30.658155,31.374824,medium,osm_unnamed_snap,1.0,10603658777,,الدقهلية,Dakahlia,18,0
+36500,ام الزين,Umm AlZein,30.645532,31.393466,medium,osm_unnamed_snap,1.0,10603658780,,الدقهلية,Dakahlia,20,0
+36600,الحلبي,ElHalabi,30.635614,31.408127,medium,osm_unnamed_snap,1.0,1039332604,,الشرقية,Sharqia,18,0
+36700,النخاس,ElNakhass,30.623045,31.426701,medium,osm_unnamed_snap,1.0,10603673210,,الشرقية,Sharqia,20,0
+36800,كفر الاشراف,Kafr ElAshraf,30.612537,31.442187,medium,osm_unnamed_snap,1.0,10603706997,,الشرقية,Sharqia,18,0
+36900,شيبه النكاريه,Shaybet ElNakaria,30.599,31.46146,low,interpolated,1.9,,,الشرقية,Sharqia,18,0
+37000,جامعه الزقازيق,Zagazig University,30.587965,31.47717,medium,osm_unnamed_snap,1.0,1039332643,,الشرقية,Sharqia,22,0
+37100,وروره,Warorah,30.48794,31.193378,low,interpolated,4.0,,,القليوبية,Qalyubia,22,0
+37200,دملو,Damlo,30.500269,31.19818,low,interpolated,5.5,,,المنوفية,Monufia,22,0
+37300,ميت الحوفيين,Meet ElHofyeen,30.519404,31.205632,low,interpolated,7.9,,,المنوفية,Monufia,22,0
+37400,ميت بره,Meet Barra,30.541982,31.214424,low,interpolated,10.7,,,المنوفية,Monufia,22,0
+37500,بقسا,Baqsa,30.559195,31.221128,low,interpolated,9.3,,,المنوفية,Monufia,22,0
+37600,شبرا بخوم,Shobra Bakhoom,30.570564,31.225555,low,interpolated,7.8,,,المنوفية,Monufia,22,0
+37700,تفهناالعزب,Tafhna ElAzab,30.596344,31.235595,low,interpolated,4.6,,,الغربية,Gharbia,22,0
+37800,ميت الحارون,Meet ElHaron,30.611236,31.241394,low,interpolated,2.8,,,الغربية,Gharbia,22,0
+37900,سعد باشا زغلول,Saad Pasha Zaghloul,30.633333,31.25,high,osm_ar_exact,0.3,768565564,سعد باشا زغلول,الغربية,Gharbia,22,0
+38000,اسماعيل باشا صدقي,Ismail Pasha Sidqi,30.667038,31.248041,low,interpolated,3.5,,,الغربية,Gharbia,22,0
+38100,منصور باشا,Mansour Pasha,30.694368,31.246453,low,interpolated,3.0,,,الغربية,Gharbia,22,0
+38200,سجين,Sageen,30.90366,31.049587,medium,osm_unnamed_snap,1.0,3745060251,,الغربية,Gharbia,30,0
+38300,ابشواي,Ebshiway,30.934028,31.008214,low,interpolated,4.9,,,الغربية,Gharbia,30,0
+38400,الابراهيميه,ElIbrahemia,30.947882,30.989339,low,interpolated,3.9,,,الغربية,Gharbia,24,0
+38500,قطور,Qutour,30.97225,30.95614,medium,town,2.0,,Qutur,الغربية,Gharbia,30,0
+38600,حوين,Hewain,30.996575,30.919477,medium,osm_unnamed_snap,1.0,10598930176,,كفر الشيخ,Kafr El Sheikh,24,0
+38700,الشين,ElShin,31.011944,30.896944,high,osm_ar_exact,0.3,768600995,الشين,كفر الشيخ,Kafr El Sheikh,30,0
+38800,عزبه جوده,Ezbet Goda,31.026412,30.877113,low,interpolated,2.4,,,كفر الشيخ,Kafr El Sheikh,24,0
+38900,قلين البلد,Qaleen ElBalas,31.042428,30.855159,medium,osm_unnamed_snap,1.0,10598951384,,كفر الشيخ,Kafr El Sheikh,30,0
+39000,قلين,Qaleen,31.050203,30.840346,high,osm_ar_exact,0.3,1039401955,قلين,كفر الشيخ,Kafr El Sheikh,62,28
+39100,البكاتوش,Bakatosh,31.067685,30.800146,low,interpolated,4.3,,,كفر الشيخ,Kafr El Sheikh,23,0
+39200,كفر الجزاير,Kfar ElGazayer,31.082118,30.766958,low,interpolated,5.2,,,كفر الشيخ,Kafr El Sheikh,21,0
+39300,شباس,Shabas,31.090778,30.747045,low,interpolated,3.1,,,كفر الشيخ,Kafr El Sheikh,27,0
+39400,المدينه,ElMadina,31.103301,30.718251,medium,osm_unnamed_snap,1.0,10599183583,,كفر الشيخ,Kafr El Sheikh,25,0
+39500,جماجمون,Gamagoon,31.115196,30.690825,medium,osm_unnamed_snap,1.0,10599183587,,كفر الشيخ,Kafr El Sheikh,21,0
+39600,دسوق,Desouq,31.1326,30.641441,high,osm_ar_exact,0.3,1024994600,دسوق,كفر الشيخ,Kafr El Sheikh,40,13
+39700,الرحمانيه,ElRahmaniyah,31.126491,30.627496,medium,osm_unnamed_snap,1.0,10599214594,,البحيرة,Beheira,25,0
+39800,الفتح,ElFath,31.103687,30.606207,medium,osm_unnamed_snap,1.0,395450837,,البحيرة,Beheira,21,0
+39900,الخزان,ElKhazan,31.088665,30.582596,medium,osm_unnamed_snap,1.0,10599263012,,البحيرة,Beheira,25,0
+40000,الهواريه,ElHawareh,31.079037,30.567173,medium,osm_unnamed_snap,1.0,10599263015,,البحيرة,Beheira,25,0
+40100,سنهور,Sinhoor,31.069434,30.551837,medium,osm_unnamed_snap,1.0,10599263034,,البحيرة,Beheira,27,0
+40200,نفره,Nafra,31.056027,30.530375,medium,osm_unnamed_snap,1.0,10600858329,,البحيرة,Beheira,21,0
+40300,كفر بني هلال,Kafr Bani Hilal,31.038641,30.502626,medium,osm_unnamed_snap,1.0,10600858330,,البحيرة,Beheira,21,0
+40400,شلقان,Shalakan,30.181829,31.169686,medium,osm_unnamed_snap,1.0,10578508566,,القليوبية,Qalyubia,37,0
+40500,القناطر الخيريه القديمه,ElQanater ELKhayria ElKadima,30.195254,31.138954,medium,osm_unnamed_snap,1.0,10578508544,,القليوبية,Qalyubia,2,2
+40600,القناطر الخيريه,ElQanater ElKhayria,30.19327,31.13703,medium,town,2.0,,Al Qanatir al Khayriyah,القليوبية,Qalyubia,41,3
+40700,دروه,Darwa,30.220904,31.094854,medium,osm_unnamed_snap,1.0,10576965697,,المنوفية,Monufia,36,0
+40800,كفر صراوه,Kafr Sarawa,30.24342,31.07402,medium,osm_unnamed_snap,1.0,10576965659,,المنوفية,Monufia,31,0
+40900,شطانوف,Shatanoof,30.248305,31.063422,low,interpolated,1.6,,,المنوفية,Monufia,36,0
+41000,الحلواصي البلد,ElHalwasy ElBalad,30.25438,31.050242,low,interpolated,2.4,,,المنوفية,Monufia,34,0
+41100,الحلواصي,ElHalwasy,30.261801,31.034141,medium,osm_unnamed_snap,1.0,10576905431,,المنوفية,Monufia,36,0
+41200,محله سبك,Mahallet Sobk,30.275789,31.009567,medium,osm_unnamed_snap,1.0,10576905400,,المنوفية,Monufia,31,0
+41300,اشمون,Ashmoon,30.298804,30.979402,high,osm_ar_exact_disamb,0.3,1039313722,أشمون,المنوفية,Monufia,38,0
+41400,سمادون,Samadoon,30.333891,30.957772,high,osm_ar_exact,0.3,1039310348,سمادون,المنوفية,Monufia,35,0
+41500,جامع بدر,Game Badr,30.354187,30.934623,medium,osm_unnamed_snap,1.0,10576689145,,المنوفية,Monufia,32,0
+41600,رمله الانجب,Ramlet ElAngab,30.367027,30.935122,medium,osm_unnamed_snap,1.0,10576673939,,المنوفية,Monufia,34,0
+41700,شما,Shama,30.387825,30.931477,medium,osm_unnamed_snap,1.0,10576658164,,المنوفية,Monufia,31,0
+41800,كمشوش,Kamshosh,30.419199,30.922756,medium,osm_unnamed_snap,1.0,10576658161,,المنوفية,Monufia,32,0
+41900,كفر السنابسه,Kafr ElSanabsa,30.44177,30.91743,medium,osm_unnamed_snap,1.0,10576636233,,المنوفية,Monufia,31,0
+42000,منوف,Menouf,30.462691,30.938879,high,osm_ar_exact,0.3,5741713896,منوف,المنوفية,Monufia,86,54
+42100,الحامول,ElHamool,30.478718,30.972892,medium,osm_unnamed_snap,1.0,10576295383,,المنوفية,Monufia,32,0
+42200,شنوان,Shanwan,30.507311,30.985153,low,interpolated,3.7,,,المنوفية,Monufia,34,0
+42300,شبين الكوم,Shibin ElKoom,30.553352,31.004896,high,osm_ar_exact,0.3,1024943367,شبين الكوم,المنوفية,Monufia,36,0
+42400,شبين الكوم الجديده,Shibin ElKoom ElGadida,30.569118,30.996223,high,osm_ar_exact,0.3,1094599866,شبين الكوم الجديدة,المنوفية,Monufia,34,0
+42500,طنبدي,Tanbdy,30.587139,30.984389,medium,osm_unnamed_snap,1.0,10576245625,,المنوفية,Monufia,29,0
+42600,كفر البتانون,Kafr ElBatanoon,30.602038,30.974656,high,osm_ar_exact,0.3,1094599531,كفر البتانون,المنوفية,Monufia,29,0
+42700,البتانون,ElBatanoon,30.616103,30.965411,medium,osm_unnamed_snap,1.0,10576245608,,المنوفية,Monufia,34,0
+42800,كفر طبلوها,Kafr Tabloha,30.644188,30.947017,medium,osm_unnamed_snap,1.0,10576245593,,المنوفية,Monufia,29,0
+42900,تلا,Tala,30.677873,30.944894,high,osm_ar_exact,0.3,1039343019,تلا,المنوفية,Monufia,36,0
+43000,كفر سليم,Kafr Silim,30.737609,30.975663,medium,osm_unnamed_snap,1.0,10576069819,,الغربية,Gharbia,29,0
+43100,كفر بطا,Kafr Bata,30.450287,31.133093,low,interpolated,5.1,,,المنوفية,Monufia,24,0
+43200,اسطنها,Astenha,30.448448,31.117881,low,interpolated,5.2,,,المنوفية,Monufia,24,0
+43300,ميت الواسطي,Meet ElWasta,30.444849,31.08811,low,interpolated,2.0,,,المنوفية,Monufia,24,0
+43400,سبك الضحاك,Sobk ElDahhak,30.442582,31.069352,high,osm_ar_exact,0.3,1039990521,سبك الضحاك,المنوفية,Monufia,24,0
+43500,الباجور,ElBajor,30.433971,31.037167,high,osm_ar_exact,0.3,1090890989,الباجور,المنوفية,Monufia,24,0
+43600,جروان,Gerwan,30.433954,31.014621,medium,osm_unnamed_snap,1.0,10576081351,,المنوفية,Monufia,24,0
+43700,كفر شبرا زنجي,Kafr Shobra Zengy,30.439074,31.000396,low,interpolated,1.5,,,المنوفية,Monufia,24,0
+43800,سرس الليان,Sers ElLayan,30.449418,30.971657,high,osm_ar_exact,0.3,1090891020,سرس الليان,المنوفية,Monufia,24,0
+43900,بشتيل,Bashteel,30.070986,31.185093,high,osm_ar_exact_disamb,0.3,2265692735,بشتيل,الجيزة,Giza,38,38
+44000,بشتيل البلد,Bashteel ELBalad,30.086911,31.183296,high,osm_ar_exact,0.3,1129560332,محطة بشتيل,الجيزة,Giza,38,0
+44100,الكوم الاحمر,ElKom ELAhmar,30.108317,31.184304,high,osm_ar_exact,0.3,13290620648,محطة قطار الكوم الأحمر,الجيزة,Giza,38,0
+44200,اوسيم,Osim,30.131317,31.162276,high,osm_ar_exact,0.3,10570283368,محطه قطار أوسيم (سقيل),الجيزة,Giza,38,0
+44300,برطس,Bertis,30.150624,31.142381,high,osm_ar_exact,0.3,10570274721,محطة قطار برطس,الجيزة,Giza,32,0
+44400,الجلاتمه,ElGalatma,30.168152,31.122392,low,interpolated,1.3,,,الجيزة,Giza,32,0
+44500,المناشي,ElManashy,30.174406,31.115261,high,osm_ar_exact,0.3,768553982,المناشي,الجيزة,Giza,38,0
+44600,ذات الكوم,Zat ElKom,30.174456,31.084885,low,interpolated,1.7,,,الجيزة,Giza,28,0
+44700,نكلا,Nakla,30.174483,31.069013,medium,osm_unnamed_snap,1.0,1814704159,,الجيزة,Giza,38,0
+44800,برقاش,BerKash,30.18717,31.048321,low,interpolated,2.4,,,الجيزة,Giza,34,0
+45000,القطا,ElQata,30.222694,30.990384,low,interpolated,9.1,,,المنوفية,Monufia,28,0
+45100,القطا البلد,ElQata ElBalad,30.24384,30.955898,low,interpolated,5.6,,,الجيزة,Giza,26,0
+45200,الجزيره الوسطانيه,ElJazeera ElWastania,30.248597,30.948139,low,interpolated,4.7,,,الجيزة,Giza,27,0
+45300,ابو غالب,Abo Ghalib,30.273443,30.907618,high,osm_ar_exact,0.3,768550630,محطة أبو غالب,الجيزة,Giza,36,0
+45400,وردان,Werdan,30.291332,30.88347,medium,osm_en_fuzzy,0.3,768550706,الوردين,الجيزة,Giza,39,3
+45500,بني سلامه,Bani Slama,30.319291,30.834635,medium,osm_unnamed_snap,1.0,10568031086,,الجيزة,Giza,28,0
+45600,الخطاطبه,ElKhatatba,30.357923,30.818457,high,osm_ar_exact,0.3,1040778821,الخطاطبة,المنوفية,Monufia,37,0
+45700,الاخماس,ElAkhmas,30.402817,30.82393,low,interpolated,2.6,,,المنوفية,Monufia,28,0
+45800,الطرانه,ElTarana,30.426633,30.826833,medium,osm_unnamed_snap,1.0,10567211879,,المنوفية,Monufia,31,0
+45900,كفر داود,Kafr Dawood,30.463006,30.823662,medium,osm_unnamed_snap,1.0,10567179352,,المنوفية,Monufia,43,4
+46000,البريجات,ElBeraygat,30.49654,30.814218,medium,osm_unnamed_snap,1.0,10567093678,,البحيرة,Beheira,34,0
+46100,مديريه التحرير,Moderyet ElTahrir,30.546176,30.800246,medium,osm_unnamed_snap,1.0,10565267141,,البحيرة,Beheira,41,3
+46200,ابو الخاوي,Abio ELKhawy,30.585145,30.790526,medium,osm_unnamed_snap,1.0,10565267102,,البحيرة,Beheira,31,0
+46300,الطيريه,ElTayria,30.645006,30.775851,high,osm_ar_exact,0.3,1040778954,محطة الطيرية,البحيرة,Beheira,31,0
+46400,الطيريه البلد,ElTayria ELBald,30.662371,30.763479,medium,osm_unnamed_snap,1.0,10565076427,,البحيرة,Beheira,40,0
+46500,الاتحاد,ElEttehad,30.675385,30.753725,medium,osm_unnamed_snap,1.0,10565170884,,البحيرة,Beheira,30,0
+46600,منشاه ابو ريه,Manshyet Abo Raya,30.682698,30.748213,low,interpolated,1.6,,,البحيرة,Beheira,31,0
+46700,واقد,Waqed,30.694932,30.738991,medium,osm_unnamed_snap,1.0,10565170881,,البحيرة,Beheira,40,0
+46800,كفر بولين,Kafr Boleen,30.707601,30.730894,low,interpolated,1.6,,,البحيرة,Beheira,31,0
+46900,كوم حماده,Kom Hamada,30.759378,30.697802,high,osm_ar_exact,0.3,1040778845,كوم حمادة,البحيرة,Beheira,40,0
+47000,النقيدي,ElNaqedy,30.788608,30.689373,low,interpolated,3.3,,,البحيرة,Beheira,28,0
+47100,صفط العنب,Saft ElEnab,30.815379,30.681653,low,interpolated,6.4,,,البحيرة,Beheira,32,0
+47200,قليشان,Qlishan,30.834953,30.676009,low,interpolated,5.6,,,البحيرة,Beheira,29,0
+47300,المجديه,ElMajdia,30.870063,30.665884,low,interpolated,1.6,,,البحيرة,Beheira,17,0
+47400,الغابه,ElGhaba,30.727222,31.719845,low,interpolated,5.3,,,الشرقية,Sharqia,26,0
+47500,خلف الله,Khalaf Allah,30.727274,31.733852,low,interpolated,6.3,,,الشرقية,Sharqia,26,0
+47600,الفدادنه,ElFadadna,30.727319,31.746023,low,interpolated,5.0,,,الشرقية,Sharqia,26,0
+47700,البيروم,ElBeyroom,30.727386,31.764087,low,interpolated,3.1,,,الشرقية,Sharqia,26,0
+47800,فاقوس,Fagus,30.727499,31.794516,high,osm_ar_exact,0.3,1039567147,فاقوس,الشرقية,Sharqia,36,10
+47900,جهينه,Juhayna,30.731164,31.813454,medium,osm_unnamed_snap,1.0,3745142980,,الشرقية,Sharqia,24,0
+48000,كفر الحاج عمر,Kafr Haj Omar,30.733378,31.845296,medium,osm_unnamed_snap,1.0,10584158555,,الشرقية,Sharqia,24,0
+48100,اكياد,Akyad,30.743069,31.877815,low,interpolated,3.3,,,الشرقية,Sharqia,24,0
+48200,الدراكه,ElDaraka,30.74745,31.892517,low,interpolated,4.8,,,الشرقية,Sharqia,24,0
+48300,اباظه,Abaza,30.755662,31.92007,low,interpolated,5.7,,,الشرقية,Sharqia,24,0
+48400,العزازي,ElAzazi,30.762306,31.942366,low,interpolated,3.4,,,الشرقية,Sharqia,24,0
+48500,الكبايشه,Elkabishia,30.772114,31.975274,medium,osm_unnamed_snap,1.0,10584291811,,الشرقية,Sharqia,24,0
+48600,الصالحيه,ElSalehia,30.779038,31.998465,high,osm_ar_exact,0.3,10584291820,محطة قطار الصالحية,الشرقية,Sharqia,24,24
+48700,غزاله عبدون,Ghazalet Abdoon,30.739101,31.807707,low,interpolated,3.9,,,الشرقية,Sharqia,12,0
+48800,اشكر,Ashkor,30.743298,31.812479,low,interpolated,5.3,,,الشرقية,Sharqia,12,0
+48900,السعادنه,ElSaadna,30.747945,31.817763,low,interpolated,6.8,,,الشرقية,Sharqia,12,0
+49000,الشهيد عبد المنعم رياض,ElShaheed Abdel Menem Reyad,30.763504,31.835453,low,interpolated,7.6,,,الشرقية,Sharqia,12,0
+49100,السماعنه,ElSamana,30.786407,31.861495,high,osm_ar_exact,0.3,1039566997,السماعنة,الشرقية,Sharqia,12,12
+49200,23يوليو,23 July,30.181983,31.355715,low,extrapolated,8.9,,,القليوبية,Qalyubia,28,28
+49300,القلج البلد,ElQalag Elbalad,30.187808,31.357594,low,extrapolated,7.1,,,القليوبية,Qalyubia,28,0
+49400,القلج,ElQalaag,30.193584,31.359458,low,extrapolated,5.3,,,القليوبية,Qalyubia,28,0
+49500,منشيه الجبل الاصفر,Manshyet ElGabal ElAsfar,30.198157,31.360934,low,extrapolated,3.8,,,القليوبية,Qalyubia,28,0
+49600,الجبل الاصفر,ElGabal ElAsfar,30.20403,31.362829,high,osm_ar_exact,0.3,325776301,محطة الجبل الأصفر,القليوبية,Qalyubia,28,0
+49700,الخانكه,ElKhanka,30.213032,31.365734,high,osm_ar_exact,0.3,768551883,الخانكة,القليوبية,Qalyubia,28,0
+49800,الطيران,ElTayaran,30.239873,31.358086,low,interpolated,0.9,,,القليوبية,Qalyubia,11,0
+49900,ابو زعبل البلد,Abo Zabal Elbalad,30.249715,31.355282,high,osm_ar_exact,0.3,325776390,ابو زعبل البلد,القليوبية,Qalyubia,28,0
+50000,محاجر ابو زعبل,Mahager Abo Zabal,30.270718,31.346027,low,interpolated,2.6,,,القليوبية,Qalyubia,28,0
+50100,العليقات,AlOlaykat,30.282396,31.340882,low,interpolated,2.8,,,القليوبية,Qalyubia,28,0
+50200,الشوبك,ElShobak,30.305102,31.330877,medium,osm_unnamed_snap,1.0,10581677984,,القليوبية,Qalyubia,28,0
+50300,منيه شبين,Menyet Shibin,30.313147,31.326909,medium,osm_unnamed_snap,1.0,3743988922,,القليوبية,Qalyubia,26,0
+51400,المعموره,ElMamora,31.294153,30.053873,high,osm_ar_exact,0.3,1039956176,محطة المعمورة,الإسكندرية,Alexandria,18,18
+51500,الكليه البحريه,ElKolya ElBahria,31.292792,30.07597,medium,osm_unnamed_snap,1.0,1039956166,,الإسكندرية,Alexandria,18,0
+51600,الطابيه,ElTalebia,31.27985,30.082656,high,osm_ar_exact,0.3,10601354357,الطابية,الإسكندرية,Alexandria,18,0
+51700,سماد ابو قير,Semad Abo Qeer,31.276642,30.094031,low,interpolated,1.2,,,البحيرة,Beheira,18,0
+51800,الطرح,ElTarh,31.267563,30.12623,high,osm_ar_exact,0.3,768567334,الطرح,البحيرة,Beheira,18,0
+51900,المعديه,ElMaadia,31.267161,30.173874,high,osm_ar_exact,0.3,10601354316,المعدية,البحيرة,Beheira,18,0
+52000,الابعديه,ElAbadia,31.265174,30.207136,medium,osm_unnamed_snap,1.0,10601328393,,البحيرة,Beheira,18,0
+52100,بحيره ادكو,Bohayret Edku,31.271182,30.230176,medium,osm_unnamed_snap,1.0,1039956403,,البحيرة,Beheira,18,0
+52200,الدمياطي,ElDamietty,31.277398,30.250581,medium,osm_unnamed_snap,1.0,10601328382,,البحيرة,Beheira,18,0
+52300,ادكو,Edku,31.298365,30.303669,high,osm_ar_exact,0.3,1039369281,إدكو,البحيرة,Beheira,18,0
+52400,مياح,Meyah,31.305724,30.331926,low,interpolated,2.8,,,البحيرة,Beheira,18,0
+52500,منشيه الامل,Mansheyet ElAml,31.31366,30.362395,medium,osm_unnamed_snap,1.0,10601077059,,البحيرة,Beheira,18,0
+52550,المشتل,ElMashtal,31.320511,30.385903,medium,osm_unnamed_snap,1.0,10601077047,,البحيرة,Beheira,4,0
+52600,البصيلي,ElBosaily,31.332143,30.403302,high,osm_ar_exact,0.3,1039369509,محطة البصيلي,البحيرة,Beheira,41,28
+52700,الزراعه,ElZeraa,31.374549,30.412235,low,interpolated,5.4,,,البحيرة,Beheira,16,0
+52800,برج رشيد,Borg Rasheed,31.394259,30.416388,low,interpolated,2.3,,,البحيرة,Beheira,16,0
+52900,رشيد,Rasheed,31.408311,30.419348,high,osm_ar_exact,0.3,1039369482,رشيد,البحيرة,Beheira,16,16
+53000,الحماد,ElHammad,31.328929,30.434854,medium,osm_unnamed_snap,1.0,10600965369,,البحيرة,Beheira,19,0
+53050,الشماسمه,AlShamasma,,,none,unlocated,,,,,,1,0
+53100,محله الامير,Mahallet ElAmir,31.320069,30.476108,medium,osm_unnamed_snap,1.0,10600965364,,البحيرة,Beheira,19,0
+53200,تقاطع ادفينا,Taqato Edfina,31.307714,30.49432,low,interpolated,2.3,,,البحيرة,Beheira,19,0
+53300,ادفينا الجديده,Edfina ElGadida,31.29292,30.516127,low,interpolated,1.1,,,البحيرة,Beheira,19,0
+53400,مطوبس,Motobas,31.286875,30.525038,high,osm_ar_exact,0.3,1039391155,مطوبس,كفر الشيخ,Kafr El Sheikh,20,0
+53500,الخيريه,ElKhayria,31.269429,30.550754,low,extrapolated,6.9,,,كفر الشيخ,Kafr El Sheikh,8,0
+53600,السعاده,ElSaada,31.258029,30.567559,low,extrapolated,10.2,,,كفر الشيخ,Kafr El Sheikh,8,0
+53700,الدوايده,ElDawayda,31.242227,30.590851,low,extrapolated,14.6,,,كفر الشيخ,Kafr El Sheikh,8,0
+53800,ابو غنيمه,Abo Ghneima,31.231251,30.607031,low,extrapolated,17.7,,,كفر الشيخ,Kafr El Sheikh,8,0
+53900,القصابي بحري,ElQassabi Bahary,,,none,unlocated,,,,,,8,8
+54000,شمشيره,Shamshera,31.263917,30.53336,low,interpolated,3.2,,,كفر الشيخ,Kafr El Sheikh,12,0
+54100,سيدي معروف,Sidi Maarouf,31.241895,30.541344,low,interpolated,4.4,,,كفر الشيخ,Kafr El Sheikh,12,0
+54200,فوه,Fowa,31.209941,30.552927,high,osm_ar_exact,0.3,1039398638,فوة,كفر الشيخ,Kafr El Sheikh,12,0
+54300,منيه الاشراف,Menyet ELAshraf,31.205336,30.566112,low,interpolated,2.3,,,كفر الشيخ,Kafr El Sheikh,12,0
+54400,قبريط,Qabreet,31.203449,30.571513,low,interpolated,2.1,,,كفر الشيخ,Kafr El Sheikh,12,0
+54500,السالميه بحري,ElSalmia Bahary,31.199208,30.583652,medium,osm_unnamed_snap,1.0,1039398551,,كفر الشيخ,Kafr El Sheikh,12,0
+54600,محله مالك,Mahallet Malek,31.161584,30.616295,low,interpolated,3.1,,,كفر الشيخ,Kafr El Sheikh,12,0
+54900,محرم بك,Muharram Bek,31.18609,29.926146,high,osm_ar_fuzzy,0.3,1111472626,محطة محرم بيك,الإسكندرية,Alexandria,28,18
+55000,جنينه القباري,Geneinet ElQabbari,31.166675,29.887028,low,interpolated,1.7,,,الإسكندرية,Alexandria,15,0
+55100,المتراس,ElMetrass,31.159443,29.872458,high,osm_ar_exact,0.3,1894349319,المتراس,الإسكندرية,Alexandria,16,0
+55200,مواصله المكس,Mowasalet ElMix,31.15195,29.850981,medium,osm_unnamed_snap,1.0,6132848326,,الإسكندرية,Alexandria,14,0
+55300,سيدي مرغب,Sidi Marghab,31.103306,29.83182,low,interpolated,6.2,,,الإسكندرية,Alexandria,14,0
+55400,التفرع,ElTafaroa,31.071877,29.81944,low,interpolated,6.8,,,الإسكندرية,Alexandria,14,0
+55500,عبد القادر,Abdel Kader,31.045048,29.812388,low,interpolated,3.6,,,الإسكندرية,Alexandria,18,0
+55600,العامريه,ElAmerya,31.018258,29.798319,medium,osm_unnamed_snap,1.0,6497561537,Station,الإسكندرية,Alexandria,20,0
+55700,كنج مريوط,Eikenji Mariout,30.999531,29.763497,low,interpolated,3.9,,,الإسكندرية,Alexandria,18,0
+55800,مريوط,Mariout,30.976812,29.721251,medium,osm_unnamed_snap,1.0,10559550678,,الإسكندرية,Alexandria,18,0
+55900,مطار برج العرب,Matar Burj ElArab,30.96078,29.67653,medium,osm_unnamed_snap,1.0,10559276733,,الإسكندرية,Alexandria,22,0
+56000,بهيج,Baheej,30.919937,29.596613,low,interpolated,5.3,,,الإسكندرية,Alexandria,16,0
+56100,برج العرب,Burj ElArab,30.895504,29.548807,high,osm_ar_exact,0.3,318014918,برج العرب,مطروح,Matrouh,22,0
+56200,الغربانيات,ElGharbanyat,30.877773,29.498532,low,interpolated,5.2,,,مطروح,Matrouh,14,0
+56300,الحمام,ElHammam,30.839315,29.38949,medium,osm_unnamed_snap,1.0,2925632632,,مطروح,Matrouh,27,8
+56400,الرويسات,ElRoseyat,30.812337,29.316391,high,osm_ar_exact,0.3,1540997074,محطة الرؤيسات,مطروح,Matrouh,12,0
+56500,العميد,ElAmeed,30.789569,29.194568,high,osm_ar_fuzzy,0.3,768577699,العمائد,مطروح,Matrouh,11,0
+56600,الجباسات,ElGabassat,30.798282,29.135197,low,interpolated,5.8,,,مطروح,Matrouh,8,0
+56700,العلمين,ElAlamein,30.824543,28.956264,high,osm_ar_exact,0.3,1889457787,العلمين,مطروح,Matrouh,18,0
+56800,تل العيسي,Tell ElEssi,30.891141,28.84875,low,interpolated,12.7,,,مطروح,Matrouh,8,0
+56900,سيدي عبد الرحمن,Sidi Abdel Rahman,30.969188,28.722755,high,osm_ar_exact,0.3,768026921,محطة سيدى عبد الرحمن,مطروح,Matrouh,16,0
+57000,غزال,Ghazal,31.014196,28.508293,low,interpolated,6.3,,,مطروح,Matrouh,9,0
+57100,الضبعه,ElDabaa,31.027637,28.444251,high,osm_ar_exact,0.3,1154166993,الضبعه,مطروح,Matrouh,20,4
+57200,سيدي شبيب,Sidi Shabib,31.055023,28.279676,low,interpolated,14.3,,,مطروح,Matrouh,4,0
+57300,جلال,Jalal,31.075878,28.154346,low,interpolated,25.2,,,مطروح,Matrouh,8,0
+57350,الفرديه,ElFardya,31.093918,28.045933,low,interpolated,34.6,,,مطروح,Matrouh,4,0
+57400,فوكه,Foka,31.124349,27.86306,low,interpolated,20.4,,,مطروح,Matrouh,8,0
+57500,راس الحكمه,Rass ELHekma,31.145205,27.73773,low,interpolated,9.5,,,مطروح,Matrouh,8,0
+57600,اطنوح,Atnooh,31.149456,27.71218,low,interpolated,7.3,,,مطروح,Matrouh,4,0
+57700,سيدي حنيش,Sidi Hanish,31.163379,27.628512,high,osm_ar_exact,0.3,1541494459,محطة سيدي حنيش,مطروح,Matrouh,7,0
+57800,سيدي حنوش,Sidi Hanouch,31.219392,27.459894,low,interpolated,10.0,,,مطروح,Matrouh,4,0
+57900,جراوله,Garawla,31.241258,27.394073,high,osm_ar_exact,0.3,318020034,الجراولة,مطروح,Matrouh,5,0
+58000,سملا,Smla,31.293573,27.332604,medium,osm_unnamed_snap,1.0,318020042,,مطروح,Matrouh,7,0
+58100,مرسي مطروح,Marsa Matruh,31.348578,27.244366,high,osm_ar_exact,0.3,1889476237,مرسى مطروح,مطروح,Matrouh,16,16
+58300,الحناوي,ElHinnawi,31.063381,30.849777,low,interpolated,2.4,,,كفر الشيخ,Kafr El Sheikh,25,0
+58400,نشرت,Nashrat,31.073534,30.857043,low,interpolated,3.5,,,كفر الشيخ,Kafr El Sheikh,38,0
+58500,المنشاه الصغري,ElMonshaa ElSoghra,31.080177,30.861797,low,interpolated,2.2,,,كفر الشيخ,Kafr El Sheikh,25,0
+58600,الحميديه,ElHamidiyeh,31.092222,30.870416,medium,osm_unnamed_snap,1.0,10598629205,,كفر الشيخ,Kafr El Sheikh,25,0
+58700,محله موسي,Mahallet Moussa,31.090923,30.89915,low,interpolated,2.8,,,كفر الشيخ,Kafr El Sheikh,38,0
+58800,رزقه اماي,Rezket Emmay,31.089947,30.920753,low,interpolated,2.2,,,كفر الشيخ,Kafr El Sheikh,25,0
+58900,سخا,Sakha,31.088915,30.943595,high,osm_ar_exact,0.3,10598591181,محطة سخا,كفر الشيخ,Kafr El Sheikh,38,0
+59000,كفر الشيخ,Kafr ElSheikh,31.109459,30.939161,high,osm_ar_exact,0.3,1024972031,كفر الشيخ,كفر الشيخ,Kafr El Sheikh,39,5
+59100,المرابعين,ElMorabeen,31.157589,31.001582,medium,osm_unnamed_snap,1.0,10598550524,,كفر الشيخ,Kafr El Sheikh,34,0
+59200,دقميره,Duqmira,31.167541,31.011633,low,interpolated,2.7,,,كفر الشيخ,Kafr El Sheikh,26,0
+59300,السلام – ابو منيس,ElSalam – Abominys,31.17697,31.021157,medium,osm_unnamed_snap,1.0,10598550508,,كفر الشيخ,Kafr El Sheikh,26,0
+59400,سيدي غازي,Sidi Ghazi,31.184214,31.044754,low,interpolated,1.9,,,كفر الشيخ,Kafr El Sheikh,35,0
+59500,الكوم الطويل,ElKom ELTaweel,31.197844,31.089156,high,osm_ar_exact,0.3,768579929,كوم الطويل,كفر الشيخ,Kafr El Sheikh,35,0
+59600,الكراكات,ElKarrakat,31.18672,31.119102,medium,osm_unnamed_snap,1.0,2120516647,,كفر الشيخ,Kafr El Sheikh,26,0
+59700,كوم الحجنه,Kom ElHegna,31.181255,31.133713,medium,osm_unnamed_snap,1.0,10596118005,,كفر الشيخ,Kafr El Sheikh,26,0
+59800,ابشان,Abshan,31.170158,31.163424,medium,osm_unnamed_snap,1.0,10596082420,,كفر الشيخ,Kafr El Sheikh,35,0
+59900,بيلا,Bella,31.175479,31.227541,medium,osm_unnamed_snap,1.0,10596062401,,كفر الشيخ,Kafr El Sheikh,35,5
+60000,كفر الجرايده,Kfar ElJarida,31.186905,31.263299,medium,osm_unnamed_snap,1.0,10596062376,,كفر الشيخ,Kafr El Sheikh,21,0
+60100,بهوت,Bahaut,31.19344,31.290918,medium,osm_unnamed_snap,1.0,10596062371,,كفر الشيخ,Kafr El Sheikh,21,0
+60200,منشيه البدراوي,Manshyet ElBadrawi,31.199705,31.317374,low,interpolated,2.6,,,الدقهلية,Dakahlia,21,0
+60300,بلقاس,Belqas,31.20872,31.355441,high,osm_ar_exact,0.3,1040811607,بلقاس,الدقهلية,Dakahlia,36,6
+60400,المحفوظه,Mahfooza,31.20201,31.422345,low,interpolated,6.4,,,الدقهلية,Dakahlia,27,0
+60500,بسنديله,Bessandilah,31.183565,31.406743,low,interpolated,5.3,,,الدقهلية,Dakahlia,36,0
+60600,كفر الشناوي,Kafr ElShennawy,31.196767,31.474624,low,interpolated,5.0,,,الدقهلية,Dakahlia,19,0
+60700,القراشيه,ElQarashiyah,30.84355,31.103709,low,interpolated,3.3,,,الغربية,Gharbia,21,0
+60800,منيه البندره,Menyet ElBandra,30.820783,31.118741,medium,osm_unnamed_snap,1.0,13747497239,,الغربية,Gharbia,21,0
+60900,الجميزه,ElJemmeza,30.789488,31.11739,low,interpolated,1.8,,,الغربية,Gharbia,21,0
+61000,شندلات,Shandalat,30.772501,31.116657,medium,osm_unnamed_snap,1.0,10598724545,,الغربية,Gharbia,21,0
+61100,بلكيم,Balkeem,30.751212,31.119606,low,interpolated,2.3,,,الغربية,Gharbia,21,0
+61200,25يناير,25 January,30.912425,29.622206,low,interpolated,6.0,,,الإسكندرية,Alexandria,2,0
+61300,برج العرب الجديده,Burj ElArab ElGadida,30.886979,29.593619,high,osm_ar_exact,0.3,3735776182,برج العرب الجديدة,مطروح,Matrouh,2,2
+61400,الدنابيق,ElDanabeeq,31.046569,31.443107,high,osm_ar_exact,0.3,1090854131,الدنابيق,الدقهلية,Dakahlia,16,0
+61500,سلامون,Salamoon,31.060087,31.463068,low,interpolated,1.7,,,الدقهلية,Dakahlia,16,0
+61600,شها,Shaha,31.070109,31.477867,medium,osm_unnamed_snap,1.0,1040800192,,الدقهلية,Dakahlia,16,0
+61700,محله دمنه,Mahallet Demna,31.069633,31.492563,high,osm_ar_exact,0.3,1090854062,محله دمنه,الدقهلية,Dakahlia,16,0
+61800,ميت ضافر,Meet Daafer,31.078789,31.545299,high,osm_ar_exact,0.3,1040800195,ميت ضافر,الدقهلية,Dakahlia,16,0
+61900,الخشاشنه,ElKhashashna,31.075835,31.568272,medium,osm_unnamed_snap,1.0,1040800255,,الدقهلية,Dakahlia,16,0
+62000,دكرنس,Dikirnis,31.078378,31.599045,high,osm_ar_exact,0.3,1027173234,دكرنس,الدقهلية,Dakahlia,16,0
+62100,ميت شرف,Meet Sharaf,31.089668,31.615931,low,interpolated,2.2,,,الدقهلية,Dakahlia,16,0
+62200,اشمون الرمان,Ashmoon ElRomman,31.099843,31.631151,low,interpolated,2.8,,,الدقهلية,Dakahlia,16,0
+62300,ميت الخولي,Meet ElKholee,31.11422,31.652655,high,osm_ar_exact,0.3,1040806676,ميت الخولى,الدقهلية,Dakahlia,16,0
+62400,ميت حديد,Meet Hadeed,31.11719,31.674855,medium,osm_unnamed_snap,1.0,6015460262,,الدقهلية,Dakahlia,16,0
+62500,ميت عاصم,Meet Asem,31.121333,31.694881,high,osm_ar_exact,0.3,1090852645,ميت عاصم,الدقهلية,Dakahlia,16,0
+62600,كفر علام,Kafr Allam,31.135899,31.7219,low,interpolated,3.1,,,الدقهلية,Dakahlia,16,0
+62700,الرياض,ElReyad,31.149905,31.747879,low,interpolated,2.9,,,الدقهلية,Dakahlia,16,0
+62800,الكردي,ElKordy,31.163678,31.773426,high,osm_ar_exact,0.3,1090853306,الكردي,الدقهلية,Dakahlia,16,0
+62900,ميت سلسيل,Meet Salsil,31.163382,31.805552,high,osm_ar_exact,0.3,1090852593,ميت سلسيل,الدقهلية,Dakahlia,16,0
+63000,ميت مرجا سلسيل,Meet Marja Salsil,31.168756,31.837849,medium,osm_unnamed_snap,1.0,10593884388,,الدقهلية,Dakahlia,16,0
+63100,الجماليه,ElGamalyia,31.172767,31.86935,high,osm_ar_exact,0.3,1040806727,الجماليه,الدقهلية,Dakahlia,16,0
+63200,ميت خضير,Meet Khodeer,31.155694,31.89645,high,osm_ar_exact,0.3,1040806678,ميت خضير,الدقهلية,Dakahlia,16,0
+63300,المنزله,ElManzala,31.149027,31.932717,high,osm_ar_exact,0.3,1040806712,المنزلة,الدقهلية,Dakahlia,16,0
+63400,دار السلام,Dar EISalaam,31.157913,31.972249,medium,osm_unnamed_snap,1.0,10593907509,,الدقهلية,Dakahlia,16,0
+63450,عصافره المنزله,Asafret ElManzala,31.170772,32.015281,low,interpolated,2.3,,,الدقهلية,Dakahlia,16,0
+63500,المطريه,ElMataria,31.176686,32.035075,high,osm_ar_exact,0.3,1150599673,محطة سكة حديد المطرية,الدقهلية,Dakahlia,16,16
+63600,سانجرج,Sanjurge,30.508723,30.933043,medium,osm_unnamed_snap,1.0,10572300270,,المنوفية,Monufia,20,0
+63700,منشيه سلطان,Manshyet ElSultan,30.529753,30.917797,high,osm_ar_exact,0.3,768095266,منشية سلطان,المنوفية,Monufia,20,0
+63800,العراقيه,ElErakia,30.54696,30.907702,medium,osm_unnamed_snap,1.0,8175942601,,المنوفية,Monufia,20,0
+63900,عشما,Ashama,30.570783,30.896784,medium,osm_unnamed_snap,1.0,1039316492,,المنوفية,Monufia,20,0
+64000,الشهداء,ElShohada,30.589091,30.897562,high,osm_ar_exact,0.3,1039314336,محطة الشهداء,المنوفية,Monufia,20,0
+64100,دنشواي,Dinshway,30.62437,30.866743,low,interpolated,5.2,,,المنوفية,Monufia,20,0
+64200,دناصور,Dinosaur,30.645537,30.848252,low,interpolated,6.5,,,المنوفية,Monufia,20,0
+64300,زاويه البقلي,Zawyet EBakli,30.658347,30.837061,low,interpolated,4.7,,,المنوفية,Monufia,20,0
+64400,بشتامي,Beshtamy,30.671363,30.825691,low,interpolated,2.8,,,المنوفية,Monufia,20,0
+64500,عمروس,Amros,30.69027,30.809174,medium,osm_unnamed_snap,1.0,10570741969,,الغربية,Gharbia,20,0
+64600,كوم مازن,Kom Mazen,30.700812,30.807853,low,interpolated,1.1,,,الغربية,Gharbia,20,0
+64700,طنوب,Tanob,30.714869,30.806091,medium,osm_unnamed_snap,1.0,1039316720,,الغربية,Gharbia,20,0
+64800,عزبه الحطيم,Ezbet ElHateem,30.739733,30.809455,medium,osm_unnamed_snap,1.0,10570696028,,الغربية,Gharbia,20,0
+64900,مشله,Mashalla,30.755803,30.813447,low,interpolated,2.7,,,الغربية,Gharbia,20,0
+65000,كفر مشله,Kafr Mashalla,30.771051,30.817235,low,interpolated,3.0,,,الغربية,Gharbia,20,0
+65100,قصر نصر الدين,Qasr Nasreddin,30.788351,30.821533,medium,osm_unnamed_snap,1.0,10570686792,,الغربية,Gharbia,20,0
+65200,الدلجمون,ElDalgamon,30.805487,30.818077,low,interpolated,2.0,,,الغربية,Gharbia,20,0
+65250,عدلي منصور,Adly Mansour,30.146402,31.421271,high,osm_ar_exact,0.3,9885252635,عدلى منصور,القاهرة,Cairo,4,4
+65300,العبور,ElOboor,30.162926,31.48161,high,osm_ar_exact,0.3,9885252630,العبور,القاهرة,Cairo,4,0
+65400,درب الحاج,Darb ELHag,30.171394,31.542024,high,osm_ar_exact,0.3,1520340238,درب الحاج,القليوبية,Qalyubia,4,0
+65500,الشروق,ElSherook,30.181549,31.623334,high,osm_ar_exact_disamb,0.3,12269139466,محطة قطار الشروق,القاهرة,Cairo,4,0
+65550,بدر,Badr,30.17519,31.716019,high,osm_ar_exact,0.3,9885252627,بدر,القاهرة,Cairo,4,0
+65600,الربيكي,ElRobaiky,30.169062,31.771464,high,osm_ar_fuzzy,0.3,768766285,محطة الروبيكي,القاهرة,Cairo,4,0
+65650,وادي السيل,wady el sail,30.163043,31.899763,high,osm_ar_exact,0.3,768766275,محطة وادي السيل,السويس,Suez,4,0
+65665,جبل الجفره,Jabal al Jafra,30.15,31.966667,high,osm_ar_fuzzy,0.3,768766271,محطة جبل الجفرا,السويس,Suez,4,0
+65700,جبل عوبيد,Gabl Obed,30.109,32.168619,low,interpolated,21.6,,,السويس,Suez,4,0
+65900,العجرود الجديده,ElAjroud ElGadida,30.058509,32.417318,medium,osm_unnamed_snap,1.0,10680197358,,السويس,Suez,4,0
+69000,القنطره شرق,Qantra Sharq,,,none,unlocated,,,,,,4,4
+69400,جلبانه,Jilbana,30.93487,32.501215,high,osm_ar_exact,0.3,1088062020,محطة قطار جلبانة,الاسماعيلية,Ismailia,4,0
+69700,بالوظه,Baloza,30.997936,32.556183,high,osm_ar_exact,0.3,1088063381,محطة قطار بالوظة,بورسعيد,Port Said,4,0
+69800,سلام مصر,Salam misr,30.997718,32.612979,low,interpolated,5.6,,,شمال سيناء,North Sinai,4,0
+70000,رمانه,Romana,30.997453,32.681946,medium,osm_unnamed_snap,1.0,1871908167,,شمال سيناء,North Sinai,4,0
+70200,30 يونيه (رابعه),30 Jun(Rabaa),30.998677,32.772175,low,interpolated,7.1,,,شمال سيناء,North Sinai,4,0
+70400,نجيله,Najila,30.999592,32.839609,medium,osm_unnamed_snap,1.0,1871904376,,شمال سيناء,North Sinai,4,0
+70600,بئر العبد,Ber Elabd,31.003426,33.007644,high,osm_ar_exact,0.3,1040814157,بئر العبد,شمال سيناء,North Sinai,4,4
+80900,الجزار,ElGazar,,,none,unlocated,,,,,,10,0
+81400,السادات,ElSadat,,,none,unlocated,,,,,,10,10
