@@ -2,7 +2,7 @@
 
 Interactive map of every Egyptian National Railways (ENR) passenger train: 827 trains, 657 stations, 14,934 scheduled stops.
 
-**Live site:** https://YOUR-USERNAME.github.io/egypt-rail-map/
+**Live site:** https://salahalshafey.github.io/egypt-rail-map/
 
 - Departure board for every station, with a day picker
 - Trip planner for direct trains between any two stations
