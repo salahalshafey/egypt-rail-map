@@ -1,16 +1,22 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Egypt rail map – every ENR train and station</title>
-<meta name="description" content="Interactive map of every Egyptian National Railways train and station: departures, trip planner and estimated train positions from the timetable.">
-<meta property="og:title" content="Egypt rail map">
+<meta name="description" content="Interactive map of every Egyptian National Railways train and station: departures, trip planner and estimated train positions from the timetable. خريطة تفاعلية لكل قطارات ومحطات السكة الحديد في مصر.">
+<meta property="og:title" content="Egypt rail map · خريطة سكك حديد مصر">
 <meta property="og:description" content="Every ENR train and station on one map, with departures, a trip planner and estimated train positions.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚆</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+// pick the language before first paint so the layout direction doesn't flash
+(function(){var l;try{var u=new URLSearchParams(location.search).get('lang');l=(u==='ar'||u==='en')?u:localStorage.getItem('lang')}catch(e){}
+if(l!=='ar'&&l!=='en')l='ar'; // Arabic is the default until the visitor picks English
+window.__LANG=l;document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr';})();
+</script>
 <style>
 :root{
   --land:#F2F3EE; --outside:#E2E7EA; --border:#C9CEC7; --track:#1D4E9E; --track-soft:#8FA6CC;
@@ -31,11 +37,15 @@
 html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;height:100%;background:var(--panel);color:var(--ink);
   font:15px/1.45 "IBM Plex Sans Arabic","Segoe UI",Tahoma,"Noto Sans Arabic",system-ui,sans-serif;font-feature-settings:"tnum" 1}
-button,input{font:inherit;color:inherit}
+button,input,select{font:inherit;color:inherit}
 .app{display:grid;grid-template-columns:400px 1fr;height:100%}
-aside{display:flex;flex-direction:column;min-height:0;border-right:1px solid var(--line);background:var(--panel)}
+aside{display:flex;flex-direction:column;min-height:0;border-inline-end:1px solid var(--line);background:var(--panel)}
 .top{padding:18px 20px 14px;border-bottom:1px solid var(--line)}
+.top-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
 h1{margin:0;font-size:20px;font-weight:700;letter-spacing:-.01em}
+:lang(ar) h1{letter-spacing:0}
+.langbtn{flex:none;border:1px solid var(--line);background:var(--panel-2);border-radius:999px;padding:3px 12px;cursor:pointer;font-size:13px;font-weight:600}
+.langbtn:hover{border-color:var(--track)}
 .sub{margin:2px 0 12px;color:var(--muted);font-size:13px}
 .search{position:relative}
 .search input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel-2);outline:none}
@@ -43,19 +53,19 @@ h1{margin:0;font-size:20px;font-weight:700;letter-spacing:-.01em}
 .sugg{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--panel);border:1px solid var(--line);border-radius:8px;
   box-shadow:0 8px 24px rgba(0,0,0,.14);z-index:20;max-height:320px;overflow:auto;display:none}
 .sugg.on{display:block}
-.sugg button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;padding:8px 12px;border:0;background:none;cursor:pointer}
+.sugg button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:start;padding:8px 12px;border:0;background:none;cursor:pointer}
 .sugg button:hover,.sugg button.act{background:var(--panel-2)}
-.sugg .k{color:var(--muted);font-size:12px}
+.sugg .k,.k2{color:var(--muted)}
+.sugg .k{font-size:12px}
 .body{flex:1;overflow:auto;padding:16px 20px 28px}
 .crumb{border:0;background:none;color:var(--track);padding:0;margin:0 0 10px;cursor:pointer;font-weight:500}
-span.ar:not(.nm){unicode-bidi:isolate;direction:rtl}
-.tl .nm{text-align:left}
-.ar{font-family:"IBM Plex Sans Arabic","Noto Sans Arabic",Tahoma,sans-serif}
-.title-ar{font-size:30px;font-weight:700;line-height:1.15;margin:0;direction:rtl;text-align:left}
+.tl .nm{text-align:start}
+.rtl-text{direction:rtl;unicode-bidi:isolate}
+.title-main{font-size:30px;font-weight:700;line-height:1.15;margin:0}
 .title-en{margin:2px 0 0;color:var(--muted)}
 .facts{display:flex;flex-wrap:wrap;gap:6px 16px;margin:12px 0;font-size:13px;color:var(--muted)}
 .facts b{color:var(--ink);font-weight:600}
-.note{font-size:13px;color:var(--muted);background:var(--panel-2);border-left:3px solid var(--border);padding:8px 10px;border-radius:0 6px 6px 0;margin:10px 0}
+.note{font-size:13px;color:var(--muted);background:var(--panel-2);border-inline-start:3px solid var(--border);padding:8px 10px;border-start-end-radius:6px;border-end-end-radius:6px;margin:10px 0}
 .chips{display:flex;gap:4px;flex-wrap:wrap;margin:12px 0 8px}
 .chip{border:0;background:var(--chip);padding:5px 10px;border-radius:999px;font-size:13px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--chip-on);color:var(--chip-on-ink)}
@@ -67,7 +77,7 @@ span.ar:not(.nm){unicode-bidi:isolate;direction:rtl}
 .row .d{min-width:0}
 .row .d .main{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .d .meta{font-size:12px;color:var(--muted)}
-.row .n{font-size:13px;color:var(--muted);text-align:right}
+.row .n{font-size:13px;color:var(--muted);text-align:end}
 .row:focus-visible,.chip:focus-visible,.crumb:focus-visible,button:focus-visible{outline:2px solid var(--track);outline-offset:2px}
 .empty{color:var(--muted);padding:14px 0}
 h2{font-size:14px;font-weight:600;margin:20px 0 8px}
@@ -80,40 +90,40 @@ h2{font-size:14px;font-weight:600;margin:20px 0 8px}
 .tl li{display:grid;grid-template-columns:18px 1fr auto;gap:10px;padding:6px 0;cursor:pointer;align-items:center}
 .tl li .dot{width:11px;height:11px;border-radius:50%;border:2.5px solid var(--signal);background:var(--panel);justify-self:center;position:relative;z-index:1}
 .tl li.end .dot{background:var(--signal)}
-.tl::before{content:"";position:absolute;left:8px;top:14px;bottom:14px;width:3px;background:var(--signal);opacity:.35;border-radius:2px}
+.tl::before{content:"";position:absolute;inset-inline-start:8px;top:14px;bottom:14px;width:3px;background:var(--signal);opacity:.35;border-radius:2px}
 .tl li:hover .nm{text-decoration:underline}
 .tl .nm{font-weight:500}
 .tl .nm small{display:block;font-weight:400;color:var(--muted);font-size:12px}
-.tl .tm{text-align:right;font-size:13px;white-space:nowrap}
-.tl .tm .p1{color:var(--signal);font-size:11px;margin-left:2px}
+.tl .tm{text-align:end;font-size:13px;white-space:nowrap}
+.tl .tm .p1{color:var(--signal);font-size:11px;margin-inline-start:2px}
 .home-list .row{grid-template-columns:1fr auto}
 .dl li{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
-.dl a{color:var(--track);font-weight:500;margin-right:8px}
-.dl span{color:var(--muted);font-size:12px;text-align:right}
+.dl a{color:var(--track);font-weight:500;margin-inline-end:8px}
+.dl span{color:var(--muted);font-size:12px;text-align:end}
 /* map */
 .map{position:relative;min-height:0;background:var(--outside);overflow:hidden;touch-action:none}
 canvas{display:block;width:100%;height:100%;cursor:grab}
 canvas.drag{cursor:grabbing}
-.ctrl{position:absolute;right:14px;top:14px;display:flex;flex-direction:column;gap:6px}
+.ctrl{position:absolute;inset-inline-end:14px;top:14px;display:flex;flex-direction:column;gap:6px}
 .ctrl button{width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:var(--panel);cursor:pointer;font-size:18px;line-height:1}
 .ctrl .lang{font-size:13px;font-weight:600}
-.legend{position:absolute;left:14px;bottom:14px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;color:var(--muted);display:grid;gap:4px}
+.legend{position:absolute;inset-inline-start:14px;bottom:14px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;color:var(--muted);display:grid;gap:4px}
 .legend span{display:flex;align-items:center;gap:7px}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:50%}
 .tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:13px;box-shadow:0 4px 14px rgba(0,0,0,.15);display:none;white-space:nowrap}
-.credit{position:absolute;right:10px;bottom:8px;font-size:11px;color:var(--muted);background:var(--halo);padding:2px 6px;border-radius:4px}
+.credit{position:absolute;inset-inline-end:10px;bottom:8px;font-size:11px;color:var(--muted);background:var(--halo);padding:2px 6px;border-radius:4px}
 
-.livebar{position:absolute;left:14px;top:14px;right:66px;max-width:430px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.livebar{position:absolute;inset-inline-start:14px;top:14px;inset-inline-end:66px;max-width:430px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
 .lb-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .lb-dot{width:9px;height:9px;border-radius:50%;background:var(--live);box-shadow:0 0 0 0 var(--live);animation:pulse 2s infinite}
 .livebar.paused .lb-dot{animation:none;background:var(--muted)}
 @keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--live) 60%,transparent)}70%{box-shadow:0 0 0 8px transparent}100%{box-shadow:0 0 0 0 transparent}}
 .lb-time{font-weight:600}
 .lb-count{color:var(--muted)}
-.lb-btn{margin-left:auto;border:1px solid var(--line);background:var(--panel-2);border-radius:6px;padding:3px 9px;cursor:pointer;font-size:12px}
+.lb-btn{margin-inline-start:auto;border:1px solid var(--line);background:var(--panel-2);border-radius:6px;padding:3px 9px;cursor:pointer;font-size:12px}
 .lb-scrub{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;margin-top:8px}
 .lb-scrub[hidden]{display:none}
-.lb-scrub select{font:inherit;font-size:12px;padding:3px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2)}
+.lb-scrub select{font-size:12px;padding:3px;border-radius:6px;border:1px solid var(--line);background:var(--panel-2)}
 .lb-scrub input{width:100%;accent-color:var(--live)}
 .lb-note{grid-column:1/-1;color:var(--muted);font-size:11px}
 .live-now{font-size:13px;padding:8px 10px;border-radius:6px;background:var(--panel-2);margin:10px 0;color:var(--muted)}
@@ -129,21 +139,22 @@ canvas.drag{cursor:grabbing}
 .lc-bar i{display:block;height:100%;background:var(--live)}
 .lc-km{display:flex;justify-content:space-between;color:var(--muted);margin-top:4px}
 .lc-up{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:10px}
-.lc-up th{text-align:left;font-weight:500;color:var(--muted);font-size:11px;padding:2px 0}
+.lc-up th{text-align:start;font-weight:500;color:var(--muted);font-size:11px;padding:2px 0}
 .lc-up td{padding:3px 0;border-top:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
-.lc-up td:nth-child(n+2),.lc-up th:nth-child(n+2){text-align:right}
+.lc-up td:nth-child(n+2),.lc-up th:nth-child(n+2){text-align:end}
 .lc-how{font-size:11px;color:var(--muted);margin:10px 0 0}
 .tip{white-space:normal;max-width:300px}
 .tl li.passed{opacity:.5}
 .tl li.here .dot{background:var(--live);border-color:var(--live)}
 @media (prefers-reduced-motion:reduce){.lb-dot{animation:none}}
-@media (max-width:820px){.livebar{left:8px;top:8px;right:56px;padding:6px 8px}.lb-count{display:none}}
+@media (max-width:820px){.livebar{inset-inline-start:8px;top:8px;inset-inline-end:56px;padding:6px 8px}.lb-count{display:none}}
 @media (max-width:820px){
   .app{grid-template-columns:1fr;grid-template-rows:46% 54%}
   .map{order:1;grid-row:1}
-  aside{order:2;grid-row:2;border-right:0;border-top:1px solid var(--line)}
+  aside{order:2;grid-row:2;border-inline-end:0;border-top:1px solid var(--line)}
   .top{padding:12px 16px 10px} .body{padding:12px 16px 24px}
-  .legend{display:none} .title-ar{font-size:26px} .sub{display:none} h1{font-size:17px;margin-bottom:8px}
+  .legend{display:none} .title-main{font-size:26px} .sub{display:none} h1{font-size:17px}
+  .top-row{margin-bottom:8px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -152,36 +163,39 @@ canvas.drag{cursor:grabbing}
 <div class="app">
   <aside>
     <div class="top">
-      <h1>Egypt rail map</h1>
+      <div class="top-row">
+        <h1 data-i="h1">Egypt rail map</h1>
+        <button class="langbtn" id="langTop" type="button"></button>
+      </div>
       <p class="sub" id="sub"></p>
       <div class="search">
-        <input id="q" type="search" autocomplete="off" placeholder="Search a station or train number" aria-label="Search a station or train number">
+        <input id="q" type="search" autocomplete="off" data-ip="searchPh" data-ia="searchPh" placeholder="Search a station or train number" aria-label="Search a station or train number">
         <div class="sugg" id="sugg" role="listbox"></div>
       </div>
     </div>
     <div class="body" id="panel" tabindex="-1"></div>
   </aside>
   <div class="map" id="mapwrap">
-    <canvas id="map" aria-label="Map of Egyptian railway lines and stations"></canvas>
+    <canvas id="map" data-ia="mapAria" aria-label="Map of Egyptian railway lines and stations"></canvas>
     <div class="ctrl">
-      <button id="zin" aria-label="Zoom in">+</button>
-      <button id="zout" aria-label="Zoom out">−</button>
-      <button id="zfit" aria-label="Show all of Egypt">⤢</button>
-      <button id="lang" class="lang" aria-label="Switch map label language">ع</button>
+      <button id="zin" data-ia="zoomIn" aria-label="Zoom in">+</button>
+      <button id="zout" data-ia="zoomOut" aria-label="Zoom out">−</button>
+      <button id="zfit" data-ia="fitAll" aria-label="Show all of Egypt">⤢</button>
+      <button id="lang" class="lang" aria-label="عرض الموقع بالعربية" lang="ar">ع</button>
     </div>
     <div class="legend" aria-hidden="true">
-      <span><i style="background:var(--track)"></i>Station, located from map data</span>
-      <span><i style="border:2px solid var(--muted);background:transparent"></i>Position estimated from track km</span>
-      <span><i style="background:var(--live);border-radius:2px"></i>Train, position estimated from timetable</span>
-      <span><i style="background:var(--signal)"></i>Selected train</span>
+      <span><i style="background:var(--track)"></i><bdi data-i="lgStation">Station, located from map data</bdi></span>
+      <span><i style="border:2px solid var(--muted);background:transparent"></i><bdi data-i="lgEst">Position estimated from track km</bdi></span>
+      <span><i style="background:var(--live);border-radius:2px"></i><bdi data-i="lgTrain">Train, position estimated from timetable</bdi></span>
+      <span><i style="background:var(--signal)"></i><bdi data-i="lgSel">Selected train</bdi></span>
     </div>
     <div class="livebar" id="livebar">
-      <div class="lb-row"><span class="lb-dot" aria-hidden="true"></span><span><span id="lbMode">Live</span> <span class="lb-time" id="lbTime"></span></span><span class="lb-count" id="lbCount"></span><button class="lb-btn" id="lbChange" aria-expanded="false" aria-controls="lbScrub">Change time</button></div>
-      <div class="lb-scrub" id="lbScrub" hidden><select id="lbDay" aria-label="Day"></select><input id="lbRange" type="range" min="0" max="1439" step="1" aria-label="Time of day"><button class="lb-btn" id="lbLive">Back to live</button>
-        <span class="lb-note">Positions come from the ENR timetable, not GPS, so delays aren’t shown.</span></div>
+      <div class="lb-row"><span class="lb-dot" aria-hidden="true"></span><span><span id="lbMode">Live</span> <span class="lb-time" id="lbTime"></span></span><span class="lb-count" id="lbCount"></span><button class="lb-btn" id="lbChange" data-i="lbChange" aria-expanded="false" aria-controls="lbScrub">Change time</button></div>
+      <div class="lb-scrub" id="lbScrub" hidden><select id="lbDay" data-ia="lbDay" aria-label="Day"></select><input id="lbRange" type="range" min="0" max="1439" step="1" data-ia="lbRange" aria-label="Time of day"><button class="lb-btn" id="lbLive" data-i="lbLive">Back to live</button>
+        <span class="lb-note" data-i="lbNote">Positions come from the ENR timetable, not GPS, so delays aren’t shown.</span></div>
     </div>
     <div class="tip" id="tip"></div>
-    <div class="credit">Map data © OpenStreetMap contributors</div>
+    <div class="credit" data-i="credit">Map data © OpenStreetMap contributors</div>
   </div>
 </div>
 <script>
@@ -192,9 +206,130 @@ const DAYN=['Sat','Sun','Mon','Tue','Wed','Thu','Fri'];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const hm=m=>{m=((Math.round(m)%1440)+1440)%1440;return String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0')};
-const dur=m=>Math.floor(m/60)+' h '+String(m%60).padStart(2,'0')+' min';
-const normAr=s=>(s||'').replace(/[\u064B-\u0652\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ة/g,'ه').replace(/ى/g,'ي').replace(/\s+/g,' ').trim();
+const normAr=s=>(s||'').replace(/[ً-ْـ]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ة/g,'ه').replace(/ى/g,'ي').replace(/\s+/g,' ').trim();
 const normEn=s=>(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+
+/* ---------- language ---------- */
+let lang=window.__LANG==='en'?'en':'ar';
+const isAr=()=>lang==='ar';
+const DAYS={en:DAYN,ar:['السبت','الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة']};
+const DAYSL={en:['Saturday','Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'],ar:DAYS.ar};
+const dayS=i=>DAYS[lang][i], dayL=i=>DAYSL[lang][i];
+// Arabic counted nouns: [one, two, 3–10 plural, 11–99 accusative, 100+ / 0 genitive]
+function arN(n,f){if(n===1)return f[0];if(n===2)return f[1];const r=n%100;return n+' '+(r>=3&&r<=10?f[2]:r>=11?f[3]:f[4])}
+const AR_TRAIN=['قطار واحد','قطاران','قطارات','قطارًا','قطار'];
+const AR_STN=['محطة واحدة','محطتان','محطات','محطة','محطة'];
+const AR_STOP=['توقف واحد','توقفان','توقفات','توقفًا','توقف'];
+const GOV_AR={'Alexandria':'الإسكندرية','Aswan':'أسوان','Asyut':'أسيوط','Beheira':'البحيرة','Beni Suef':'بني سويف','Cairo':'القاهرة','Dakahlia':'الدقهلية','Damietta':'دمياط','Faiyum':'الفيوم','Gharbia':'الغربية','Giza':'الجيزة','Ismailia':'الإسماعيلية','Kafr El Sheikh':'كفر الشيخ','Luxor':'الأقصر','Matrouh':'مطروح','Minya':'المنيا','Monufia':'المنوفية','New Valley':'الوادي الجديد','North Sinai':'شمال سيناء','Port Said':'بورسعيد','Qalyubia':'القليوبية','Qena':'قنا','Sharqia':'الشرقية','Sohag':'سوهاج','Suez':'السويس'};
+const RUN_AR={'Daily':'يوميًا','Daily except Fridays and public holidays':'يوميًا ما عدا الجمعة والإجازات الرسمية','Daily except Thursdays and eves of public holidays':'يوميًا ما عدا الخميس وليالي الإجازات الرسمية','Special service – runs per daily instructions':'خدمة خاصة – يعمل حسب التعليمات اليومية'};
+const MON_AR={Jan:'يناير',Feb:'فبراير',Mar:'مارس',Apr:'أبريل',May:'مايو',Jun:'يونيو',Jul:'يوليو',Aug:'أغسطس',Sep:'سبتمبر',Oct:'أكتوبر',Nov:'نوفمبر',Dec:'ديسمبر'};
+const TX={
+  en:{
+    docTitle:'Egypt rail map – every ENR train and station', h1:'Egypt rail map',
+    sub:()=>`${T.length} trains, ${S.length} stations. ${verText()}.`,
+    searchPh:'Search a station or train number', mapAria:'Map of Egyptian railway lines and stations',
+    zoomIn:'Zoom in', zoomOut:'Zoom out', fitAll:'Show all of Egypt',
+    langBtn:'العربية', langMap:'ع', langAria:'عرض الموقع بالعربية',
+    lgStation:'Station, located from map data', lgEst:'Position estimated from track km', lgTrain:'Train, position estimated from timetable', lgSel:'Selected train',
+    live:'Live', ttAt:'Timetable at', lbChange:'Change time', lbDay:'Day', lbRange:'Time of day', lbLive:'Back to live',
+    lbNote:'Positions come from the ENR timetable, not GPS, so delays aren’t shown.', credit:'Map data © OpenStreetMap contributors',
+    lbCount:(mv,st)=>`${mv} moving, ${st} at stations`,
+    km:v=>`${v} km`, kmh:v=>`${v} km/h`, dur:(h,m)=>`${h} h ${m} min`,
+    nTrains:n=>`${n} train${n===1?'':'s'}`, perDay:n=>`${n} trains a day`, callsDay:n=>`<b>${n}</b> calls a day`,
+    nStops:n=>`${n} stop${n===1?'':'s'}`,
+    train:n=>`Train ${n}`, fromTo:(a,b)=>`${a} to ${b}`, toX:x=>`to ${x}`, fromX:x=>`from ${x}`,
+    noMatch:v=>`No match for “${v}”.`, back:'‹ All stations', dayGroup:'Day of travel', today:'(today)',
+    liveNow:n=>`${n} trains on the line now`, liveAt:(n,t,d)=>`${n} trains on the line at ${t} on ${d}`,
+    liveNote:'Click a train on the map or in this list to follow it. Positions are estimated from the timetable.',
+    plan:'Plan a trip', fromSt:'From station', toSt:'To station', swap:'Swap ⇅', findDirect:'Find direct trains', busiest:'Busiest stations',
+    dlHead:'Download the data', dlSqlite:'SQLite database', dlSqliteD:'all tables, 2.3 MB', dlXlsx:'Excel workbook', dlXlsxD:'one sheet per table, 1.2 MB',
+    dlGtfs:'GTFS feed', dlGtfsD:'for transit apps', dlGeoD:'map layers', dlCsv:'CSV files', dlCsvD:'stations, trains, stop_times and more',
+    disclaimer:'Unofficial and not affiliated with Egyptian National Railways. Check times with ENR (enr.gov.eg, 1661) before travelling. Data: ENR timetable via the Sekka project; station locations © OpenStreetMap contributors (ODbL).',
+    clickNote:'Click any dot on the map to open its departures. Hollow dots are stations whose position was estimated from the track kilometre and may be a few km off.',
+    gov:g=>`${g} governorate`, stCode:id=>`ENR station ${id}`,
+    conf:['Location unknown – this station isn’t on the map.','Position estimated from the track kilometre (about ±{e} km).','Located from map data (about ±{e} km).','Located from OpenStreetMap.'],
+    jump:t=>`Jump to next departure (${t})`, termHere:'Arrives, terminates here', startsHere:'Starts here', arrAbbr:'Arr', special:'special',
+    noCalls:d=>`No trains call here on ${d}. Pick another day above.`,
+    specialRun:'Special – runs on instruction', nextDay:'next day', dep:'dep', arr:'arr', notOnMap:'not on map',
+    arrives:t=>`arrives ${t}`,
+    noDirect:d=>`No direct train runs between these stations on ${d}. Try another day, or travel via a bigger station such as Cairo, Tanta or Banha.`,
+    now:'now', inMin:v=>`in ${v} min`, inHM:(h,m)=>`in ${h} h ${m} min`,
+    arrived:x=>`Arrived at ${x}`, waiting:(x,t)=>`Waiting to depart ${x} at ${t}`, stopped:(x,t)=>`Stopped at ${x}, departs ${t}`,
+    moving:'Moving', about:v=>`About ${v} km/h`, before:(k,x)=>`${k} km before ${x}`, due:t=>`due ${t}`,
+    notRunNow:'Not running right now.', notRunAt:(t,d)=>`Not running at ${t} on ${d}.`, headNow:'Now', headAt:t=>`At ${t}`,
+    nextStop:'Next stop', arrivesL:'Arrives', distLeft:'Distance left', ofKm:k=>`of ${k} km`, speedNow:'Speed now', na:'n/a',
+    tooTight:'timetable too tight to model', cruise:v=>`cruise ${v} km/h`,
+    passes:(x,k,t)=>`Passes ${x} without stopping in ${k} km, about ${t}.`, departs:w=>`Departs ${w}.`,
+    pctDone:p=>`${p}% of the journey done`, kmDone:k=>`${k} km done`, kmToGo:k=>`${k} km to go`,
+    comingUp:'Coming up', arrCol:'Arr', fromTrain:'From train',
+    how:map=>`Estimated from the timetable times, the distance between stations along the track${map?' (measured on the map for this stretch)':''} and the current time, assuming the train runs on time and accelerates and brakes at ${ACC} m/s².`,
+    lnext:(x,t,k,s)=>`Next ${x} ${t}, ${k} km${s==null?'':', ~'+s+' km/h'}`,
+    noLive:'No trains are scheduled on the line at this time. Pick another time from the bar on the map.',
+  },
+  ar:{
+    docTitle:'خريطة سكك حديد مصر – كل القطارات والمحطات', h1:'خريطة سكك حديد مصر',
+    sub:()=>`${arN(T.length,AR_TRAIN)} و${arN(S.length,AR_STN)}. ${verText()}.`,
+    searchPh:'ابحث عن محطة أو رقم قطار', mapAria:'خريطة خطوط ومحطات السكك الحديدية في مصر',
+    zoomIn:'تكبير', zoomOut:'تصغير', fitAll:'عرض مصر كاملة',
+    langBtn:'English', langMap:'EN', langAria:'View the site in English',
+    lgStation:'محطة محددة من بيانات الخريطة', lgEst:'موقع تقديري من كيلومتر السكة', lgTrain:'قطار، موقعه تقديري من جدول المواعيد', lgSel:'القطار المحدد',
+    live:'مباشر', ttAt:'حسب الجدول', lbChange:'تغيير الوقت', lbDay:'اليوم', lbRange:'الوقت', lbLive:'العودة للوقت الحالي',
+    lbNote:'المواقع محسوبة من جدول مواعيد السكة الحديد وليست من GPS، لذلك لا يظهر التأخير.', credit:'بيانات الخريطة © المساهمون في OpenStreetMap',
+    lbCount:(mv,st)=>`${mv} متحرك، ${st} في المحطات`,
+    km:v=>`${v} كم`, kmh:v=>`${v} كم/⁠س`, dur:(h,m)=>`${h} س ${m} د`,
+    nTrains:n=>arN(n,AR_TRAIN), perDay:n=>`${arN(n,AR_TRAIN)} يوميًا`, callsDay:n=>`<b>${arN(n,AR_TRAIN)}</b> يوميًا`,
+    nStops:n=>arN(n,AR_STOP),
+    train:n=>`قطار ${n}`, fromTo:(a,b)=>`من ${a} إلى ${b}`, toX:x=>`إلى ${x}`, fromX:x=>`قادم من ${x}`,
+    noMatch:v=>`لا توجد نتائج لـ «${v}».`, back:'› كل المحطات', dayGroup:'يوم السفر', today:'(اليوم)',
+    liveNow:n=>`القطارات على الخط الآن: ${n}`, liveAt:(n,t,d)=>`القطارات على الخط الساعة ${t} يوم ${d}: ${n}`,
+    liveNote:'اضغط على قطار في الخريطة أو في هذه القائمة لتتبّعه. المواقع تقديرية من جدول المواعيد.',
+    plan:'خطّط لرحلتك', fromSt:'محطة القيام', toSt:'محطة الوصول', swap:'تبديل ⇅', findDirect:'ابحث عن قطارات مباشرة', busiest:'أكثر المحطات ازدحامًا',
+    dlHead:'تحميل البيانات', dlSqlite:'قاعدة بيانات SQLite', dlSqliteD:'كل الجداول، 2.3 ميجابايت', dlXlsx:'ملف Excel', dlXlsxD:'ورقة لكل جدول، 1.2 ميجابايت',
+    dlGtfs:'بيانات GTFS', dlGtfsD:'لتطبيقات المواصلات', dlGeoD:'طبقات الخريطة', dlCsv:'ملفات CSV', dlCsvD:'المحطات والقطارات ومواعيد التوقف وغيرها',
+    disclaimer:'موقع غير رسمي ولا يتبع الهيئة القومية لسكك حديد مصر. تأكد من المواعيد مع الهيئة (enr.gov.eg أو 1661) قبل السفر. البيانات: جدول مواعيد الهيئة عبر مشروع Sekka؛ مواقع المحطات © المساهمون في OpenStreetMap (ODbL).',
+    clickNote:'اضغط على أي نقطة في الخريطة لعرض مواعيد القطارات في المحطة. النقاط المفرغة محطات موقعها تقديري من كيلومتر السكة وقد يكون بعيدًا بضعة كيلومترات.',
+    gov:g=>`محافظة ${GOV_AR[g]||g}`, stCode:id=>`كود المحطة ${id}`,
+    conf:['الموقع غير معروف – هذه المحطة غير موجودة على الخريطة.','الموقع تقديري من كيلومتر السكة (بدقة ±{e} كم تقريبًا).','الموقع محدد من بيانات الخريطة (بدقة ±{e} كم تقريبًا).','الموقع من OpenStreetMap.'],
+    jump:t=>`انتقل إلى القطار القادم (${t})`, termHere:'يصل وينتهي هنا', startsHere:'يبدأ من هنا', arrAbbr:'وصول', special:'خاص',
+    noCalls:d=>`لا توجد قطارات تتوقف هنا يوم ${d}. اختر يومًا آخر من الأعلى.`,
+    specialRun:'خاص – يعمل حسب التعليمات', nextDay:'اليوم التالي', dep:'قيام', arr:'وصول', notOnMap:'غير موجودة على الخريطة',
+    arrives:t=>`يصل ${t}`,
+    noDirect:d=>`لا يوجد قطار مباشر بين هاتين المحطتين يوم ${d}. جرّب يومًا آخر، أو سافر عبر محطة كبيرة مثل القاهرة أو طنطا أو بنها.`,
+    now:'الآن', inMin:v=>`بعد ${v} د`, inHM:(h,m)=>`بعد ${h} س ${m} د`,
+    arrived:x=>`وصل إلى ${x}`, waiting:(x,t)=>`ينتظر القيام من ${x} الساعة ${t}`, stopped:(x,t)=>`متوقف في ${x}، يقوم الساعة ${t}`,
+    moving:'يتحرك', about:v=>`حوالي ${v} كم/⁠س`, before:(k,x)=>`على بعد ${k} كم من ${x}`, due:t=>`يصل ${t}`,
+    notRunNow:'لا يعمل الآن.', notRunAt:(t,d)=>`لا يعمل الساعة ${t} يوم ${d}.`, headNow:'الآن', headAt:t=>`الساعة ${t}`,
+    nextStop:'المحطة القادمة', arrivesL:'الوصول', distLeft:'المسافة المتبقية', ofKm:k=>`من ${k} كم`, speedNow:'السرعة الآن', na:'غير متاح',
+    tooTight:'الجدول أضيق من أن تُحسب السرعة', cruise:v=>`سرعة السير ${v} كم/⁠س`,
+    passes:(x,k,t)=>`يمر بمحطة ${x} دون توقف بعد ${k} كم، حوالي الساعة ${t}.`, departs:w=>`يقوم ${w}.`,
+    pctDone:p=>`تم قطع ${p}% من الرحلة`, kmDone:k=>`تم قطع ${k} كم`, kmToGo:k=>`متبقٍ ${k} كم`,
+    comingUp:'المحطات القادمة', arrCol:'الوصول', fromTrain:'المسافة',
+    how:map=>`تقدير مبني على مواعيد الجدول والمسافة بين المحطات على طول السكة${map?' (مقاسة على الخريطة لهذا الجزء)':''} والوقت الحالي، بافتراض أن القطار يسير في موعده ويتسارع ويُبطئ بمعدل ${ACC} م/ث².`,
+    lnext:(x,t,k,s)=>`التالية ${x} ${t}، ${k} كم${s==null?'':'، ~'+s+' كم/⁠س'}`,
+    noLive:'لا توجد قطارات مجدولة على الخط في هذا الوقت. اختر وقتًا آخر من الشريط أعلى الخريطة.',
+  }
+};
+function tr(k,...a){const v=TX[lang][k]??TX.en[k];return typeof v==='function'?v(...a):v}
+function verText(){
+  if(!isAr())return D.v;
+  const m=D.v.match(/v(\d+)\s*[–·-]\s*(\d+)\s+([A-Za-z]+)\s+(\d{4})/);
+  return m?`جدول مواعيد الهيئة (إصدار ${m[1]}) بتاريخ ${m[2]} ${MON_AR[m[3].slice(0,3)]||m[3]} ${m[4]}`:D.v;
+}
+function daysText(t){
+  if(t[5]===-1)return tr('specialRun');
+  const s=t[6];if(!isAr())return s;
+  const m=s.match(/^Runs on:\s*(.+)$/);
+  if(m)return 'يعمل أيام: '+m[1].split(/,\s*/).map(d=>DAYS.ar[DAYN.indexOf(d)]||d).join('، ');
+  return RUN_AR[s]||s;
+}
+const dur=m=>tr('dur',Math.floor(m/60),String(m%60).padStart(2,'0'));
+const CLS=i=>C[i][isAr()?0:1]||C[i][1];
+// station names: primary in the UI language, secondary in the other
+const pName=i=>isAr()?S[i][0]:(S[i][1]||S[i][0]);
+const sName=i=>isAr()?(S[i][1]||''):S[i][0];
+const nm=i=>`<bdi>${esc(pName(i))}</bdi>`;
+const nm2=(i,cls='k2')=>`${nm(i)} <bdi class="${cls}">${esc(sName(i))}</bdi>`;
+
 // station -> calls
 const calls=S.map(()=>[]);
 T.forEach((t,ti)=>t[9].forEach((s,si)=>calls[s[0]].push([ti,si])));
@@ -209,18 +344,14 @@ function runsOn(t,day){ if(t[5]===-1) return true; return (t[5]>>(((day%7)+7)%7)
 function callRuns(t,m,day){ // train calls at minute m (from origin midnight) on board-day `day`
   return runsOn(t,day-Math.floor(m/1440));
 }
-function stName(i){return S[i][0]}
-$('sub').textContent=`${T.length} trains, ${S.length} stations. ${D.v}.`;
 
-/* ---------- storage ---------- */
-let labelLang='en';
-try{labelLang=localStorage.getItem('lbl')||'en'}catch(e){}
 /* ---------- map ---------- */
 const cv=$('map'), ctx=cv.getContext('2d'), wrap=$('mapwrap');
 const K=Math.cos(27*Math.PI/180);
 const px=s=>s[3]*K, py=s=>-s[2];
 let W=0,H=0,DPR=1,view={s:1,x:0,y:0};
 let sel={station:null,train:null,trip:null};
+let keepView=false; // true while re-rendering for a language switch, so the map doesn't jump
 function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
 let col={};
 function readCols(){['--land','--outside','--border','--track','--track-soft','--signal','--ink','--muted','--panel','--halo','--live','--live-ink'].forEach(k=>col[k]=css(k))}
@@ -229,6 +360,7 @@ function resize(){
   cv.width=Math.round(W*DPR);cv.height=Math.round(H*DPR);draw();
 }
 function fit(b,pad=40,animate=true){ // b=[minx,miny,maxx,maxy] in projected
+  if(keepView){draw();return}
   const w=Math.max(b[2]-b[0],.05),h=Math.max(b[3]-b[1],.05);
   const s=Math.min((W-2*pad)/w,(H-2*pad)/h,2600);
   const target={s,x:W/2-s*(b[0]+b[2])/2,y:H/2-s*(b[1]+b[3])/2};
@@ -284,20 +416,22 @@ function draw(){
     else{ctx.fillStyle=col['--panel'];ctx.fill();ctx.lineWidth=1.3;ctx.strokeStyle=col['--muted'];ctx.stroke()}});
   drawTrains();
   if(sel.station!=null&&located[sel.station]){const s=S[sel.station];ctx.beginPath();ctx.arc(sx(s),sy(s),r0*2.6+3,0,7);ctx.lineWidth=3;ctx.strokeStyle=col['--signal'];ctx.stroke()}
-  // labels with collision
+  // labels with collision; Arabic labels sit to the left of the dot, English to the right
+  const rtl=isAr();
   const thr=z<180?120:z<350?60:z<700?25:z<1400?8:0;
-  const boxes=[];ctx.textBaseline='middle';
+  const boxes=[];ctx.textBaseline='middle';ctx.direction=rtl?'rtl':'ltr';ctx.textAlign=rtl?'right':'left';
   const ends=new Set();if(sel.train!=null){ends.add(T[sel.train][9][0][0]);ends.add(T[sel.train][9].at(-1)[0])}if(sel.trip){ends.add(sel.trip.a);ends.add(sel.trip.b)}
   const order=[...hi,sel.station,...S.map((_,i)=>i)].filter(i=>i!=null);
   const seen=new Set();
   for(const i of order){if(seen.has(i)||!located[i])continue;seen.add(i);const s=S[i];
     const must=ends.has(i)||i===sel.station, pri=hi.has(i); if(!must&&!pri&&s[7]<thr)continue;
     const x=sx(s),y=sy(s);if(x<0||y<0||x>W||y>H)continue;
-    const txt=labelLang==='ar'?s[0]:(s[1]||s[0]);
+    const txt=pName(i);
     const fs=(must||pri)?13:(s[7]>=120?13:12);ctx.font=`${must||pri||s[7]>=120?600:500} ${fs}px "IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif`;
-    const w=ctx.measureText(txt).width,bx=x+7,by=y-fs/2-1,b=[bx,by,bx+w,by+fs+2];
+    const w=ctx.measureText(txt).width,bx=rtl?x-7:x+7,by=y-fs/2-1,b=rtl?[bx-w,by,bx,by+fs+2]:[bx,by,bx+w,by+fs+2];
     if(!must&&boxes.some(o=>!(b[2]<o[0]||b[0]>o[2]||b[3]<o[1]||b[1]>o[3])))continue;boxes.push(b);
     ctx.lineWidth=3.5;ctx.strokeStyle=col['--halo'];ctx.strokeText(txt,bx,y);ctx.fillStyle=(must||pri)?col['--signal']:col['--ink'];ctx.fillText(txt,bx,y);}
+  ctx.textAlign='left';ctx.direction='ltr';
 }
 /* route along track graph */
 const ADJ=S.map(()=>[]);G.forEach(([a,b])=>{if(located[a]&&located[b]){ADJ[a].push(b);ADJ[b].push(a)}});
@@ -313,26 +447,53 @@ function nearest(mx,my,max=14){let best=null,bd=max*max;S.forEach((s,i)=>{if(!lo
 function zoomAt(f,mx,my){const s=Math.max(60,Math.min(6000,view.s*f));f=s/view.s;view={s,x:mx-(mx-view.x)*f,y:my-(my-view.y)*f};draw()}
 // pointer handling
 const pts=new Map();let moved=false,last=null,pinch=null;
+function placeTip(tip,x,y){ // keep the tooltip inside the map
+  tip.style.display='block';const w=tip.offsetWidth,h=tip.offsetHeight;
+  let l=isAr()?x-14-w:x+14;if(l<4)l=x+14;if(l+w>W-4)l=Math.max(4,x-14-w);
+  tip.style.left=l+'px';tip.style.top=Math.min(y+10,H-h-4)+'px';
+}
 cv.addEventListener('pointerdown',e=>{cv.setPointerCapture(e.pointerId);pts.set(e.pointerId,{x:e.offsetX,y:e.offsetY});moved=false;cancelAnimationFrame(anim);
   if(pts.size===2){const [a,b]=[...pts.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y)}}cv.classList.add('drag')});
 cv.addEventListener('pointermove',e=>{
-  if(!pts.has(e.pointerId)){const tip=$('tip');const tr=nearestTrain(e.offsetX,e.offsetY);
-    if(tr){const t=T[tr.ti];tip.style.display='block';tip.innerHTML=`<b>Train ${esc(t[0])}</b> to <span class="ar">${esc(stName(t[9].at(-1)[0]))}</span><br><span style="color:var(--muted)">${liveStatus(tr)}${tr.moving?', due '+hm(tr.eta):''}</span>`;tip.style.left=(e.offsetX+14)+'px';tip.style.top=(e.offsetY+10)+'px';cv.style.cursor='pointer';return}
+  if(!pts.has(e.pointerId)){const tip=$('tip');const tr_=nearestTrain(e.offsetX,e.offsetY);
+    if(tr_){const t=T[tr_.ti];tip.innerHTML=`<b>${esc(tr('train',t[0]))}</b> ${tr('toX',nm(t[9].at(-1)[0]))}<br><span style="color:var(--muted)">${liveStatus(tr_)}${tr_.moving?(isAr()?'، ':', ')+tr('due',hm(tr_.eta)):''}</span>`;placeTip(tip,e.offsetX,e.offsetY);cv.style.cursor='pointer';return}
     const n=nearest(e.offsetX,e.offsetY);
-    if(n!=null){tip.style.display='block';tip.innerHTML=`<span class="ar">${esc(S[n][0])}</span> <span style="color:var(--muted)">${esc(S[n][1])}</span>`;tip.style.left=(e.offsetX+14)+'px';tip.style.top=(e.offsetY+10)+'px';cv.style.cursor='pointer'}
+    if(n!=null){tip.innerHTML=nm2(n);placeTip(tip,e.offsetX,e.offsetY);cv.style.cursor='pointer'}
     else{tip.style.display='none';cv.style.cursor=''}return}
   const p=pts.get(e.pointerId),nx=e.offsetX,ny=e.offsetY;
   if(pts.size===2&&pinch){pts.set(e.pointerId,{x:nx,y:ny});const [a,b]=[...pts.values()];const d=Math.hypot(a.x-b.x,a.y-b.y);zoomAt(d/pinch.d,(a.x+b.x)/2,(a.y+b.y)/2);pinch.d=d;moved=true;return}
   const dx=nx-p.x,dy=ny-p.y;if(Math.abs(dx)+Math.abs(dy)>3)moved=true;view.x+=dx;view.y+=dy;pts.set(e.pointerId,{x:nx,y:ny});draw()});
 const up=e=>{const wasOne=pts.size===1;pts.delete(e.pointerId);if(pts.size<2)pinch=null;cv.classList.remove('drag');
-  if(wasOne&&!moved&&e.type==='pointerup'){const tr=nearestTrain(e.offsetX,e.offsetY,14);if(tr){go('t-'+T[tr.ti][8]);return}const n=nearest(e.offsetX,e.offsetY,18);if(n!=null)go('s-'+S[n][8])}};
+  if(wasOne&&!moved&&e.type==='pointerup'){const tr_=nearestTrain(e.offsetX,e.offsetY,14);if(tr_){go('t-'+T[tr_.ti][8]);return}const n=nearest(e.offsetX,e.offsetY,18);if(n!=null)go('s-'+S[n][8])}};
 cv.addEventListener('pointerup',up);cv.addEventListener('pointercancel',up);
 cv.addEventListener('pointerleave',()=>{$('tip').style.display='none'});
 cv.addEventListener('wheel',e=>{e.preventDefault();zoomAt(Math.exp(-e.deltaY*0.0018),e.offsetX,e.offsetY)},{passive:false});
 cv.addEventListener('dblclick',e=>zoomAt(2,e.offsetX,e.offsetY));
 $('zin').onclick=()=>zoomAt(1.6,W/2,H/2);$('zout').onclick=()=>zoomAt(1/1.6,W/2,H/2);$('zfit').onclick=()=>fit(ALL);
-function setLang(){$('lang').textContent=labelLang==='ar'?'EN':'ع';$('lang').setAttribute('aria-label',labelLang==='ar'?'Show map labels in English':'Show map labels in Arabic')}
-$('lang').onclick=()=>{labelLang=labelLang==='ar'?'en':'ar';try{localStorage.setItem('lbl',labelLang)}catch(e){}setLang();draw()};setLang();
+
+/* ---------- language switching ---------- */
+function applyLang(){
+  const root=document.documentElement;root.lang=lang;root.dir=isAr()?'rtl':'ltr';
+  document.title=tr('docTitle');
+  document.querySelectorAll('[data-i]').forEach(el=>el.textContent=tr(el.dataset.i));
+  document.querySelectorAll('[data-ia]').forEach(el=>el.setAttribute('aria-label',tr(el.dataset.ia)));
+  document.querySelectorAll('[data-ip]').forEach(el=>el.placeholder=tr(el.dataset.ip));
+  $('sub').textContent=tr('sub');
+  const other=isAr()?'en':'ar';
+  $('langTop').textContent=tr('langBtn');$('langTop').lang=other;$('langTop').setAttribute('aria-label',tr('langAria'));
+  $('lang').textContent=tr('langMap');$('lang').lang=other;$('lang').setAttribute('aria-label',tr('langAria'));
+  $('lbDay').innerHTML=DAYSL[lang].map((d,i)=>`<option value="${i}">${d}</option>`).join('');
+  $('lbDay').value=clock.day;
+  $('tip').style.display='none';
+}
+function setLang(l){
+  lang=l;try{localStorage.setItem('lang',l)}catch(e){}
+  try{const u=new URL(location.href);if(u.searchParams.has('lang')){u.searchParams.set('lang',l);history.replaceState(null,'',u)}}catch(e){}
+  applyLang();
+  keepView=true;try{route()}finally{keepView=false}
+  updateLiveBar();draw();
+}
+$('lang').onclick=$('langTop').onclick=()=>setLang(isAr()?'en':'ar');
 
 /* ---------- search ---------- */
 const q=$('q'),sugg=$('sugg');
@@ -356,9 +517,9 @@ function bindSearch(input,box,onPick,stationsOnly){
 function renderSuggIn(box,list,onPick,input){
   box.dataset.act=-1;
   box.innerHTML=list.length?list.map((it,n)=>it.k==='s'
-    ?`<button type="button" role="option" data-n="${n}"><span><span class="ar">${esc(S[it.i][0])}</span> <span class="k">${esc(S[it.i][1])}</span></span><span class="k">${S[it.i][7]} trains</span></button>`
-    :`<button type="button" role="option" data-n="${n}"><span>Train ${esc(T[it.i][0])}</span><span class="k ar">${esc(stName(T[it.i][9][0][0]))} – ${esc(stName(T[it.i][9].at(-1)[0]))}</span></button>`).join('')
-    :`<div class="empty" style="padding:10px 12px">No match for “${esc(input.value)}”.</div>`;
+    ?`<button type="button" role="option" data-n="${n}"><span>${nm2(it.i,'k')}</span><span class="k">${esc(tr('nTrains',S[it.i][7]))}</span></button>`
+    :`<button type="button" role="option" data-n="${n}"><span>${esc(tr('train',T[it.i][0]))}</span><span class="k">${nm(T[it.i][9][0][0])} – ${nm(T[it.i][9].at(-1)[0])}</span></button>`).join('')
+    :`<div class="empty" style="padding:10px 12px">${esc(tr('noMatch',input.value))}</div>`;
   box.classList.add('on');
   box.querySelectorAll('button').forEach(b=>b.onmousedown=ev=>{ev.preventDefault();box.classList.remove('on');onPick(list[+b.dataset.n])});
 }
@@ -367,45 +528,45 @@ bindSearch(q,sugg,it=>{q.value='';q.blur();go(it.k==='s'?'s-'+S[it.i][8]:'t-'+T[
 /* ---------- panel views ---------- */
 const panel=$('panel');
 let boardDay=cairoNow().day;
-const back=`<button class="crumb" onclick="go('')">‹ All stations</button>`;
-function dayChips(cur,fn){return `<div class="chips" role="group" aria-label="Day of travel">${DAYN.map((d,i)=>`<button class="chip" aria-pressed="${i===cur}" onclick="${fn}(${i})">${d}${i===cairoNow().day?' (today)':''}</button>`).join('')}</div>`}
+const back=()=>`<button class="crumb" onclick="go('')">${tr('back')}</button>`;
+const stLabel=i=>pName(i)+(sName(i)?' · '+sName(i):'');
+function dayChips(cur,fn){const today=cairoNow().day;return `<div class="chips" role="group" aria-label="${esc(tr('dayGroup'))}">${DAYN.map((d,i)=>`<button class="chip" aria-pressed="${i===cur}" onclick="${fn}(${i})">${dayS(i)}${i===today?' '+tr('today'):''}</button>`).join('')}</div>`}
 function viewHome(){
   sel={station:null,train:null,trip:null};
   const top=S.map((s,i)=>i).filter(i=>S[i][7]>0).sort((a,b)=>S[b][7]-S[a][7]).slice(0,14);
   panel.innerHTML=`
-  <h2 style="margin-top:4px" id="liveHead">Trains on the line now</h2>
-  <p class="note" style="margin-top:0">Click a train on the map or in this list to follow it. Positions are estimated from the timetable.</p>
+  <h2 style="margin-top:4px" id="liveHead"></h2>
+  <p class="note" style="margin-top:0">${tr('liveNote')}</p>
   <ul class="rows" id="liveList" style="max-height:340px;overflow:auto"></ul>
-  <h2>Plan a trip</h2>
+  <h2>${tr('plan')}</h2>
   <div class="plan">
-    <div class="search"><input id="pa" type="search" placeholder="From station" aria-label="From station" autocomplete="off"><div class="sugg" id="sa"></div></div>
-    <div class="search"><input id="pb" type="search" placeholder="To station" aria-label="To station" autocomplete="off"><div class="sugg" id="sb"></div></div>
-    <button class="swap" id="swap" type="button">Swap ⇅</button>
-    <button class="go" id="pgo" disabled>Find direct trains</button>
+    <div class="search"><input id="pa" type="search" placeholder="${esc(tr('fromSt'))}" aria-label="${esc(tr('fromSt'))}" autocomplete="off"><div class="sugg" id="sa"></div></div>
+    <div class="search"><input id="pb" type="search" placeholder="${esc(tr('toSt'))}" aria-label="${esc(tr('toSt'))}" autocomplete="off"><div class="sugg" id="sb"></div></div>
+    <button class="swap" id="swap" type="button">${tr('swap')}</button>
+    <button class="go" id="pgo" disabled>${tr('findDirect')}</button>
   </div>
-  <h2>Busiest stations</h2>
-  <ul class="rows home-list">${top.map(i=>`<li class="row" tabindex="0" data-s="${S[i][8]}"><div class="d"><div class="main"><span class="ar">${esc(S[i][0])}</span> <span style="color:var(--muted)">${esc(S[i][1])}</span></div></div><div class="n">${S[i][7]} trains a day</div></li>`).join('')}</ul>
-  ${DL?`<h2>Download the data</h2>
+  <h2>${tr('busiest')}</h2>
+  <ul class="rows home-list">${top.map(i=>`<li class="row" tabindex="0" data-s="${S[i][8]}"><div class="d"><div class="main">${nm2(i)}</div></div><div class="n">${esc(tr('perDay',S[i][7]))}</div></li>`).join('')}</ul>
+  ${DL?`<h2>${tr('dlHead')}</h2>
   <ul class="rows dl">
-    <li><a href="data/egypt_railways.sqlite" download>SQLite database</a><span>all tables, 2.3 MB</span></li>
-    <li><a href="data/egypt_railways.xlsx" download>Excel workbook</a><span>one sheet per table, 1.2 MB</span></li>
-    <li><a href="data/egypt_railways_gtfs.zip" download>GTFS feed</a><span>for transit apps</span></li>
-    <li><a href="data/stations.geojson" download>stations.geojson</a> <a href="data/lines.geojson" download>lines.geojson</a><span>map layers</span></li>
-    <li><a href="data/csv/">CSV files</a><span>stations, trains, stop_times and more</span></li>
+    <li><a href="data/egypt_railways.sqlite" download>${tr('dlSqlite')}</a><span>${tr('dlSqliteD')}</span></li>
+    <li><a href="data/egypt_railways.xlsx" download>${tr('dlXlsx')}</a><span>${tr('dlXlsxD')}</span></li>
+    <li><a href="data/egypt_railways_gtfs.zip" download>${tr('dlGtfs')}</a><span>${tr('dlGtfsD')}</span></li>
+    <li><span style="text-align:start"><a href="data/stations.geojson" download dir="ltr">stations.geojson</a> <a href="data/lines.geojson" download dir="ltr">lines.geojson</a></span><span>${tr('dlGeoD')}</span></li>
+    <li><a href="data/csv/">${tr('dlCsv')}</a><span>${tr('dlCsvD')}</span></li>
   </ul>
-  <p class="note">Unofficial and not affiliated with Egyptian National Railways. Check times with ENR (enr.gov.eg, 1661) before travelling. Data: ENR timetable via the Sekka project; station locations © OpenStreetMap contributors (ODbL).</p>`:''}
-  <p class="note">Click any dot on the map to open its departures. Hollow dots are stations whose position was estimated from the track kilometre and may be a few km off.</p>`;
+  <p class="note">${tr('disclaimer')}</p>`:''}
+  <p class="note">${tr('clickNote')}</p>`;
   let A=null,B=null;const pa=$('pa'),pb=$('pb');
   const upd=()=>$('pgo').disabled=!(A!=null&&B!=null&&A!==B);
-  bindSearch(pa,$('sa'),it=>{A=it.i;pa.value=S[it.i][0]+' · '+S[it.i][1];upd()},true);
-  bindSearch(pb,$('sb'),it=>{B=it.i;pb.value=S[it.i][0]+' · '+S[it.i][1];upd()},true);
+  bindSearch(pa,$('sa'),it=>{A=it.i;pa.value=stLabel(it.i);upd()},true);
+  bindSearch(pb,$('sb'),it=>{B=it.i;pb.value=stLabel(it.i);upd()},true);
   pa.addEventListener('input',()=>{A=null;upd()});pb.addEventListener('input',()=>{B=null;upd()});
   $('swap').onclick=()=>{[A,B]=[B,A];[pa.value,pb.value]=[pb.value,pa.value];upd()};
   $('pgo').onclick=()=>go(`trip-${S[A][8]}-${S[B][8]}`);
   bindRows();renderLiveList();fit(ALL);
 }
 function bindRows(){panel.querySelectorAll('[data-s],[data-t]').forEach(el=>{const f=()=>go(el.dataset.s?'s-'+el.dataset.s:'t-'+el.dataset.t);el.onclick=f;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();f()}}})}
-const CONFTXT=['Location unknown – this station isn’t on the map.','Position estimated from the track kilometre (about ±{e} km).','Located from map data (about ±{e} km).','Located from OpenStreetMap.'];
 function viewStation(si,day){
   sel={station:si,train:null,trip:null};
   const s=S[si];
@@ -413,17 +574,18 @@ function viewStation(si,day){
   const list=calls[si].map(([ti,k])=>{const t=T[ti],st=t[9][k];const m=st[2]>=0?st[2]:st[1];return{ti,k,m,term:st[2]<0,orig:st[1]<0}})
     .filter(c=>callRuns(T[c.ti],c.m,day)).sort((a,b)=>(a.m%1440)-(b.m%1440));
   let nextIdx=-1;if(day===now.day)nextIdx=list.findIndex(c=>c.m%1440>=now.min);
-  panel.innerHTML=back+`
-  <h2 class="title-ar ar" dir="rtl">${esc(s[0])}</h2>
-  <p class="title-en">${esc(s[1])}${s[6]?', '+esc(s[6])+' governorate':''}</p>
-  <div class="facts"><span><b>${s[7]}</b> calls a day</span><span>ENR station ${s[8]}</span></div>
-  ${s[4]<3?`<p class="note">${CONFTXT[s[4]].replace('{e}',s[5])}</p>`:''}
+  const sec=[sName(si),s[6]?tr('gov',s[6]):''].filter(Boolean);
+  panel.innerHTML=back()+`
+  <h2 class="title-main"><bdi>${esc(pName(si))}</bdi></h2>
+  <p class="title-en">${sec.map(x=>`<bdi>${esc(x)}</bdi>`).join(' · ')}</p>
+  <div class="facts"><span>${tr('callsDay',s[7])}</span><span>${esc(tr('stCode',s[8]))}</span></div>
+  ${s[4]<3?`<p class="note">${esc(tr('conf')[s[4]].replace('{e}',s[5]))}</p>`:''}
   ${dayChips(day,'setBoardDay')}
-  ${nextIdx>2?`<button class="chip" id="jump" style="margin-bottom:8px">Jump to next departure (${hm(list[nextIdx].m)})</button>`:''}
+  ${nextIdx>2?`<button class="chip" id="jump" style="margin-bottom:8px">${esc(tr('jump',hm(list[nextIdx].m)))}</button>`:''}
   ${list.length?`<ul class="rows">${list.map((c,n)=>{const t=T[c.ti],o=t[9][0][0],d=t[9].at(-1)[0];
-    const where=c.term?`from <span class="ar">${esc(stName(o))}</span>`:`to <span class="ar">${esc(stName(d))}</span>`;
-    return `<li class="row${n===nextIdx?' next':''}" tabindex="0" data-t="${t[8]}"><span class="t">${hm(c.m)}</span><div class="d"><div class="main">${where}</div><div class="meta">${c.term?'Arrives, terminates here':c.orig?'Starts here':'Arr '+hm(t[9][c.k][1])} · ${esc(C[t[1]][1])}${t[5]===-1?' · special':''}</div></div><span class="n">${esc(t[0])}</span></li>`}).join('')}</ul>`
-   :`<p class="empty">No trains call here on ${DAYN[day]}. Pick another day above.</p>`}`;
+    const where=c.term?tr('fromX',nm(o)):tr('toX',nm(d));
+    return `<li class="row${n===nextIdx?' next':''}" tabindex="0" data-t="${t[8]}"><span class="t">${hm(c.m)}</span><div class="d"><div class="main">${where}</div><div class="meta">${c.term?tr('termHere'):c.orig?tr('startsHere'):tr('arrAbbr')+' '+hm(t[9][c.k][1])} · ${esc(CLS(t[1]))}${t[5]===-1?' · '+tr('special'):''}</div></div><span class="n">${esc(t[0])}</span></li>`}).join('')}</ul>`
+   :`<p class="empty">${tr('noCalls',dayL(day))}</p>`}`;
   bindRows();
   panel.scrollTop=0;
   if($('jump'))$('jump').onclick=()=>{const el=panel.querySelectorAll('.row')[nextIdx];el.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});el.focus({preventScroll:true})};
@@ -434,16 +596,16 @@ function viewTrain(ti){
   sel={station:null,train:ti,trip:null};
   const t=T[ti],st=t[9],o=st[0][0],d=st.at(-1)[0];
   const dep=st[0][2],arr=st.at(-1)[1];
-  const days=t[5]===-1?'Special – runs on instruction':t[6];
-  panel.innerHTML=back+`
-  <h2 style="font-size:26px;margin:0;font-weight:700">Train ${esc(t[0])}</h2>
-  <p class="title-en"><span class="ar">${esc(stName(o))}</span> to <span class="ar">${esc(stName(d))}</span></p>
-  <div class="facts"><span><b>${hm(dep)}</b> – <b>${hm(arr)}</b>${arr>=1440?' next day':''}</span><span><b>${dur(t[3])}</b></span>${t[4]?`<span><b>${t[4]} km</b></span>`:''}<span><b>${st.length}</b> stops</span><span>${esc(C[t[1]][1])} <span class="ar">(${esc(C[t[1]][0])})</span></span></div>
+  panel.innerHTML=back()+`
+  <h2 style="font-size:26px;margin:0;font-weight:700">${esc(tr('train',t[0]))}</h2>
+  <p class="title-en">${tr('fromTo',nm(o),nm(d))}</p>
+  <div class="facts"><span><b>${hm(dep)}</b> – <b>${hm(arr)}</b>${arr>=1440?' '+tr('nextDay'):''}</span><span><b>${dur(t[3])}</b></span>${t[4]?`<span><b>${tr('km',t[4])}</b></span>`:''}<span><b>${esc(tr('nStops',st.length))}</b></span><span>${esc(CLS(t[1]))}${isAr()?'':` <bdi class="rtl-text">(${esc(C[t[1]][0])})</bdi>`}</span></div>
   <div class="live-now" id="liveNow"></div>
-  <p class="note" style="border-left-color:var(--signal)">${esc(days)}${t[7]?`<br><span class="ar" dir="rtl">${esc(t[7])}</span>`:''}</p>
+  <p class="note" style="border-inline-start-color:var(--signal)">${esc(daysText(t))}${t[7]?`<br><bdi class="rtl-text" lang="ar">${esc(t[7])}</bdi>`:''}</p>
   <ol class="tl">${st.map((s,i)=>{const end=i===0||i===st.length-1;const a=s[1],dd=s[2];
-    const tm=i===0?`dep <b>${hm(dd)}</b>`:i===st.length-1?`arr <b>${hm(a)}</b>${a>=1440?'<span class="p1">+1</span>':''}`:`${hm(a)} – <b>${hm(dd)}</b>${dd>=1440?'<span class="p1">+1</span>':''}`;
-    return `<li class="${end?'end':''}" tabindex="0" data-s="${S[s[0]][8]}"><span class="dot"></span><span class="nm ar">${esc(S[s[0]][0])}<small>${esc(S[s[0]][1])}${located[s[0]]?'':' · not on map'}</small></span><span class="tm">${tm}</span></li>`}).join('')}</ol>`;
+    const tm=i===0?`${tr('dep')} <b>${hm(dd)}</b>`:i===st.length-1?`${tr('arr')} <b>${hm(a)}</b>${a>=1440?'<span class="p1">+1</span>':''}`:`${hm(a)} – <b>${hm(dd)}</b>${dd>=1440?'<span class="p1">+1</span>':''}`;
+    const sub=[sName(s[0]),located[s[0]]?'':tr('notOnMap')].filter(Boolean).join(' · ');
+    return `<li class="${end?'end':''}" tabindex="0" data-s="${S[s[0]][8]}"><span class="dot"></span><span class="nm">${nm(s[0])}<small><bdi>${esc(sub)}</bdi></small></span><span class="tm">${tm}</span></li>`}).join('')}</ol>`;
   bindRows();panel.scrollTop=0;updateLiveText();fit(bbox(st.map(s=>s[0])),50);
 }
 function viewTrip(a,b,day){
@@ -453,12 +615,13 @@ function viewTrip(a,b,day){
     if(!callRuns(t,m,day))return;res.push({ti,dep:m,arr:t[9][j][1],stops:j-k})});
   res.sort((x,y)=>(x.dep%1440)-(y.dep%1440));
   const now=cairoNow();const nx=day===now.day?res.findIndex(r=>r.dep%1440>=now.min):-1;
-  panel.innerHTML=back+`
-  <h2 style="font-size:22px;margin:0;font-weight:700"><span class="ar">${esc(S[a][0])}</span> to <span class="ar">${esc(S[b][0])}</span></h2>
-  <p class="title-en">${esc(S[a][1])} to ${esc(S[b][1])}</p>
+  const other=i=>`<bdi>${esc(sName(i))}</bdi>`;
+  panel.innerHTML=back()+`
+  <h2 style="font-size:22px;margin:0;font-weight:700">${tr('fromTo',nm(a),nm(b))}</h2>
+  ${sName(a)&&sName(b)?`<p class="title-en">${tr('fromTo',other(a),other(b))}</p>`:''}
   ${dayChips(day,'setBoardDay')}
-  ${res.length?`<ul class="rows">${res.map((r,n)=>{const t=T[r.ti];return `<li class="row${n===nx?' next':''}" tabindex="0" data-t="${t[8]}"><span class="t">${hm(r.dep)}</span><div class="d"><div class="main">arrives ${hm(r.arr)}${Math.floor(r.arr/1440)>Math.floor(r.dep/1440)?' next day':''}</div><div class="meta">${dur(r.arr-r.dep)} · ${r.stops} stop${r.stops>1?'s':''} · ${esc(C[t[1]][1])}</div></div><span class="n">${esc(t[0])}</span></li>`}).join('')}</ul>`
-  :`<p class="empty">No direct train runs between these stations on ${DAYN[day]}. Try another day, or travel via a bigger station such as Cairo, Tanta or Banha.</p>`}`;
+  ${res.length?`<ul class="rows">${res.map((r,n)=>{const t=T[r.ti];return `<li class="row${n===nx?' next':''}" tabindex="0" data-t="${t[8]}"><span class="t">${hm(r.dep)}</span><div class="d"><div class="main">${tr('arrives',hm(r.arr))}${Math.floor(r.arr/1440)>Math.floor(r.dep/1440)?' '+tr('nextDay'):''}</div><div class="meta">${dur(r.arr-r.dep)} · ${esc(tr('nStops',r.stops))} · ${esc(CLS(t[1]))}</div></div><span class="n">${esc(t[0])}</span></li>`}).join('')}</ul>`
+  :`<p class="empty">${tr('noDirect',dayL(day))}</p>`}`;
   bindRows();panel.scrollTop=0;fit(bbox([a,b]),80);
 }
 /* ---------- live (timetable-estimated) train positions ---------- */
@@ -558,7 +721,7 @@ function drawTrains(){
   }
   if(selP)drawTrainMarker(selP,r*1.5,col['--signal'],true);
   if(z>900||selP){
-    ctx.font=`600 11px "IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif`;ctx.textBaseline='middle';
+    ctx.font=`600 11px "IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif`;ctx.textBaseline='middle';ctx.textAlign='left';ctx.direction='ltr';
     const tb=[];
     for(const p of (z>900?[selP,...LIVE].filter(Boolean):[selP])){const [x,y]=trainScreen(p);if(x<0||y<0||x>W||y>H)continue;
       const txt=T[p.ti][0],w=ctx.measureText(txt).width,tx=x-w/2,ty=y-r*(p.ti===sel.train?1.5:1)-9,bx=[tx-2,ty-7,tx+w+2,ty+7];
@@ -576,68 +739,65 @@ function drawTrainMarker(p,r,fill,big){
 }
 function nearestTrain(mx,my,max=12){let best=null,bd=max*max;for(const p of LIVE){const [x,y]=trainScreen(p),d=(x-mx)**2+(y-my)**2;if(d<bd){bd=d;best=p}}return best}
 const kmf=v=>v<10?v.toFixed(1):Math.round(v).toString();
-const inMin=v=>{v=Math.round(v);return v<=0?'now':v<60?`in ${v} min`:`in ${Math.floor(v/60)} h ${String(v%60).padStart(2,'0')} min`};
-const nm=i=>`<span class="ar">${esc(stName(i))}</span>`;
+const inMin=v=>{v=Math.round(v);return v<=0?tr('now'):v<60?tr('inMin',v):tr('inHM',Math.floor(v/60),String(v%60).padStart(2,'0'))};
+const comma=()=>isAr()?'، ':', ';
 function liveStatus(p){
   if(!p)return null;
   if(!p.moving){
-    if(p.last)return `Arrived at ${nm(p.at)}`;
-    if(p.first)return `Waiting to depart ${nm(p.at)} at ${hm(p.until)}`;
-    return `Stopped at ${nm(p.at)}, departs ${hm(p.until)}`;
+    if(p.last)return tr('arrived',nm(p.at));
+    if(p.first)return tr('waiting',nm(p.at),hm(p.until));
+    return tr('stopped',nm(p.at),hm(p.until));
   }
-  return `${p.cruise>160?'Moving':'About '+Math.round(p.speed)+' km/h'}, ${kmf(p.toNext)} km before ${nm(p.to)}`;
+  return (p.cruise>160?tr('moving'):tr('about',Math.round(p.speed)))+comma()+tr('before',kmf(p.toNext),nm(p.to));
 }
 function liveCard(p){
-  if(!p)return `Not running ${clock.live?'right now':'at '+hm(clock.min)+' on '+DAYLONG[clock.day]}.`;
+  if(!p)return clock.live?tr('notRunNow'):tr('notRunAt',hm(clock.min),dayL(clock.day));
   const {loc,L,total}=legs(p.ti);
-  const head=clock.live?'Now':'At '+hm(clock.min);
+  const head=clock.live?tr('headNow'):tr('headAt',hm(clock.min));
   let html=`<div class="lc-head"><b>${head}:</b> ${liveStatus(p)}.</div>`;
   if(p.moving){
     html+=`<div class="lc-grid">
-      <div><span>Next stop</span><b>${nm(p.to)}</b></div>
-      <div><span>Arrives</span><b>${hm(p.eta)}</b><small>${inMin(p.eta-p.m)}</small></div>
-      <div><span>Distance left</span><b>${kmf(p.toNext)} km</b><small>of ${kmf(p.legKm)} km</small></div>
-      <div><span>Speed now</span><b>${p.cruise>160?'n/a':Math.round(p.speed)+' km/h'}</b><small>${p.cruise>160?'timetable too tight to model':'cruise '+Math.round(p.cruise)+' km/h'}</small></div></div>`;
-    if(p.passNext)html+=`<div class="lc-line">Passes ${nm(p.passNext.i)} without stopping in ${kmf(p.passNext.km)} km, about ${hm(p.passNext.eta)}.</div>`;
+      <div><span>${tr('nextStop')}</span><b>${nm(p.to)}</b></div>
+      <div><span>${tr('arrivesL')}</span><b>${hm(p.eta)}</b><small>${inMin(p.eta-p.m)}</small></div>
+      <div><span>${tr('distLeft')}</span><b>${tr('km',kmf(p.toNext))}</b><small>${tr('ofKm',kmf(p.legKm))}</small></div>
+      <div><span>${tr('speedNow')}</span><b>${p.cruise>160?tr('na'):tr('kmh',Math.round(p.speed))}</b><small>${p.cruise>160?tr('tooTight'):tr('cruise',Math.round(p.cruise))}</small></div></div>`;
+    if(p.passNext)html+=`<div class="lc-line">${tr('passes',nm(p.passNext.i),kmf(p.passNext.km),hm(p.passNext.eta))}</div>`;
   } else if(!p.last){
-    html+=`<div class="lc-line">Departs ${inMin(p.until-p.m)}.</div>`;
+    html+=`<div class="lc-line">${tr('departs',inMin(p.until-p.m))}</div>`;
   }
   const pct=Math.min(100,100*p.covered/(total||1));
-  html+=`<div class="lc-bar" role="img" aria-label="${Math.round(pct)}% of the journey done"><i style="width:${pct}%"></i></div>
-    <div class="lc-line lc-km"><span>${kmf(p.covered)} km done</span><span>${kmf(Math.max(0,total-p.covered))} km to go</span></div>`;
+  html+=`<div class="lc-bar" role="img" aria-label="${esc(tr('pctDone',Math.round(pct)))}"><i style="width:${pct}%"></i></div>
+    <div class="lc-line lc-km"><span>${tr('kmDone',kmf(p.covered))}</span><span>${tr('kmToGo',kmf(Math.max(0,total-p.covered)))}</span></div>`;
   // upcoming stops with ETA and distance from the train
   const startJ=p.moving?p.j+1:p.j+1, up=[];
   let dist=p.moving?p.toNext:0;
   for(let j=startJ;j<loc.length&&up.length<4;j++){
     if(!(p.moving&&j===p.j+1))dist+=L[j-1].km;
-    up.push(`<tr><td>${nm(loc[j].i)}</td><td>${hm(loc[j].a)}</td><td>${inMin(loc[j].a-p.m)}</td><td>${kmf(dist)} km</td></tr>`);
+    up.push(`<tr><td>${nm(loc[j].i)}</td><td>${hm(loc[j].a)}</td><td>${inMin(loc[j].a-p.m)}</td><td>${tr('km',kmf(dist))}</td></tr>`);
   }
-  if(up.length)html+=`<table class="lc-up"><thead><tr><th>Coming up</th><th>Arr</th><th></th><th>From train</th></tr></thead><tbody>${up.join('')}</tbody></table>`;
-  html+=`<p class="lc-how">Estimated from the timetable times, the distance between stations along the track${p.moving&&p.src==='map'?' (measured on the map for this stretch)':''} and the current time, assuming the train runs on time and accelerates and brakes at ${ACC} m/s².</p>`;
+  if(up.length)html+=`<table class="lc-up"><thead><tr><th>${tr('comingUp')}</th><th>${tr('arrCol')}</th><th></th><th>${tr('fromTrain')}</th></tr></thead><tbody>${up.join('')}</tbody></table>`;
+  html+=`<p class="lc-how">${tr('how',p.moving&&p.src==='map')}</p>`;
   return html;
 }
 /* live bar */
-const DAYLONG=['Saturday','Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'];
 function fmtClock(m){m=((m%1440)+1440)%1440;const h=Math.floor(m/60),mi=Math.floor(m%60),s=Math.floor((m*60)%60);return String(h).padStart(2,'0')+':'+String(mi).padStart(2,'0')+(clock.live?':'+String(s).padStart(2,'0'):'')}
 function updateLiveBar(){
   const c=clockNow(),mv=LIVE.filter(p=>p.moving).length,st=LIVE.length-mv;
-  $('lbTime').textContent=`${fmtClock(c.min)} ${DAYLONG[c.day]}`;
-  $('lbMode').textContent=clock.live?'Live':'Timetable at';
+  $('lbTime').textContent=`${fmtClock(c.min)} ${dayL(c.day)}`;
+  $('lbMode').textContent=clock.live?tr('live'):tr('ttAt');
   $('livebar').classList.toggle('paused',!clock.live);
-  $('lbCount').textContent=`${mv} moving, ${st} at stations`;
+  $('lbCount').textContent=tr('lbCount',mv,st);
   if(!clock.live){$('lbRange').value=Math.round(clock.min);$('lbDay').value=clock.day}
 }
 function setupLiveBar(){
   $('lbChange').onclick=()=>{const open=$('lbScrub').hidden;$('lbScrub').hidden=!open;$('lbChange').setAttribute('aria-expanded',open);
-    if(open&&clock.live){const c=cairoPrecise();clock.day=c.day;clock.min=Math.floor(c.min)}};
+    if(open&&clock.live){const c=cairoPrecise();clock.day=c.day;clock.min=Math.floor(c.min);$('lbDay').value=clock.day;$('lbRange').value=clock.min}};
   $('lbRange').oninput=e=>{clock.live=false;clock.min=+e.target.value;liveTick()};
   $('lbDay').onchange=e=>{clock.live=false;clock.day=+e.target.value;liveTick()};
   $('lbLive').onclick=()=>{clock.live=true;$('lbScrub').hidden=true;$('lbChange').setAttribute('aria-expanded','false');liveTick()};
-  $('lbDay').innerHTML=DAYLONG.map((d,i)=>`<option value="${i}">${d}</option>`).join('');
 }
 /* live text in panels */
 function updateLiveText(){
-  const h=location.hash.slice(1);
   if(sel.train!=null&&$('liveNow')){
     const p=LIVE.find(q=>q.ti===sel.train);
     $('liveNow').innerHTML=liveCard(p);
@@ -650,10 +810,10 @@ function updateLiveText(){
 }
 function renderLiveList(){
   const mv=[...LIVE].sort((a,b)=>(+T[a.ti][0].replace(/\D.*/,'')||0)-(+T[b.ti][0].replace(/\D.*/,'')||0));
-  $('liveHead').textContent=`${LIVE.length} trains on the line ${clock.live?'now':'at '+hm(clock.min)+' on '+DAYLONG[clock.day]}`;
+  $('liveHead').textContent=clock.live?tr('liveNow',LIVE.length):tr('liveAt',LIVE.length,hm(clock.min),dayL(clock.day));
   $('liveList').innerHTML=mv.length?mv.map(p=>{const t=T[p.ti],o=t[9][0][0],d=t[9].at(-1)[0];
-    return `<li class="row" tabindex="0" data-t="${t[8]}"><span class="t">${esc(t[0])}</span><div class="d"><div class="main"><span class="ar">${esc(stName(o))}</span> to <span class="ar">${esc(stName(d))}</span></div><div class="meta">${p.moving?'Next '+nm(p.to)+' '+hm(p.eta)+', '+kmf(p.toNext)+' km'+(p.cruise>160?'':', ~'+Math.round(p.speed)+' km/h'):liveStatus(p)}</div></div><span class="n">${esc(C[t[1]][1])}</span></li>`}).join('')
-    :`<p class="empty">No trains are scheduled on the line at this time. Pick another time from the bar on the map.</p>`;
+    return `<li class="row" tabindex="0" data-t="${t[8]}"><span class="t">${esc(t[0])}</span><div class="d"><div class="main">${tr('fromTo',nm(o),nm(d))}</div><div class="meta">${p.moving?tr('lnext',nm(p.to),hm(p.eta),kmf(p.toNext),p.cruise>160?null:Math.round(p.speed)):liveStatus(p)}</div></div><span class="n">${esc(CLS(t[1]))}</span></li>`}).join('')
+    :`<p class="empty">${tr('noLive')}</p>`;
   bindRows();
 }
 
@@ -670,7 +830,7 @@ function route(){
 window.addEventListener('hashchange',route);
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{readCols();draw()});
 new ResizeObserver(resize).observe(wrap);
-readCols();setupLiveBar();LIVE=liveTrains();resize();fit(ALL,40,false);route();updateLiveBar();
+readCols();setupLiveBar();applyLang();LIVE=liveTrains();resize();fit(ALL,40,false);route();updateLiveBar();
 setInterval(()=>{if(clock.live)liveTick()},2000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&clock.live)liveTick()});
 </script>

@@ -7,6 +7,7 @@ Interactive map of every Egyptian National Railways (ENR) passenger train: 827 t
 - Departure board for every station, with a day picker
 - Trip planner for direct trains between any two stations
 - Estimated position of every train on the line right now, worked out from the timetable, track distances between stations and the current Cairo time (assumes trains run on time; this is not GPS)
+- Full Arabic and English interface (right-to-left layout in Arabic, map labels in either language). Arabic is the default; use the language button, or link straight to a language with `?lang=ar` / `?lang=en`
 - Full dataset to download: SQLite, Excel, CSV, GTFS and GeoJSON in [`data/`](data/)
 
 The whole site is one file, `index.html`, with no build step and no server.
