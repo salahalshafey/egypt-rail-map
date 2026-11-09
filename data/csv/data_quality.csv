@@ -502,3 +502,393 @@ uncertain_location,,"جبل عوبيد (Gabl Obed): interpolated, est. error ±2
 uncertain_location,,"القنطره شرق (Qantra Sharq): unlocated, est. error ±None km"
 uncertain_location,,"الجزار (ElGazar): unlocated, est. error ±None km"
 uncertain_location,,"السادات (ElSadat): unlocated, est. error ±None km"
+partly_verified_on_enr,2,5 of 19 segments of train 2 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,15,1 of 13 segments of train 15 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,17,4 of 5 segments of train 17 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,21,1 of 15 segments of train 21 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,23,1 of 15 segments of train 23 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,24,1 of 16 segments of train 24 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,28,5 of 16 segments of train 28 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,29,7 of 14 segments of train 29 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,31,2 of 12 segments of train 31 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,32,4 of 12 segments of train 32 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,35,2 of 9 segments of train 35 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,36,3 of 8 segments of train 36 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,39,4 of 17 segments of train 39 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,41,8 of 17 segments of train 41 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,42,1 of 37 segments of train 42 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,64,2 of 37 segments of train 64 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,66,2 of 17 segments of train 66 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,67,1 of 17 segments of train 67 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,69,4 of 17 segments of train 69 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,71,4 of 17 segments of train 71 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,72,1 of 38 segments of train 72 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,80,48 of 60 segments of train 80 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,81,3 of 58 segments of train 81 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,82,Train 82 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,83,Train 83 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,84,Train 84 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,85,Train 85 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,86,Train 86 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,87,Train 87 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,88,31 of 36 segments of train 88 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,89,29 of 36 segments of train 89 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,90,37 of 44 segments of train 90 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,91,7 of 41 segments of train 91 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,118,1 of 24 segments of train 118 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,123,2 of 17 segments of train 123 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,127,1 of 7 segments of train 127 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,128,1 of 7 segments of train 128 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,134,1 of 11 segments of train 134 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,136,1 of 7 segments of train 136 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,137,1 of 7 segments of train 137 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,138,1 of 7 segments of train 138 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,141,1 of 22 segments of train 141 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,142,1 of 17 segments of train 142 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,145,1 of 7 segments of train 145 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,147,1 of 16 segments of train 147 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,152,1 of 20 segments of train 152 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,153,1 of 17 segments of train 153 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,156,1 of 9 segments of train 156 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,157,7 of 35 segments of train 157 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,158,1 of 35 segments of train 158 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,159,1 of 37 segments of train 159 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,160,4 of 36 segments of train 160 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,162,2 of 28 segments of train 162 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,163,33 of 46 segments of train 163 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,164,32 of 44 segments of train 164 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,165,1 of 28 segments of train 165 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,169,2 of 16 segments of train 169 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,175,2 of 15 segments of train 175 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,177,2 of 15 segments of train 177 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,185,16 of 32 segments of train 185 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,186,4 of 28 segments of train 186 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,187,Train 187 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,188,20 of 46 segments of train 188 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,195,1 of 13 segments of train 195 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,196,3 of 12 segments of train 196 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,202,1 of 24 segments of train 202 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,203,3 of 24 segments of train 203 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,204,1 of 24 segments of train 204 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,205,3 of 24 segments of train 205 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,206,1 of 24 segments of train 206 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,207,1 of 24 segments of train 207 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,208,1 of 24 segments of train 208 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,210,1 of 24 segments of train 210 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,211,1 of 24 segments of train 211 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,213,1 of 24 segments of train 213 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,214,1 of 24 segments of train 214 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,215,3 of 24 segments of train 215 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,216,1 of 24 segments of train 216 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,217,3 of 24 segments of train 217 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,218,1 of 24 segments of train 218 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,219,3 of 24 segments of train 219 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,246,1 of 21 segments of train 246 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,247,1 of 21 segments of train 247 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,273,1 of 16 segments of train 273 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,286,1 of 9 segments of train 286 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,290,1 of 6 segments of train 290 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,292,1 of 6 segments of train 292 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,298,2 of 17 segments of train 298 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,303,1 of 3 segments of train 303 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,327,2 of 10 segments of train 327 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,328,1 of 10 segments of train 328 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,330,8 of 22 segments of train 330 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,336,1 of 17 segments of train 336 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,339,5 of 18 segments of train 339 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,340,1 of 16 segments of train 340 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,377,1 of 43 segments of train 377 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,379,1 of 43 segments of train 379 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,380,2 of 43 segments of train 380 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,382,9 of 43 segments of train 382 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,384,2 of 43 segments of train 384 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,386,1 of 43 segments of train 386 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,388,1 of 43 segments of train 388 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,392,1 of 43 segments of train 392 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,397,4 of 21 segments of train 397 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,403,2 of 12 segments of train 403 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,406,2 of 11 segments of train 406 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,411,2 of 12 segments of train 411 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,421,2 of 12 segments of train 421 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,425,1 of 12 segments of train 425 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,426,2 of 12 segments of train 426 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,450,2 of 26 segments of train 450 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,451,2 of 12 segments of train 451 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,452,3 of 12 segments of train 452 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,461,2 of 26 segments of train 461 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,462,2 of 26 segments of train 462 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,464,2 of 14 segments of train 464 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,465,2 of 26 segments of train 465 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,466,3 of 26 segments of train 466 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,469,2 of 26 segments of train 469 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,470,3 of 26 segments of train 470 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,473,8 of 26 segments of train 473 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,486,2 of 12 segments of train 486 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,487,2 of 37 segments of train 487 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,488,2 of 29 segments of train 488 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,489,3 of 37 segments of train 489 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,491,2 of 37 segments of train 491 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,492,2 of 37 segments of train 492 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,494,2 of 37 segments of train 494 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,495,2 of 37 segments of train 495 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,496,4 of 37 segments of train 496 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,499,14 of 37 segments of train 499 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,501,7 of 29 segments of train 501 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,502,3 of 37 segments of train 502 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,505,11 of 12 segments of train 505 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,506,4 of 37 segments of train 506 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,508,5 of 25 segments of train 508 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,511,1 of 5 segments of train 511 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,513,Train 513 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,523,1 of 5 segments of train 523 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,524,1 of 5 segments of train 524 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,529,6 of 19 segments of train 529 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,537,24 of 30 segments of train 537 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,538,5 of 37 segments of train 538 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,546,1 of 30 segments of train 546 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,548,1 of 30 segments of train 548 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,550,1 of 30 segments of train 550 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,552,1 of 30 segments of train 552 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,554,1 of 30 segments of train 554 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,556,1 of 30 segments of train 556 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,558,5 of 30 segments of train 558 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,560,2 of 11 segments of train 560 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,562,1 of 30 segments of train 562 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,663,4 of 27 segments of train 663 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,666,3 of 18 segments of train 666 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,674,3 of 14 segments of train 674 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,678,3 of 16 segments of train 678 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,685,2 of 18 segments of train 685 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,687,3 of 16 segments of train 687 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,692,3 of 13 segments of train 692 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,693,3 of 17 segments of train 693 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,695,5 of 33 segments of train 695 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,696,2 of 13 segments of train 696 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,732,4 of 19 segments of train 732 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,746,1 of 25 segments of train 746 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,749,4 of 25 segments of train 749 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,750,1 of 25 segments of train 750 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,752,1 of 24 segments of train 752 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,792,Train 792 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,793,Train 793 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,794,Train 794 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,795,Train 795 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,803,2 of 20 segments of train 803 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,804,2 of 11 segments of train 804 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,807,1 of 11 segments of train 807 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,809,3 of 24 segments of train 809 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,810,6 of 25 segments of train 810 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,813,Train 813 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,833,33 of 56 segments of train 833 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,837,1 of 13 segments of train 837 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,838,1 of 13 segments of train 838 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,839,Train 839 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,840,Train 840 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,857,Train 857 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,871,3 of 15 segments of train 871 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,872,1 of 16 segments of train 872 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,875,3 of 11 segments of train 875 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,876,2 of 19 segments of train 876 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,890,Train 890 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,891,3 of 11 segments of train 891 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,903,2 of 9 segments of train 903 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,910,1 of 4 segments of train 910 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,911,2 of 5 segments of train 911 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,912,1 of 4 segments of train 912 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,913,1 of 4 segments of train 913 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,914,1 of 9 segments of train 914 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,915,4 of 5 segments of train 915 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,917,1 of 2 segments of train 917 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,919,3 of 9 segments of train 919 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,921,2 of 3 segments of train 921 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,922,2 of 7 segments of train 922 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,923,3 of 9 segments of train 923 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,925,2 of 4 segments of train 925 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,927,5 of 7 segments of train 927 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,928,1 of 3 segments of train 928 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,929,4 of 6 segments of train 929 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,931,4 of 8 segments of train 931 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,934,12 of 15 segments of train 934 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,935,10 of 15 segments of train 935 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,937,1 of 6 segments of train 937 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,954,1 of 10 segments of train 954 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,959,1 of 11 segments of train 959 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,960,1 of 11 segments of train 960 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,962,6 of 9 segments of train 962 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,963,8 of 10 segments of train 963 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,968,6 of 12 segments of train 968 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,969,5 of 14 segments of train 969 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,971,1 of 24 segments of train 971 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,972,2 of 24 segments of train 972 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,973,18 of 26 segments of train 973 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,975,2 of 41 segments of train 975 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,976,10 of 16 segments of train 976 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,977,14 of 16 segments of train 977 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,979,3 of 17 segments of train 979 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,981,4 of 30 segments of train 981 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,982,24 of 31 segments of train 982 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,983,5 of 31 segments of train 983 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,986,16 of 26 segments of train 986 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,987,1 of 26 segments of train 987 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,988,13 of 15 segments of train 988 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,989,12 of 15 segments of train 989 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,990,5 of 23 segments of train 990 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,992,2 of 7 segments of train 992 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,993,5 of 7 segments of train 993 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,994,6 of 11 segments of train 994 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,996,Train 996 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,997,11 of 14 segments of train 997 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,998,3 of 10 segments of train 998 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,999,Train 999 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,1004,2 of 23 segments of train 1004 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1007,15 of 16 segments of train 1007 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1008,20 of 27 segments of train 1008 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1009,18 of 20 segments of train 1009 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1010,20 of 27 segments of train 1010 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1011,20 of 25 segments of train 1011 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1012,1 of 28 segments of train 1012 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1013,20 of 32 segments of train 1013 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1014,24 of 27 segments of train 1014 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1015,17 of 37 segments of train 1015 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,1022,Train 1022 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1023,Train 1023 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1024,Train 1024 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1025,Train 1025 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,1082,1 of 3 segments of train 1082 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,1083,Train 1083 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1084,Train 1084 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1085,Train 1085 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1086,Train 1086 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1087,Train 1087 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,1088,9 of 11 segments of train 1088 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1089,8 of 11 segments of train 1089 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,1091,Train 1091 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,1092,9 of 10 segments of train 1092 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1105,1 of 7 segments of train 1105 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1108,3 of 12 segments of train 1108 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1109,1 of 13 segments of train 1109 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1110,1 of 5 segments of train 1110 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1111,1 of 5 segments of train 1111 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1114,3 of 16 segments of train 1114 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1115,3 of 15 segments of train 1115 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1130,1 of 6 segments of train 1130 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1203,1 of 11 segments of train 1203 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1211,1 of 16 segments of train 1211 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1212,1 of 16 segments of train 1212 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1418,2 of 16 segments of train 1418 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1902,22 of 24 segments of train 1902 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1903,14 of 17 segments of train 1903 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,1915,1 of 5 segments of train 1915 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2006,10 of 11 segments of train 2006 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2007,14 of 17 segments of train 2007 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2008,13 of 15 segments of train 2008 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2009,10 of 12 segments of train 2009 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2010,2 of 14 segments of train 2010 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2011,4 of 15 segments of train 2011 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2012,12 of 15 segments of train 2012 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2013,12 of 15 segments of train 2013 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2014,10 of 12 segments of train 2014 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2015,9 of 12 segments of train 2015 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,2022,1 of 2 segments of train 2022 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,2023,Train 2023 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,2024,1 of 2 segments of train 2024 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,2025,Train 2025 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,2026,Train 2026 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,2027,Train 2027 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,2030,8 of 10 segments of train 2030 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,2031,Train 2031 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,3006,15 of 17 segments of train 3006 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,3007,14 of 18 segments of train 3007 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,3008,1 of 31 segments of train 3008 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,3009,Train 3009 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,3016,1 of 7 segments of train 3016 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,3017,1 of 5 segments of train 3017 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,3023,Train 3023 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+partly_verified_on_enr,3025,2 of 14 segments of train 3025 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,3502,7 of 19 segments of train 3502 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,3503,1 of 17 segments of train 3503 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4206,1 of 10 segments of train 4206 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4223,2 of 8 segments of train 4223 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4302,1 of 7 segments of train 4302 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4321,1 of 7 segments of train 4321 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4409,2 of 5 segments of train 4409 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4410,2 of 5 segments of train 4410 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4602,2 of 10 segments of train 4602 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4603,2 of 10 segments of train 4603 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4604,2 of 10 segments of train 4604 not returned by enr.gov.eg; those stops keep old/estimated times
+partly_verified_on_enr,4605,2 of 10 segments of train 4605 not returned by enr.gov.eg; those stops keep old/estimated times
+not_found_on_enr,54_56,Train 54_56 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,429_430,Train 429_430 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,432_433,Train 432_433 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,435_434,Train 435_434 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,436_437,Train 436_437 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,440_441,Train 440_441 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,443_444,Train 443_444 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,483_484,Train 483_484 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,485_482,Train 485_482 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,516_517,Train 516_517 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,518_519,Train 518_519 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,566_567,Train 566_567 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,568_569,Train 568_569 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,570_571,Train 570_571 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,572_573,Train 572_573 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,584_585,Train 584_585 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,586_587,Train 586_587 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,588_589,Train 588_589 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,590_591,Train 590_591 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,699_700,Train 699_700 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,702_710,Train 702_710 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,708_709,Train 708_709 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,713_701,Train 713_701 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,724_725,Train 724_725 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,727_726,Train 727_726 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,772_773,Train 772_773 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,775_774,Train 775_774 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,802_801,Train 802_801 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,812_811,Train 812_811 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,814_815,Train 814_815 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,884_883,Train 884_883 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,892_889,Train 892_889 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,894_899,Train 894_899 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,939_940,Train 939_940 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,943_942,Train 943_942 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1150_1151,Train 1150_1151 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1152_1153,Train 1152_1153 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1205_1206,Train 1205_1206 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1209_1208,Train 1209_1208 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1933_1934,Train 1933_1934 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,1935_1936,Train 1935_1936 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,3010_3011,Train 3010_3011 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,3012_3013,Train 3012_3013 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,772_773_772,Train 772_773_772 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+not_found_on_enr,775_774_775,Train 775_774_775 was not returned by enr.gov.eg for 09-11-2026 or 10-11-2026 on any of its segments; times left unchanged
+time_order_check,41,Train 41: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,127,Train 127: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,128,Train 128: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,137,Train 137: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,142,Train 142: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,188,Train 188: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,380,Train 380: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,384,Train 384: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,403,Train 403: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,406,Train 406: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,411,Train 411: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,426,Train 426: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,451,Train 451: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,452,Train 452: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,466,Train 466: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,473,Train 473: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,488,Train 488: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,537,Train 537: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,538,Train 538: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,560,Train 560: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,685,Train 685: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,687,Train 687: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,692,Train 692: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,693,Train 693: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,696,Train 696: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,746,Train 746: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,837,Train 837: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,925,Train 925: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,929,Train 929: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
+time_order_check,1418,Train 1418: after the update one stop time is earlier than the previous stop (mix of site and old values); check this train on enr.gov.eg
